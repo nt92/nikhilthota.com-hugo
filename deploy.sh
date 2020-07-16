@@ -11,6 +11,7 @@ printf "\033[0;32mDeploying to GitHub -> DigitalOcean...\033[0m\n"
 # Commit hugo source files
 git add .
 git commit -m "$commitvar"
+git push
 
 # Build the project.
 hugo --minify
