@@ -3,7 +3,14 @@
 # If a command fails then the deploy stops
 set -e
 
+# Ask for commit message
+read -p 'Commit Message: ' commitvar
+
 printf "\033[0;32mDeploying to GitHub -> DigitalOcean...\033[0m\n"
+
+# Commit hugo source files
+git add .
+git commit -m "$commitvar"
 
 # Build the project.
 hugo --minify
