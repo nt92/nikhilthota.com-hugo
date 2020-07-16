@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost:1313/python-mind-exploration/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Exploring My Mind With Python_files/livereload.js" data-no-instant="" defer=""></script>
+    <title> Exploring My Mind With Python </title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/python-mind-exploration/">
+    <meta property="og:title" content="Exploring My Mind With Python">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://localhost:1313/">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="http://localhost:1313/">
+    <meta name="twitter:title" value="Exploring My Mind With Python">
+    <meta name="twitter:description" value="">
+    <meta name="twitter:image" content="http://localhost:1313/">
+    <meta name="twitter:url" value="http://localhost:1313/python-mind-exploration/">
+
+    
+
+    <meta name="robots" content="noodp">
+    <!--<base href="http://localhost:1313/">--><base href="." target="_blank">
+    <!--<base target="_blank">--><base href="." target="_blank">
+    
+    <link rel="stylesheet" href="./Exploring My Mind With Python_files/main.min.7805a88b937c094affc030e30157106815dc5def8d6c78733964427ca1d1532d.css">
+    <link rel="stylesheet" href="./Exploring My Mind With Python_files/unicons.css">
+    <script src="./Exploring My Mind With Python_files/custom.js"></script>
+    <script src="./Exploring My Mind With Python_files/autotrack.js"></script>
+    <script async="" src="./Exploring My Mind With Python_files/analytics.js"></script>
+    <link rel="canonical" href="http://localhost:1313/python-mind-exploration/">
+</head>
+<body>
+<link rel="canonical" href="http://localhost:1313/python-mind-exploration/">
+
+
+<div class="post_container">
+    <div class="author_container">
+  <a href="http://localhost:1313/" target="_self" class="image_link"><img class="nikhil small" src="./Exploring My Mind With Python_files/memoji.png"></a>
+    <div class="author_right">
+        <ul class="author_list">
+            <li class="post_author">
+                <c2><a href="http://localhost:1313/" target="_self">Nikhil Thota</a></c2>
+            </li>
+            <li>
+              <div class="author_icon_list">
+                  <a class="twitter small_button" href="https://twitter.com/nikhilthota" target="_blank"></a><a class="github small_button" href="https://github.com/nt92" target="_blank"></a><a class="medium small_button" href="https://medium.com/@nikhilthota" target="_blank"></a><table>
+                    <tbody><tr>
+                      
+                      
+                      
+                    </tr>
+                  </tbody></table>
+                </div>
+          </li>
+          <li class="post_date">
+              <c2>May 25, 2019</c2>
+          </li>
+        </ul>
+    </div>
+  </div>
+
+    <div class="article_header">
+        <h1>Exploring My Mind With Python</h1>
+        
+    </div>
+    <article class="post_content">
+        <figure class="main_image">
+    <img src="./Exploring My Mind With Python_files/python_1.jpg"> 
+</figure>
+
+<p>A few months ago at a random Chinatown bar in New York City,&nbsp;<a href="http://localhost:1313/%22http://www.tylerjrichards.com/%22">Tyler Richards</a>&nbsp;and I were having a conversation about journaling. I told him that I had over 4&nbsp;<em>years</em>&nbsp;worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.</p>
+<p><strong>The Idea</strong>: A system that emails me a random journal entry every day so I could see exactly what was going on in my mind at that given time.</p>
+<p><strong>The Data</strong>: ~600 journal entries with content length ranging from cool 1-liners to 3 pages of word vomit</p>
+<p>My journal entries are very free-form and stream-of-consciousness so I’m not totally sure if I’ll end up learning anything useful, but I was curious to find out. The first step? Create a database to hold all of my journal entries.</p>
+<h2 id="1-creating-the-database">1. Creating the Database</h2>
+<p>Holding all of my entries in a way that could be easily &amp; efficiently accessed while also providing me the flexibility to add new entries if needed, SQLite was the tool for the job. This&nbsp;<a href="https://www.youtube.com/watch?v=pd-0G0MigUA">tutorial</a>&nbsp;provides a good introduction to understanding how to create and query a local SQLite database with Python.</p>
+<script type="application/javascript" src="./Exploring My Mind With Python_files/e3f48d3532ee9c1496a65e66e44dd1dd.js"></script><link rel="stylesheet" href="./Exploring My Mind With Python_files/gist-embed-31007ea0d3bd9f80540adfbc55afc7bd.css"><div id="gist96375453" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-create_database-py" class="file">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip="">
+      <tbody><tr>
+        <td id="file-create_database-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-create_database-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-s1">sqlite3</span></td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-create_database-py-LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-create_database-py-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">conn</span> <span class="pl-c1">=</span> <span class="pl-s1">sqlite3</span>.<span class="pl-en">connect</span>(<span class="pl-s">'entries.db'</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-create_database-py-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">cursor</span> <span class="pl-c1">=</span> <span class="pl-s1">conn</span>.<span class="pl-en">cursor</span>()</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-create_database-py-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">cursor</span>.<span class="pl-en">execute</span>(<span class="pl-s">"""CREATE TABLE entries (date text, entry text)"""</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-create_database-py-LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-create_database-py-LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">conn</span>.<span class="pl-en">commit</span>()</td>
+      </tr>
+      <tr>
+        <td id="file-create_database-py-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-create_database-py-LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">conn</span>.<span class="pl-en">close</span>()</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/nt92/e3f48d3532ee9c1496a65e66e44dd1dd/raw/97b8d47726cbe485dd2f6704e6489fc7f55b1388/create_database.py" style="float:right">view raw</a>
+        <a href="https://gist.github.com/nt92/e3f48d3532ee9c1496a65e66e44dd1dd#file-create_database-py">create_database.py</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+
+
+<p><em>Simple 6 lines to create a local database in Python</em></p>
+<h2 id="2-convert-my-google-doc-files-into-usable-data">2. Convert my Google Doc files into usable data</h2>
+<p>The next step was aggregating all of my Google Doc files so that I could go through all of them with a script to extract all entries. Thankfully, I had some semblance of organization with which I separated entries — before each entry, I have a date. Sometimes it’s&nbsp;<em>mm/dd/yy</em>, sometimes&nbsp;<em>dd/mm/yy</em>&nbsp;if I thought I was cool for being in Europe, but there was always a date.</p>
+<p>Once I had all of my files in a folder, I had to figure out how to go through each file and extract every entry. After reading this lovely&nbsp;<a href="https://towardsdatascience.com/how-to-extract-data-from-ms-word-documents-using-python-ed3fbb48c122">post</a>, I decided to go with the&nbsp;<a href="https://python-docx.readthedocs.io/en/latest/">docx</a>&nbsp;Python library to read each file paragraph-by-paragraph and create a new entry in my database every time I ran into a new date.</p>
+<!-- raw HTML omitted -->
+<p><em>This shows how I am going through each file and extracting every individual entry based on whether I run into a pattern matching my date formats</em></p>
+<h2 id="3-send-out-a-random-entry-every-day">3. Send out a random entry every day</h2>
+<p>The next step was figuring how to send myself an email with an entry that was fetched from the database created earlier. This&nbsp;<a href="https://www.pythonforbeginners.com/code-snippets-source-code/using-python-to-send-email/">guide</a>&nbsp;went through that process, which is surprisingly easy!</p>
+<!-- raw HTML omitted -->
+<p>The final step was scheduling a recurring task that would run this code every morning automatically. Thankfully, Mac has a built-in system for this called&nbsp;<a href="https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html">crontab</a>.&nbsp;<em>One issue I ran into was that crontab tasks only run when the computer is active. This was fixed by waking my laptop a minute before the 10am slot when the job was scheduled to run, detailed&nbsp;<a href="https://superuser.com/questions/14836/crontab-to-wake-osx-from-sleep">here</a>.</em></p>
+<hr>
+<p>All in all, I learned how to work with local SQLite databases, use Python to leverage data, and schedule recurring tasks on Mac.&nbsp;<strong>Cool</strong>. So what now? I’m going to spend the next couple of months reading a random journal entry daily while traveling to see if I can glean any unique insights from my ramblings.</p>
+<p>See you on the other side and stay tuned for my analysis 🤙🏽</p>
+<p>My full code can be found&nbsp;<a href="https://github.com/nt92/Journal-Emailer">here</a>.</p>
+
+    </article>
+    <footer class="post_footer">
+        <hr>
+        <div class="adjacent_posts">
+    
+    <div class="prev">
+        <a href="http://localhost:1313/nirvana-in-thailand/" target="_self">
+            <i class="uil uil-enter"></i>
+             <h3>Nirvana in Thailand</h3>
+        </a>
+    </div>
+    
+    
+    <div class="next">
+        <a href="http://localhost:1313/two-months-backpack/" target="_self">
+            <h3>Two Months in a Backpack</h3>
+            <i class="uil uil-corner-down-right-alt"></i>
+        </a>
+    </div>
+    
+</div>
+
+    </footer>
+</div>
+
+    
+
+</body></html>

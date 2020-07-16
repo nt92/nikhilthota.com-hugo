@@ -1,0 +1,22 @@
+baseurl = "https://nikhilthota.com"
+languageCode = "en-us"
+title = "Nikhil Thota"
+theme = "custom"
+googleAnalytics = "UA-98779661-1"
+disqusShortname = "https-nikhilthota-com"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[Params]
+    headline = "Nikhil Thota"
+    description = "Aspiring Thot Leader 🚀 — Writing 📝 — Code 🖥 — and Thoughts 💭"
+    github = "https://github.com/nt92"
+    twitter = "https://twitter.com/nikhilthota"
+    email = "nthota92@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Jan 2, 2006"
+
+[Permalinks]
+    post = "/:title/"

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="post_container">
+    {{ partial "author.html" . }}
+    <div class="article_header">
+        <h1>{{ .Title }}</h1>
+        <p class="reading_time">{{ .Params.ReadingTime }} read</p>
+        <h2>{{ .Description }}</h2>
+    </div>
+    <article class="post_content">
+        {{ with .Params.canonicalUrl }}
+        <p class="elsewhere_post">Hello intrepid reader! I regret to inform you that this post was originally published
+            <a href="{{.}}">elsewhere</a>...</p>
+        {{ end }}
+        {{ .Content }}
+    </article>
+    <footer class="post_footer">
+        <hr/>
+        {{ partial "post_footer.html" . }}
+    </footer>
+</div>
+{{ end }}

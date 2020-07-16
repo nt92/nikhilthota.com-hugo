@@ -1,0 +1,11 @@
+<p>
+    <span class="pullquote">
+        {{ .Get "quote" }}
+            <br>
+        {{ if .Get "source" }}
+            — <a {{ with .Get "source" }} href="{{.}}" {{ end }}>{{ .Get "author" }}</a>
+        {{ else }}
+            — {{ .Get "author" }}
+        {{ end }}
+    </span>
+</p>

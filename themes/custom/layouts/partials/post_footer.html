@@ -1,0 +1,59 @@
+<div class="footer_blurb">
+    <p>Thanks for reading! If you enjoyed this, you can follow my
+    <a href="https://tinyletter.com/nikhilthota" target="_blank">newsletter</a>,
+    subscribe via <a href="/index.xml">RSS</a>,
+    peep me on <a href="https://twitter.com/nikhilthota" target="_blank">twitter</a>,
+    or check out my other <a href="/">posts</a>.</p>
+</div>
+<!-- <div class="calls_to_action">
+    <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="{{ .Title }}"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="nikhilthota">
+        Tweet
+    </a>
+    <a
+        href="https://twitter.com/nikhilthota"
+        data-size="large"
+        class="twitter-follow-button"
+        data-show-count="false"
+        data-lang="en">
+        Follow @nikhilthota
+    </a>
+    <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript">
+    </script>
+    <form
+        class="tinyletter"
+        action="https://tinyletter.com/jlfwong"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://tinyletter.com/jlfwong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <input type="text" style="width:140px" placeholder="Your email address"name="email" id="tlemail" />
+        <button type="submit">Subscribe</button>
+        <input type="hidden" value="1" name="embed"/>
+    </form>
+</div> -->
+<div class="adjacent_posts">
+    {{ if .Next }}
+    <div class="prev">
+        <a href="{{ .Next.Permalink }}">
+            <i class='uil uil-enter'></i>
+             <h3>{{.Next.Title}}</h3>
+        </a>
+    </div>
+    {{ end }}
+    {{ if .Prev }}
+    <div class="next">
+        <a href="{{ .Prev.Permalink }}">
+            <h3>{{.Prev.Title}}</h3>
+            <i class='uil uil-corner-down-right-alt'></i>
+        </a>
+    </div>
+    {{ end }}
+</div>
