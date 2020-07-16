@@ -296,9 +296,46 @@ a:hover, a:active {
   font-style: none;
 }
 
+.title {
+  animation: bounceInUp 1s forwards;
+}
+
+.avatar {
+  animation: bounceInUp 1s .7s forwards;
+  visibility: hidden;
+}
+
+.page_blurb {
+  // text-align: left;
+  margin: 20px auto 20px auto;
+
+  animation: bounceInUp 1s 2s forwards;
+  visibility: hidden;
+}
+
+.icon_anim {
+  animation: bounceInUp 1s 2.2s forwards;
+  visibility: hidden;
+}
+
+.writing_blurb {
+  margin: 30px auto 20px auto;
+  height: 45px;
+
+  c2 {
+    font-style: italic;
+  }
+
+  animation: bounceInUp 1s 2.4s forwards;
+  visibility: hidden;
+}
+
 .post_list {
   list-style: none;
   padding: 0;
+
+  animation: fadeInUp 1s 2.8s forwards;
+  visibility: hidden;
 }
 
 .post_description {
@@ -318,20 +355,6 @@ a:hover, a:active {
 
 .post_date {
   margin-top: 4px;
-}
-
-.writing_blurb {
-  margin: 30px auto 20px auto;
-  height: 45px;
-
-  c2 {
-    font-style: italic;
-  }
-}
-
-.page_blurb {
-  // text-align: left;
-  margin: 20px auto 20px auto;
 }
 
 .nikhil {
@@ -591,6 +614,116 @@ span.wave:hover {
    40% { transform: rotate(  9.0deg) }
    50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
   100% { transform: rotate(  0.0deg) }
+}
+
+/* Borrowed from https://animate.style/ — https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.css */
+
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    visibility: visible;
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
+    transform: translate3d(0, 3000px, 0) scaleY(5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
+    transform: translate3d(0, -20px, 0) scaleY(0.9);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
+    transform: translate3d(0, 10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
+    transform: translate3d(0, -5px, 0) scaleY(0.985);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    visibility: visible;
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
+    transform: translate3d(0, 3000px, 0) scaleY(5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
+    transform: translate3d(0, -20px, 0) scaleY(0.9);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
+    transform: translate3d(0, 10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
+    transform: translate3d(0, -5px, 0) scaleY(0.985);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
 }
 
 /* For non-mobile devices */

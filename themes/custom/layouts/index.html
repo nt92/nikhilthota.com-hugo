@@ -1,8 +1,8 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
 <div class="container">
-  <img class="nikhil" src="{{ "images/memoji.png" | absURL}}"></img>
-  <h1>Hey, I'm Nikhil! <span class="emoji wave">🧘🏽‍♂️</span></h1>
+  <div class="avatar"><img class="nikhil" src="{{ "images/memoji.png" | absURL}}"></img></div>
+  <h1 class="title">Hey, I'm Nikhil! <span class="emoji wave">🧘🏽‍♂️</span></h1>
   <div class="page_blurb">
     <p>
       I live in San Francisco, California, and am currently at
@@ -18,7 +18,7 @@
       <a href="mailto:nthota92@gmail.com">say hey</a> 😁
     </p>
   </div>
-  <div class="icon_list">
+  <div class="icon_list icon_anim">
     <table>
       <tr>
         <a class="twitter link_button" href="https://twitter.com/nikhilthota" target="_blank"></a>
