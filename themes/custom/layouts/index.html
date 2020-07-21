@@ -3,58 +3,60 @@
 <div class="container">
   <div class="avatar"><img class="nikhil" src="{{ "images/memoji.png" | absURL}}"></img></div>
   <h1 class="title">Hey, I'm Nikhil! <span class="emoji wave">🧘🏽‍♂️</span></h1>
-  <div class="page_blurb">
-    <p>
-      I live in San Francisco, California, and am currently at
-      <a href="https://facebook.com" target="_blank">Facebook</a>,
-      bootstraping Trust within Marketplace. Previously at <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">Kleiner Perkins</a>,
-      <a href="https://www.indiegogo.com/" target="_blank">Indiegogo</a>, and
-      <a href="https://news.crunchbase.com/news/linkedin-snaps-up-drawbridge-its-second-known-acquisition-in-8-months/" target="_blank">LinkedIn</a>.
-      I went to the <a href="https://news.ufl.edu/articles/2017/08/road-trip-oppor-tuna-ty.html" target="_blank">University of Florida</a>
-      and like to write, go places, <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota" target="_blank">read</a>
-      and learn languages! Tryna be a <a href="/untethered-soul">chill guy</a>. For those interested, here is my
-      <a href="nikhilthota.pdf" target="_blank">resume</a>.
-      Feel free to
-      <a href="mailto:nthota92@gmail.com">say hey</a> 😁
-    </p>
-  </div>
-  <div class="icon_list icon_anim">
-    <table>
-      <tr>
-        <a class="twitter link_button" href="https://twitter.com/nikhilthota" target="_blank"></a>
-        <a class="github link_button" href="https://github.com/nt92" target="_blank"></a>
-        <a class="medium link_button" href="https://medium.com/@nikhilthota" target="_blank"></a>
-      </tr>
-    </table>
-  </div>
-  <div class="writing_blurb">
-    <c2>Here are some things I've written <span class="emoji">✏️</span></c2>
-  </div>
-  <ul class="post_list">
-  {{ range where .Data.Pages.ByDate.Reverse ".Params.unlisted" "!=" "true"}}
-    <div class="post_description">
-      <li>
-        <c2>
-        {{ if .Params.canonicalUrl }}
-          <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
-        {{ else }}
-          <a class="post_title" href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-        </c2>
-      </li>
-      <li>
-        <c2 class="postlist_data">
-          {{ .Date.Format "January 2006" }}
-          <span>// {{ .Params.ReadingTime }}</span>
-        </c2>
-      </li>
-      <li>
-        <c2 class="postlist_description">
-          {{  .Params.Description }}
-        </c2>
-      </li>
+  <div class="page_content_animation">
+    <div class="page_blurb">
+      <p>
+        I live in San Francisco, California, and am currently at
+        <a href="https://facebook.com" target="_blank">Facebook</a>,
+        bootstraping Trust within Marketplace. Previously at <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">Kleiner Perkins</a>,
+        <a href="https://www.indiegogo.com/" target="_blank">Indiegogo</a>, and
+        <a href="https://news.crunchbase.com/news/linkedin-snaps-up-drawbridge-its-second-known-acquisition-in-8-months/" target="_blank">LinkedIn</a>.
+        I went to the <a href="https://news.ufl.edu/articles/2017/08/road-trip-oppor-tuna-ty.html" target="_blank">University of Florida</a>
+        and like to write, go places, <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota" target="_blank">read</a>
+        and learn languages! Tryna be a <a href="/untethered-soul">chill guy</a>. For those interested, here is my
+        <a href="nikhilthota.pdf" target="_blank">resume</a>.
+        Feel free to
+        <a href="mailto:nthota92@gmail.com">say hey</a> 😁
+      </p>
     </div>
-  {{ end }}
-  </ul>
+    <div class="icon_list">
+      <table>
+        <tr>
+          <a class="twitter link_button" href="https://twitter.com/nikhilthota" target="_blank"></a>
+          <a class="github link_button" href="https://github.com/nt92" target="_blank"></a>
+          <a class="medium link_button" href="https://medium.com/@nikhilthota" target="_blank"></a>
+        </tr>
+      </table>
+    </div>
+    <div class="writing_blurb">
+      <c2>Here are some things I've written <span class="emoji">✏️</span></c2>
+    </div>
+    <ul class="post_list">
+    {{ range where .Data.Pages.ByDate.Reverse ".Params.unlisted" "!=" "true"}}
+      <div class="post_description">
+        <li>
+          <c2>
+          {{ if .Params.canonicalUrl }}
+            <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
+          {{ else }}
+            <a class="post_title" href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+          </c2>
+        </li>
+        <li>
+          <c2 class="postlist_data">
+            {{ .Date.Format "January 2006" }}
+            <span>// {{ .Params.ReadingTime }}</span>
+          </c2>
+        </li>
+        <li>
+          <c2 class="postlist_description">
+            {{  .Params.Description }}
+          </c2>
+        </li>
+      </div>
+    {{ end }}
+    </ul>
+  </div>
 </div>
 {{ end }}

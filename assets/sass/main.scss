@@ -297,25 +297,21 @@ a:hover, a:active {
 }
 
 .title {
-  animation: bounceInUp 1s forwards;
+  animation: bounceInUp .8s forwards;
 }
 
 .avatar {
-  animation: bounceInUp 1s .7s forwards;
+  animation: bounceInUp .8s .5s forwards;
+  visibility: hidden;
+}
+
+.page_content_animation {
+  animation: fadeInUp .8s 1.5s forwards;
   visibility: hidden;
 }
 
 .page_blurb {
-  // text-align: left;
   margin: 20px auto 20px auto;
-
-  animation: bounceInUp 1s 2s forwards;
-  visibility: hidden;
-}
-
-.icon_anim {
-  animation: bounceInUp 1s 2.2s forwards;
-  visibility: hidden;
 }
 
 .writing_blurb {
@@ -325,17 +321,11 @@ a:hover, a:active {
   c2 {
     font-style: italic;
   }
-
-  animation: bounceInUp 1s 2.4s forwards;
-  visibility: hidden;
 }
 
 .post_list {
   list-style: none;
   padding: 0;
-
-  animation: fadeInUp 1s 2.8s forwards;
-  visibility: hidden;
 }
 
 .post_description {

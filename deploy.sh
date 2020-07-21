@@ -20,7 +20,7 @@ hugo --minify
 cd public
 
 # Add changes to git.
-git add .
+git add -A
 
 # Commit changes.
 msg="updating site $(date)"
