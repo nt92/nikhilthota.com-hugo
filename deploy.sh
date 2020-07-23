@@ -9,7 +9,7 @@ read -p 'Commit Message: ' commitvar
 printf "\033[0;32mDeploying to GitHub -> DigitalOcean...\033[0m\n"
 
 # Commit hugo source files
-git add .
+git add -A
 git commit -m "$commitvar"
 git push
 
