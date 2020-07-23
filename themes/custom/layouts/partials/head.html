@@ -28,7 +28,7 @@
     <meta name="twitter:data2" content="{{ .ReadingTime }} mins ⏱" />
     {{ end }}
 
-    <meta name="robots" content="noodp" />
+    <!-- <meta name="robots" content="noodp" /> -->
     {{ template "_internal/google_analytics.html" . }}
     {{ $sass := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $sass.Permalink }}">
