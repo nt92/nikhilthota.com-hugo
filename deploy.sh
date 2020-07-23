@@ -8,20 +8,13 @@ read -p 'Commit Message: ' commitvar
 
 printf "\033[0;32mDeploying to GitHub -> DigitalOcean...\033[0m\n"
 
-# Commit hugo source files
-git add -A
-git add public
-git commit -m "$commitvar"
-git push
-
 # Build the project.
 hugo --minify
 
-# Go To Public folder
-cd public
-
-# Add changes to git.
+# Commit hugo source files
 git add -A
+git commit -m "$commitvar"
+git push
 
 # Commit changes.
 msg="updating site $(date)"
