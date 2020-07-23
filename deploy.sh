@@ -17,12 +17,6 @@ cd public
 # Add changes to git.
 git add -A
 
-# Commit hugo source files
-cd ..
-git add -A
-git commit -m "$commitvar"
-git push
-
 # Commit changes.
 msg="updating site $(date)"
 if [ -n "$*" ]; then
@@ -31,4 +25,11 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
+git push
+
+
+# Commit hugo source files
+cd ..
+git add -A
+git commit -m "$commitvar"
 git push
