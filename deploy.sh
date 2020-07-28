@@ -27,7 +27,6 @@ git commit -m "$msg"
 # Push source and build repos.
 git push
 
-
 # Commit hugo source files
 cd ..
 git add -A
