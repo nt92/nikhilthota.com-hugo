@@ -1,5 +1,5 @@
 /* Variables */
-$color-background: #fafffa;
+$color-background: rgba(176, 130, 88, 0.005);
 $color-subtitle: #acacac;
 $color-highlight: #fef4ad;
 
@@ -13,13 +13,13 @@ $view-width: 600px;
 /* Core Components */
 
 body {
-    background-color: $color-background;
-    margin: 0;
-    font-family: proxima-nova, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  background-color: $color-background;
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 ::selection {
@@ -81,20 +81,23 @@ ol, ul {
   }
 }
 
-/* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+a {
+  &:not(.image_link){
+    &:link, &:visited {
+      color: $color-font-primary;
+      text-decoration: none;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #cccccc;
+    }
 
-a:link, a:visited {
-  color: #4a4a4a;
-  text-decoration: none;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #cccccc;
-}
-
-a:hover, a:active {
-  color: #4a4a4a;
-  border-bottom-color: #000;
-  transition: border-color 300ms ease-in-out;
+    &:hover, &:active {
+      color: $color-font-primary;
+      border-bottom-color: #000;
+      transition: border-color 300ms ease-in-out;
+      // background-color: $color-highlight;
+    }
+  }
 }
 
 /* Individual Post Page: nikhilthota.com/post/ */
@@ -175,6 +178,8 @@ a:hover, a:active {
       margin: 10px 0 10px 0;
     }
   }
+
+  /* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 
   ul {
     list-style: none;
@@ -371,7 +376,7 @@ a:hover, a:active {
 }
 
 .nikhil {
-  width: 200px;
+  width: 250px;
 
   &.small {
     width: 120px;
@@ -429,30 +434,30 @@ a:hover, a:active {
   background-size: 85%;
   background-image: url(../images/medium_grey.png);
   background-repeat: no-repeat;
-}
 
-.medium:hover, .medium:focus {
-  background-image: url(../images/medium.png);
+  &:hover, &:focus {
+    background-image: url(../images/medium.png);
+  }
 }
 
 .twitter {
   background-size: 90%;
   background-image: url(../images/twitter_grey.png);
   background-repeat: no-repeat;
-}
 
-.twitter:hover, .twitter:focus {
-  background-image: url(../images/twitter.png);
+  &:hover, &:focus {
+    background-image: url(../images/twitter.png);
+  }
 }
 
 .github {
   background-size: 90%;
   background-image: url(../images/github_grey.png);
   background-repeat: no-repeat;
-}
 
-.github:hover, .github:focus {
-  background-image: url(../images/github.png);
+  &:hover, &:focus {
+    background-image: url(../images/github.png);
+  }
 }
 
 .link_button {
@@ -469,17 +474,8 @@ a:hover, a:active {
   margin-right: 12px;
   margin-left: 12px;
   padding: 0px;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-
-  &:hover, &:active, &:focus {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
-
-.link_button:link  {
-  border-bottom-style: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .small_button {
@@ -490,21 +486,14 @@ a:hover, a:active {
   border: 0;
   line-height: inherit;
   text-decoration: none;
-  border-bottom-style: none !important;
   cursor: pointer;
   border-radius: 0;
   margin-top: 0;
   margin-right: 4px;
   margin-left: 4px;
   padding: 0px;
-
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-
-  &:hover, &:active, &:focus {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Footer */
