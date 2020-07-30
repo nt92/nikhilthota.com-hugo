@@ -7,7 +7,7 @@ $color-highlight-faded: #fef5adbd;
 $color-font-primary: #333333;
 $color-shadow: #33333328;
 $color-font-secondary: #7c7c7c;
-$color-button-background: #94949411;
+$color-button-background: #94949427;
 
 $element-opacity: 60%;
 $view-width: 600px;
@@ -88,25 +88,38 @@ a {
     &:link, &:visited {
       color: $color-font-primary;
       text-decoration: none;
-      // border-bottom-style: solid;
-      // border-bottom-width: 1px;
-      // border-bottom-color: #cccccc;
-      background-color: $color-highlight-faded;
+      background-color: $color-button-background;
       padding: 1px 5px;
       border-radius: 3px;
       -moz-border-radius: 3px;
       -webkit-box-decoration-break: clone;
 	    box-decoration-break: clone;
       -webkit-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
     }
 
     &:hover, &:active {
       color: $color-font-primary;
       border-bottom-color: #000;
-      transition: all 300ms ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s  ease-in-out;
       opacity: $element-opacity;
+    }
+  }
+}
+
+a[href^="/"] {
+  &:not(.image_link){
+    &:link, &:visited {
+      background-color: $color-button-background;
+    }
+  }
+}
+
+a[href^="http"], a[href^="mail"] {
+  &:not(.image_link){
+    &:link, &:visited {
+      background-color: $color-highlight-faded;
     }
   }
 }
