@@ -42,7 +42,7 @@
 <div class="adjacent_posts">
     {{ if .Next }}
     <div class="prev">
-        <a href="{{ .Next.Permalink }}">
+        <a class="image_link prev_link" href="{{ .Next.Permalink }}">
             <i class='uil uil-enter'></i>
              <h3>{{.Next.Title}}</h3>
         </a>
@@ -50,8 +50,8 @@
     {{ end }}
     {{ if .Prev }}
     <div class="next">
-        <a href="{{ .Prev.Permalink }}">
-            <h3>{{.Prev.Title}}</h3>
+        <a class="image_link next_link" href="{{ .Prev.Permalink }}">
+            <h3>{{.Prev.Title}} </h3>
             <i class='uil uil-corner-down-right-alt'></i>
         </a>
     </div>

@@ -13,7 +13,7 @@ August 21st, 2019 was an interesting day for me. It was an average wednesday, ex
 
 ## What is Libby?
 
-> In a nutshell, [Libby](https://www.overdrive.com/apps/libby/) is <mark>an app that gives you free access to e-books and audiobooks through your local public library system</mark>.
+> In a nutshell, [Libby](https://www.overdrive.com/apps/libby/) is **an app that gives you free access to e-books and audiobooks through your local public library system**.
 
 Libby was created by [OverDrive](https://company.overdrive.com/), which is *the global distributor of digital content for libraries and schools.* OverDrive[^2] partners with schools and libraries to help create digital repositories of their knowledgem which they help distribute. Their mission is to "*create a world enlightened by reading*" so basically, they're awesome. Maybe I'll dress up as Libby for Halloween this year to show my support.
 
