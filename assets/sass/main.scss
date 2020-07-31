@@ -2,12 +2,12 @@
 $color-background: #fffefa;
 $color-subtitle: #acacac;
 $color-highlight: #fef4ad;
-$color-highlight-faded: #fef5adbd;
+$color-highlight-faded: #fef5ada9;
 
 $color-font-primary: #333333;
 $color-shadow: #33333328;
 $color-font-secondary: #7c7c7c;
-$color-button-background: #94949427;
+$color-button-background: #94949431;
 
 $element-opacity: 60%;
 $view-width: 600px;
@@ -168,18 +168,13 @@ a[href^="http"], a[href^="mail"] {
   text-align: left;
 
   hr {
-    padding-bottom: 8px;
-    border: none;
-    text-align: center;
-    font-size: 20px;
-  }
-
-  hr::before {
-    content: "...";
-    text-indent: 0.6em;
-    letter-spacing: 1em;
-    line-height: 2;
-    font-style: italic;
+    max-width: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-font-secondary;
+    margin: 50px auto;
+    color: $color-font-secondary;
+    opacity: 30%;
   }
 
   blockquote {
