@@ -24,6 +24,13 @@ body {
   text-align: center;
 }
 
+// Preload images before hover
+
+body:after {
+  display: none;
+  content: url(../images/medium.png) url(../images/github.png) url(../images/twitter.png);
+}
+
 ::selection {
   background: $color-highlight; /* WebKit/Blink Browsers */
 }
@@ -114,6 +121,9 @@ a[href^="/"] {
       background-color: $color-button-background;
     }
   }
+  &.yellow_link {
+      background-color: $color-highlight-faded !important;
+    }
 }
 
 a[href^="http"], a[href^="mail"] {
@@ -278,11 +288,11 @@ a[href^="http"], a[href^="mail"] {
       }
 
       figcaption {
-        max-width: 100vw;
-        width: 100vw;
+        max-width: 95vw;
+        width: 95vw;
         margin-left: -50vw;
         margin-right: -50vw;
-        left: 50%;
+        left: 52%;
         position: relative;
       }
 
@@ -549,22 +559,71 @@ a[href^="http"], a[href^="mail"] {
     margin-top: 20px;
   }
 
+  .footer_cta {
+    padding: 8px;
+    background-color: #9494941c;
+    align-items: center;
+    border-radius: 8px;
+    margin: 16px 0 16px 0;
+  }
+
   .footer_blurb {
-    text-align: left;
+    text-align: center;
 
     p {
       font-style: italic;
     }
   }
 
-  .calls_to_action {
-    text-align: left;
-    display: flex;
-    flex-direction: left;
+  input, button {
+    font-family: proxima-nova, sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    height: 33px;
   }
 
-  .calls_to_action > * + * {
-     margin-left: 10px;
+  input {
+    width: 100%;
+    padding: 0 8px 0 8px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: $color-background;
+  }
+
+  button {
+    padding: 8px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: $color-font-primary;
+    color: $color-background;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover, &:active {
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s  ease-in-out;
+      opacity: $element-opacity;
+    }
+  }
+
+  .tinyletter-input {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  @media (min-width: 48em) {
+    input, button {
+      font-size: 17px;
+      height: 35px;
+    }
+
+    .tinyletter-input {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 
   .adjacent_posts {

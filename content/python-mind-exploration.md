@@ -11,7 +11,7 @@ image: "/article_images/python_1.jpg"
 
 {{< figure class="main_image" src="../article_images/python_1.jpg" >}}
 
-A few months ago at a random Chinatown bar in New York City, [Tyler Richards]("http://www.tylerjrichards.com/") and I were having a conversation about journaling. I told him that I had over 4 *years* worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.
+A few months ago at a random Chinatown bar in New York City, [Tyler Richards](http://www.tylerjrichards.com/) and I were having a conversation about journaling. I told him that I had over 4 *years* worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.
 
 **The Idea**: A system that emails me a random journal entry every day so I could see exactly what was going on in my mind at that given time.
 
