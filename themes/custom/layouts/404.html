@@ -1,1 +1,18 @@
-sfsdfs
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="post_container">
+            {{ partial "author" . }}
+            <article class="post_content">
+                <p class="elsewhere_post">
+                    Hello intrepid explorer! This link does not work — can I point you to my <a href="/">homepage</a> instead? 🏠
+                </p>
+            </article>
+            <footer class="post_footer">
+                <hr/>
+                {{ partial "post_footer.html" . }}
+            </footer>
+        </div>
+    </body>
+</html>
