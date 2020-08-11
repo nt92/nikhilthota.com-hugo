@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="post_container">
+            {{ partial "author" . }}
+            {{ $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) }}
+            <ul class="post_list">
+                {{ range sort .Paginator.Pages }} {{ .Render "summary" }} {{ end }}
+            </ul>
+        </div>
+    </body>
+</html>

@@ -17,7 +17,11 @@
                 </div>
           </li>
           <li class="post_date">
-              <c2>{{ .Date.Format "Jan. 2, 2006" }}</c2>
+            {{ if .IsPage }}
+            <c2>{{ .Date.Format "Jan. 2, 2006" }}</c2>
+            {{ else }}
+            <c2 style="font-style: italic;">{{ .Title }}</c2>
+            {{ end }}
           </li>
         </ul>
     </div>

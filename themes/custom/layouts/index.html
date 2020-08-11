@@ -32,30 +32,7 @@
       <c2>Here are some things I've written <span class="emoji">✏️</span></c2>
     </div>
     <ul class="post_list">
-    {{ range where .Data.Pages.ByDate.Reverse ".Params.unlisted" "!=" "true"}}
-      <div class="post_description">
-        <li>
-          <c2>
-          {{ if .Params.canonicalUrl }}
-            <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
-          {{ else }}
-            <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ end }}
-          </c2>
-        </li>
-        <li>
-          <c2 class="postlist_data">
-            {{ .Date.Format "January 2006" }}
-            <span>// {{ .Params.ReadingTime }}</span>
-          </c2>
-        </li>
-        <li>
-          <c2 class="postlist_description">
-            {{  .Params.Description }}
-          </c2>
-        </li>
-      </div>
-    {{ end }}
+    {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
     </ul>
   </div>
 </div>

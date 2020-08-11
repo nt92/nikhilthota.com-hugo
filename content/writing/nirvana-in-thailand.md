@@ -2,7 +2,7 @@
 title: "Nirvana in Thailand"
 date: 2019-07-26T14:09:11-08:00
 description: "An experiment in solitude and mindfulness during a trip to the beautiful city of Pai, Thailand."
-tags: [""]
+tags: ["Travel"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/another-techbro-goes-to-a-remote-village-in-thailand-and-finds-nirvana-53e1ad559973"
 readingTime: "6 min"
@@ -11,11 +11,11 @@ image: "/article_images/thailand_1.jpeg"
 
 *Disclaimer: I was going to write this as a satire piece poking fun at the wanderlust travel subculture but after this adventure, I genuinely feel like there’s something for me to explore in writing, so instead I am going to try and earnestly distill my experience into useful substance.*
 
-{{< figure src="../article_images/thailand_1.jpeg" >}}
+{{< figure class="main_image" src="/article_images/thailand_1.jpeg" >}}
 
 Pai is an *interesting* place, to say the least. Twenty years ago, the remote village in northern Thailand was nothing more than a small outpost inhabited by a few indigenous groups, sewn together by mountains, rice fields, and the flourishing Pai river. These days, it’s a tourist mecca and draws in backpackers who seek *good vibes* amongst the cheap guesthouses, healthy street food, and eclectic crowd. In fact, there are SIX [7-eleven](https://www.7-eleven.com/) convenience stores, ranking it high on my very unscientific scale for measuring the appeal of a location.
 
-{{< figure src="../article_images/thailand_2.jpeg" caption="Cmon Gainesville..." >}}
+{{< figure src="/article_images/thailand_2.jpeg" caption="Cmon Gainesville..." >}}
 
 Convenience stores aside, there was definitely an energy to Pai that I viscerally felt but just could not put into words. I spent three days there towards the end of my post-grad travels and during that time, implemented a physical and digital detox, which was unlike anything that I have experienced before. At the expense of sounding *extremely* pretentious, I would parallel it to how a modern-day Thoreau on Walden Pond would’ve felt.
 

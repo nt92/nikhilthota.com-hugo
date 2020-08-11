@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="post_container">
+            {{ partial "author" . }}
+            <p>
+                {{ range .Site.Taxonomies.tags }}
+                <span><a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a></span>
+                {{ end }}
+            </p>
+        </div>
+    </body>
+</html>

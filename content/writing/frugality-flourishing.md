@@ -2,14 +2,14 @@
 title: "On Frugality and Flourishing"
 date: 2020-02-10T14:15:15-08:00
 description: "The conscious shift towards Financial Abundance."
-tags: [""]
+tags: ["Finance"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/on-frugality-and-flourishing-53bf7a54c82e"
 readingTime: "5 min"
 image: "/article_images/frugality_1.jpeg"
 ---
 
-{{< figure class="main_image" src="../article_images/frugality_1.jpeg">}}
+{{< figure class="main_image" src="/article_images/frugality_1.jpeg">}}
 
 It’s February, and I have a yearning to finally finish this piece. I’ve been putting it off for so long, but it’s time that I actually attempt to press some keys and create some prose. This is a topic I feel is especially relevant these days as I’ve been having interesting conversations and thoughts about money and the value of frugality. If my first several months into the world of true financial independence as a fully fledged ‘adult’ is any signal, I am *obsessed* with saving money. I’ve read books and countless articles on how to optimize my finances into retirement accounts, how to invest the spare income I have beyond an emergency fund, and how to think about money as wealth, which is a bit of a paradigm shift. Money represents the liquid asset that allows you to buy goods and pay for services. Wealth on the other hand feels a bit more immaterial and is something that grows over time.
 

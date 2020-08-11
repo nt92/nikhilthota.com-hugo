@@ -7,7 +7,7 @@ readingTime: "8 min"
 image: "/article_images/libby/card.jpg"
 ---
 
-{{< figure class="main_image" src="../article_images/libby/card.jpg" caption="havin' fun ain't hard... if you got a [library card](https://www.youtube.com/watch?v=p2WdtpNZjnU)">}}
+{{< figure class="main_image" src="/article_images/libby/card.jpg" caption="havin' fun ain't hard... if you got a [library card](https://www.youtube.com/watch?v=p2WdtpNZjnU)">}}
 
 August 21st, 2019 was an interesting day for me. It was an average wednesday, except that I had just gotten an audiobook copy of [When Breath Becomes Air](https://www.goodreads.com/book/show/25899336-when-breath-becomes-air) by Paul Kalanithi. Being the 2x playback speed fiend that I am, I made it to the end in a couple of days and found myself tearing up in the gym in between sets of incline bench press. This was actually the first audiobook I had ever listened to completion, and the best part was... **it was free**? [^1]
 
@@ -34,7 +34,7 @@ It's kind of like waiting in a really long line but leaving when you get to the 
 - 'Update hold'
 
 
-{{< figure src="../article_images/libby/app.jpeg">}}
+{{< figure src="/article_images/libby/app.jpeg">}}
 
 One other thing to remember is the fact that you can *return books early* if for whatever reason you're not going to need it for the rest of your hold. 21 days is a long time and if you finish in a week or decide that you don't want to read any more, just return it early! There are likely many other people waiting for the book and it takes a whole *two seconds* to tap 'Return Early' in the Libby app.
 
@@ -59,7 +59,7 @@ Libraries get [allocation](https://litreactor.com/columns/how-libraries-acquire-
 - The public library system and digital publishing industry co-exist through a necessary, but manufactured scarcity.
 - By consuming and showing interest in books within your public library system, you're helping them allocate more books for other intrepid readers.
 
-{{< figure src="../article_images/libby/arthur.gif">}}
+{{< figure src="/article_images/libby/arthur.gif">}}
 
 ## Happy reading! 📖
 

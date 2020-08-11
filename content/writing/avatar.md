@@ -2,11 +2,12 @@
 title: "Musings on Avatar and War"
 date: 2020-07-16
 description: "Thoughts on the necessity of war, inspired by Avatar: The Last Airbender."
-tags: ["Media"]
+tags: ["Media", "Avatar"]
 readingTime: "12 min"
 image: "/article_images/avatar/main.jpg"
 ---
-{{< figure class="main_image" src="../article_images/avatar/main.jpg" >}}
+
+{{< figure class="main_image" src="/article_images/avatar/main.jpg" >}}
 
 {{< pullquote quote="Growing up we were taught that the Fire Nation was the greatest civilization in history. And somehow the war was our way of sharing our greatness with the rest of the world. What an amazing lie that was. The people of the world are terrified by the Fire Nation. They don't see our greatness — They hate us! And we deserve it. We created an era of fear in the world. And if we don't want the world to destroy itself, we need to replace it with an era of peace and kindness." author="Prince Zuko" >}}
 
@@ -81,6 +82,10 @@ Yes, war has been happening since the dawn of society. Yes, it’ll continue to 
 It is a bit unnerving when petulant individuals are in charge of the world's most powerful militaries with enough nuclear power to stop photosynthesis[^4]. I think that paradoxically, this threat of total annihilation decreases the chance that it will happen. Nobody *actually* wants to face the negative consequences of war by losing their loved ones, dedicating years of life to a cause they didn't choose, and putting the world in peril.
 
 The 2000s have been an experiment in uniting the world in real-time. Never before could you know what's happening in Italy, Japan, or Kenya on-demand. We’re more aware of what's happening outside of our immediate world. This leads to resistance from the ego, which finds it difficult to accept ways of life that it’s not familiar with. However this hyper-connectedness is here to stay, for better or for worse. Unfortunately we don’t have a transcendent being like the Avatar to usher an era of peace in our world. So that means we need to make the commitment on the individual level to come together and work towards a better future — nobody is going to save us.
+
+---
+
+ATLA is such a broad show with many nuanced topics. It's pretty incredible that a Nickelodeon show is able to introduce these ideas to kids in such a delightful way. What are some other interesting ideas and issues that this show touches on? I would love to [hear your thoughts](https://twitter.com/nikhilthota/status/1286343072440295424) 💭
 
 *Thanks to JC, [Mackenzie](https://littlecurrywurst.com) and [*Spencer*](https://www.spencerchang.me/) for reading drafts of this!*
 

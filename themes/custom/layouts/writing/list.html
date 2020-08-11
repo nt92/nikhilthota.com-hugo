@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <div class="post_container">
+        {{ partial "author.html" . }}
+        <ul class="post_list">
+            {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
+        </ul>
+    </div>
+{{ end }}

@@ -410,12 +410,14 @@ a[href^="http"], a[href^="mail"] {
   &.small {
     width: 120px;
     margin-right: 40px;
+    padding-right: 20px;
   }
 }
 
 /* Author Section */
 
 .author_container {
+  height: 168px;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -531,10 +533,31 @@ a[href^="http"], a[href^="mail"] {
 
 /* Footer */
 
+section.footnotes {
+  & > hr {
+    display: none;
+  }
+
+  &::before {
+    content: "Footnotes";
+
+    display: block;
+    margin-block-start: 1.5em;
+    margin-block-end: 1em;
+    font-weight: bold;
+
+    @extend h2;
+  }
+}
+
 .footnote-ref, .footnote-backref {
   border-bottom-style: none !important;
   font-size: smaller;
   color: $color-font-secondary;
+}
+
+.footnote-backref {
+  padding-top: 5px !important;
 }
 
 .footnotes {
@@ -564,7 +587,7 @@ a[href^="http"], a[href^="mail"] {
     background-color: #9494941c;
     align-items: center;
     border-radius: 8px;
-    margin: 16px 0 16px 0;
+    margin: 24px 0 16px 0;
   }
 
   .footer_blurb {

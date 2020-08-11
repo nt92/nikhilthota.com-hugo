@@ -2,14 +2,14 @@
 title: "Exploring My Mind With Python"
 date: 2019-05-25T22:11:22-08:00
 description: "Leveraging automation with Python to send myself my own journal entries daily."
-tags: [""]
+tags: ["Technology", "Code"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/exploring-my-mind-with-python-ae15751d50c5"
 readingTime: "3 min"
 image: "/article_images/python_1.jpg"
 ---
 
-{{< figure class="main_image" src="../article_images/python_1.jpg" >}}
+{{< figure class="main_image" src="/article_images/python_1.jpg" >}}
 
 A few months ago at a random Chinatown bar in New York City, [Tyler Richards](http://www.tylerjrichards.com/) and I were having a conversation about journaling. I told him that I had over 4 *years* worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.
 

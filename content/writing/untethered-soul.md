@@ -2,13 +2,13 @@
 title: "The Untethered Soul"
 date: 2020-04-05T23:50:08-08:00
 description: "My experience with the enigmatic Michael Singer and his powerful book: The Untethered Soul."
-tags: [""]
+tags: ["Book Review", "Mindfulness", "Spirituality"]
 draft: false
 readingTime: "8 min"
 image: "/article_images/untethered_1.jpg"
 ---
 
-{{< figure class="main_image" src="../article_images/untethered_1.jpg" caption="15808 NW 90th Street, Alachua, Florida, 32615 — The Temple of the Universe">}}
+{{< figure class="main_image" src="/article_images/untethered_1.jpg" caption="15808 NW 90th Street, Alachua, Florida, 32615 — The Temple of the Universe">}}
 
 Nested in the thicket of North Florida's wilderness, about a 30 minute drive from the University of Florida, is the [Temple of the Universe][1]. The temple is a spiritual sanctuary where *'men and women of any religion or set of beliefs can come together to experience the love, peace, and bliss which exists within all beings.'* The temple was set up by Michael “Micky” Singer, an ex-entrepreneur who started a company that was acquired by WebMD for over $5 billion to focus fully on writing and spirituality. Micky is an enigmatic figure, rarely appearing in the public eye with the understandable exception made for an interview with [Oprah][2] for her Emmy Award winning show, *Super Soul Sunday*.
 
@@ -16,7 +16,7 @@ His interview with Oprah is phenomenal in its own way and sheds a bit more light
 
 A good friend of mine, Kevin, first told me about temple during my final months as a student at UF. As I was in the enveloped in the warm pre-graduation nostalgia, I decided to partake in this new and unique experience. And so we set off, towards the Temple of the Universe with high hopes and open minds. Unfortunately, the *universe* conspired against us that day and Kevin's car broke down a couple of miles away from the temple and we found ourselves smack dab in the middle of UF's [Dairy][3] Unit, surrounded by some indifferent heifers.[^1]
 
-{{< figure src="../article_images/untethered_2.png" caption="Made some friends!">}}
+{{< figure src="/article_images/untethered_2.png" caption="Made some friends!">}}
 
 Our dairy detour did not deter us however, and Kevin and I found ourselves heading to the temple yet again the following week. This time, there were no notable deterrences and we made it to the temple right on schedule. I was a bit guarded at first because stepping into a nondescript building in the middle of the forest with no cell reception *could* turn south pretty fast. However, as soon as I entered the temple, my senses were greeted with the comforting embrace of a welcoming spiritual sanctuary. There were 20 or so other intrepid seekers seated on pillows, gathered in a lopsided semicircle around Micky, who sat in the center with a debonair smile on his face and a keyboard on his lap. The temple itself was demure and unpretentious, adorned with iconography from Hinduism, Buddhism, Christianity, and Islam. On the walls were images expressing reverence to gurus throughout history who have reached the highest state of enlightenment.
 

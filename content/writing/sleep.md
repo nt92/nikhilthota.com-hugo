@@ -2,14 +2,14 @@
 title: "Sleep as a Service (SaaS)"
 date: 2019-10-25T14:11:54-08:00
 description: "We sleep for around a third of our lives. This piece aims to help those who read it gain greater command of their nocturnal hours."
-tags: [""]
+tags: ["Health"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/sleep-as-a-service-saas-e0efa0924297"
 readingTime: "6 min "
 image: "/article_images/sleep_1.jpeg"
 ---
 
-{{< figure class="main_image" src="../article_images/sleep_1.jpeg">}}
+{{< figure class="main_image" src="/article_images/sleep_1.jpeg">}}
 
 I recently finished Matthew Walker’s [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep), a New York Times Bestseller which has been exploding in the productivity-obsessed circles that I’m a part of. For good reason too — this book distills the vast amount of modern sleep research over the past 20 years into one main idea: sleep is *really* important. In the past year or so, I’ve been experimenting with everything in the sleep-improvement space, from blackout curtains to melatonin to timing my caffeine consumption (all of these being small but integral pieces of the puzzle).
 

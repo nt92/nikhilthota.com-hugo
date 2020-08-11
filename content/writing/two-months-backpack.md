@@ -2,7 +2,7 @@
 title: "Two Months in a Backpack"
 date: 2019-04-25T22:11:00-08:00
 description: "How to pack for 2 months of travel in only one backpack."
-tags: [""]
+tags: ["Travel"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/two-months-in-a-backpack-f4f04665a55"
 readingTime: "6 min"
@@ -17,7 +17,7 @@ The best advice I have seen for packing for a trip such as this is to take a loo
 
 The backpack I will be using is the [Tortuga Setout 45L](https://www.tortugabackpacks.com/products/setout-travel-backpack), which is large and functional enough to carry all of my belongings but small enough to fit as a carry-on for flights. For shorter day trips from hostels, I plan to use the [Tortuga Daypack](https://www.tortugabackpacks.com/products/setout-packable-daypack), which is easily compressible.
 
-{{< figure src="../article_images/backpack_1.jpeg" >}}
+{{< figure src="/article_images/backpack_1.jpeg" >}}
 
 ## Clothes
 
@@ -36,7 +36,7 @@ This will depend heavily on where exactly you are traveling to, what time of the
 * **1 hat**
 * **1 pair of glasses & sunglasses**
 
-{{< figure src="../article_images/backpack_2.jpeg" >}}
+{{< figure src="/article_images/backpack_2.jpeg" >}}
 
 ## Toiletries
 
@@ -64,7 +64,7 @@ This will depend heavily on where exactly you are traveling to, what time of the
 * **e-reader:** I love my [kindle](https://www.amazon.com/Kindle-reader-Glare-Free-Touchscreen-International/dp/B0186FET66/) — lightweight, visible in any lighting, and has all the space I will ever need
 * **airpods**
 
-{{< figure src="../article_images/backpack_3.jpeg" >}}
+{{< figure src="/article_images/backpack_3.jpeg" >}}
 
 ## Misc.
 
@@ -76,7 +76,7 @@ This will depend heavily on where exactly you are traveling to, what time of the
 * **umbrella & rain cover:** crucial if you have expensive electronics and will be in rainy, tropical climates
 * **drysack:** [these](https://www.amazon.com/Outdoor-Products-Ultimate-Sack-Three-Pack/dp/B001AZNATC/) can be used to hold dirty laundry and also protect your belongings near water
 
-{{< figure src="../article_images/backpack_4.jpeg" >}}
+{{< figure src="/article_images/backpack_4.jpeg" >}}
 
 ## Misc. Things to Consider
 

@@ -2,14 +2,14 @@
 title: "2 Months of Solo Travel"
 date: 2019-09-26T14:11:15-08:00
 description: "The trials and tribulations I experienced on a post-grad trip through Southeast Asia."
-tags: [""]
+tags: ["Travel"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/nikhils-travels-32b3491c38b0"
 readingTime: "6 min"
 image: "/article_images/2_month_travel_1.jpeg"
 ---
 
-{{< figure class="main_image" src="../article_images/2_month_travel_1.jpeg" caption="taipei night market">}}
+{{< figure class="main_image" src="/article_images/2_month_travel_1.jpeg" caption="taipei night market">}}
 
 {{< pullquote quote="Travel, like life, is a marathon and not a race" author="somebody" >}}
 
@@ -32,7 +32,7 @@ One’s perspective is shaped by countless experiences from family, local cultur
 
 If you’re like me and try to ball on a budget — and therefore unwilling to offload trip planning to a travel clerk / service, there are a large number of logistical things that go into the process of planning and executing on a trip such as flights, lodging, documentation, and gear — not to mention the unseen issues that emerge once on the road. These unattractive details are rarely mentioned, and this has resulted in a consumerist culture which has overly glamorized the idea of travel. Since 1995, direct receipts from tourism have almost [TRIPLED](https://www.bloomberg.com/opinion/articles/2019-08-12/tourism-is-overwhelming-the-world-s-top-destinations) to over $1.5 *trillion* with the industry itself being worth 10% of the global economy. This is great for economic growth as a whole, but such growth is putting a huge strain on popular spots like [Antelope Canyon](https://www.vox.com/the-goods/2019/7/11/20686194/antelope-canyon-instagram-page-arizona-navajo) which has been occupied by Instagrammers willing to wait 2 hours for the iconic shot.
 
-{{< figure src="../article_images/2_month_travel_2.jpeg" >}}
+{{< figure src="/article_images/2_month_travel_2.jpeg" >}}
 
 In China, travel has [exploded](https://www.bloomberg.com/news/features/2018-02-11/chinese-tourists-are-taking-over-the-earth-one-selfie-at-a-time) and many of the world’s popular destinations are overrun by the comically large tour buses, selfie sticks, and frantic rush for the golden hour photo shoot. I am typically used to seeing other western travelers while abroad, so having the majority of fellow tourist sightings be Chinese travelers in these large groups was quite a shock to me. It was interesting seeing a different set of society be the primary drivers of the industry and showed me just how democratized the once luxury act of traveling has become.
 
