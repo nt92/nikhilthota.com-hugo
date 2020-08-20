@@ -5,7 +5,7 @@
   <h1 class="title">Hey, I'm Nikhil! <span class="emoji wave">🧘🏽‍♂️</span></h1>
   <div class="page_content_animation">
     <div class="page_blurb">
-      <p>
+      <!-- <p class="page_blurb">
         I live in San Francisco, California, and am currently at
         <a href="https://facebook.com" target="_blank">Facebook</a>,
         bootstraping Trust within Marketplace. Previously at <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">Kleiner Perkins</a>,
@@ -17,7 +17,16 @@
         <a href="/nikhilthota.pdf" target="_blank">resume</a>.
         Feel free to
         <a href="mailto:nthota92@gmail.com">say hey</a> 😁
-      </p>
+      </p> -->
+      <p>📍 Currently quarantining in San Francisco, CA </p>
+      <p>👨🏽‍💻 Cog @ <a href="https://facebook.com" target="_blank">Facebook</a> building Ecommerce Integrity</p>
+      <p>🧪 Prev: <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">KP Fellows</a>,
+        <a href="https://www.indiegogo.com/" target="_blank">Indiegogo</a>,
+        <a href="https://news.crunchbase.com/news/linkedin-snaps-up-drawbridge-its-second-known-acquisition-in-8-months/" target="_blank">LinkedIn</a>,
+        & <a href="https://news.ufl.edu/articles/2017/08/road-trip-oppor-tuna-ty.html" target="_blank">UF</a></p>
+      <!-- <p>🐊 I went to school at the <a href="https://news.ufl.edu/articles/2017/08/road-trip-oppor-tuna-ty.html" target="_blank">University of Florida</a></p> -->
+      <p>✍️ I like writing, <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota" target="_blank">reading</a>, places, & languages</p>
+      <p>🤖 My (outdated) <a href="/nikhilthota.pdf" target="_blank">resume</a> — feel free to <a href="mailto:nthota92@gmail.com">say hey</a> 😁</p>
     </div>
     <div class="icon_list">
       <table>
@@ -28,9 +37,9 @@
         </tr>
       </table>
     </div>
-    <div class="writing_blurb">
+    <!-- <div class="writing_blurb">
       <c2>Here are some things I've written <span class="emoji">✏️</span></c2>
-    </div>
+    </div> -->
     <ul class="post_list">
     {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
     </ul>

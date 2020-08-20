@@ -2,7 +2,7 @@
 $color-background: #fffefa;
 $color-subtitle: #acacac;
 $color-highlight: #fef4ad;
-$color-highlight-faded: #fef5ada9;
+$color-highlight-faded: #fef5ada1;
 
 $color-font-primary: #333333;
 $color-shadow: #33333328;
@@ -45,8 +45,8 @@ mark {
 
 h1 {
   color: $color-font-primary;
-  font-size: 34px;
-  -webkit-margin-after: 0px;
+  font-size: 36px;
+  -webkit-margin-after: 4px;
 }
 
 h2 {
@@ -347,7 +347,7 @@ a[href^="http"], a[href^="mail"] {
 /* Main Page: nikhilthota.com */
 
 .container {
-  transform: translateY(6%);
+  transform: translateY(4%);
   padding: 0 12px 0 12px;
   max-width: 500px;
   min-width: 300px;
@@ -368,7 +368,14 @@ a[href^="http"], a[href^="mail"] {
 // }
 
 .page_blurb {
-  margin: 20px auto 20px auto;
+  text-align: left;
+  margin: 30px auto 30px auto;
+  max-width: 400px;
+
+  p, li {
+    -webkit-margin-before: 6px;
+    -webkit-margin-after: 6px;
+  }
 }
 
 .writing_blurb {
@@ -462,7 +469,7 @@ a[href^="http"], a[href^="mail"] {
   justify-content: center;
   height: 54px;
   margin-top: 0px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .medium {
@@ -837,7 +844,7 @@ span.wave:hover {
 /* For non-mobile devices */
 @media (min-width: 48em) {
   h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   h2 {
