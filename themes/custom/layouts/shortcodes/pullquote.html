@@ -3,7 +3,7 @@
         {{ .Get "quote" }}
             <br>
         {{ if .Get "source" }}
-            — <a {{ with .Get "source" }} href="{{.}}" {{ end }}>{{ .Get "author" }}</a>
+            — <a {{ with .Get "source" }} href="{{.}}" {{ end }} target="_blank">{{ .Get "author" }}</a>
         {{ else }}
             — {{ .Get "author" }}
         {{ end }}

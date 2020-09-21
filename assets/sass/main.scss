@@ -2,7 +2,7 @@
 $color-background: #fffefa;
 $color-subtitle: #acacac;
 $color-highlight: #fef4ad;
-$color-highlight-faded: #fef5ada1;
+$color-highlight-faded: #fef5adaf;
 
 $color-font-primary: #333333;
 $color-shadow: #33333328;
@@ -255,7 +255,6 @@ a[href^="http"], a[href^="mail"] {
   .pullquote {
     position: relative;
     margin: 1em;
-    font-size: 16px;
 
     &::before {
       content: "“";
@@ -282,10 +281,11 @@ a[href^="http"], a[href^="mail"] {
       }
     }
 
+    img {
+      box-shadow: 0 0px 16px 2px $color-shadow, 0 0px 30px -18px $color-shadow;
+    }
+
     &.main_image {
-      img {
-        box-shadow: 0 0px 16px 2px $color-shadow, 0 0px 30px -18px $color-shadow;
-      }
 
       figcaption {
         max-width: 95vw;
@@ -861,9 +861,5 @@ span.wave:hover {
 
   .post_container {
     min-width: $view-width;
-
-    .pullquote {
-      font-size: 18px;
-    }
   }
 }

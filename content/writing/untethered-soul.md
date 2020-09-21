@@ -2,7 +2,7 @@
 title: "The Untethered Soul"
 date: 2020-04-05T23:50:08-08:00
 description: "My experience with the enigmatic Michael Singer and his powerful book: The Untethered Soul."
-tags: ["Book Review", "Mindfulness", "Spirituality"]
+tags: ["Book Review", "Spirituality"]
 draft: false
 readingTime: "8 min"
 image: "/article_images/untethered_1.jpg"
