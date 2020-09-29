@@ -5,6 +5,7 @@ description: "My experience with the enigmatic Michael Singer and his powerful b
 tags: ["Book Review", "Spirituality"]
 draft: false
 readingTime: "8 min"
+favorite: true
 image: "/article_images/untethered_1.jpg"
 ---
 

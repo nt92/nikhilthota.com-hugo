@@ -1,6 +1,7 @@
 {{ define "main" }}
     <div class="post_container">
         {{ partial "author.html" . }}
+        <p>All of my writing, in chronological order.</p>
         <ul class="post_list">
             {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
         </ul>

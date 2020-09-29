@@ -6,6 +6,7 @@ tags: ["Health"]
 draft: false
 # canonicalUrl: "https://medium.com/@nikhilthota/sleep-as-a-service-saas-e0efa0924297"
 readingTime: "6 min "
+favorite: true
 image: "/article_images/sleep_1.jpeg"
 ---
 

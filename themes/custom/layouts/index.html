@@ -5,19 +5,6 @@
   <h1 class="title">Hey, I'm Nikhil! <span class="emoji wave">🧘🏽‍♂️</span></h1>
   <div class="page_content_animation">
     <div class="page_blurb">
-      <!-- <p class="page_blurb">
-        I live in San Francisco, California, and am currently at
-        <a href="https://facebook.com" target="_blank">Facebook</a>,
-        bootstraping Trust within Marketplace. Previously at <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">Kleiner Perkins</a>,
-        <a href="https://www.indiegogo.com/" target="_blank">Indiegogo</a>, and
-        <a href="https://news.crunchbase.com/news/linkedin-snaps-up-drawbridge-its-second-known-acquisition-in-8-months/" target="_blank">LinkedIn</a>.
-        I went to the <a href="https://news.ufl.edu/articles/2017/08/road-trip-oppor-tuna-ty.html" target="_blank">University of Florida</a>
-        and like to write, go places, <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota" target="_blank">read</a>
-        and learn languages! Tryna be a <a href="/untethered-soul">chill guy</a>. For those interested, here is my
-        <a href="/nikhilthota.pdf" target="_blank">resume</a>.
-        Feel free to
-        <a href="mailto:nthota92@gmail.com">say hey</a> 😁
-      </p> -->
       <p>📍 Currently quarantining in Phoenix, AZ</p>
       <p>👨🏽‍💻 Cog @ <a href="https://facebook.com" target="_blank">Facebook</a> building Trust in Marketplace</p>
       <p>🧪 Prev: <a href="https://fellows.kleinerperkins.com/meet-the-fellows/previous-fellows" target="_blank">KP Fellows</a>,
@@ -37,11 +24,11 @@
         </tr>
       </table>
     </div>
-    <!-- <div class="writing_blurb">
-      <c2>Here are some things I've written <span class="emoji">✏️</span></c2>
-    </div> -->
+    <div class="writing_blurb">
+      <c2>Here is some of my favorite <a href="/writing">writing</a> <span class="emoji">✏️</span></c2>
+    </div>
     <ul class="post_list">
-    {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
+    {{ range where .Site.RegularPages ".Params.favorite" true}} {{ .Render "summary" }} {{ end }}
     </ul>
   </div>
 </div>
