@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Reading"
 date: 2020-11-25
-description: "Not all mediums of reading books are created equal..."
+description: "Not all mediums of reading are created equal."
 tags: ["Learning", "Technology"]
 favorite: true
 image: "/article_images/reading/chart.jpg"
