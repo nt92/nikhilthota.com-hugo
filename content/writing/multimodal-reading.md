@@ -4,10 +4,10 @@ date: 2020-11-25
 description: "Not all mediums of reading are created equal."
 tags: ["Learning", "Technology"]
 favorite: true
-image: "/article_images/reading/chart.jpg"
+image: "/article_images/multimodal-reading/chart_share.jpeg"
 ---
 
-{{< figure class="main_image" src="/article_images/reading/books.jpg" >}}
+{{< figure class="main_image" src="/article_images/multimodal-reading/books.jpg" >}}
 
 Books are incredible. They're even better when you can [get them for free](/writing/libby/). However, one thing that I struggle with is figuring out what to read with the [vast quantity of options](https://www.theifod.com/how-many-new-books-are-published-each-year-and-other-related-books-facts/) available. One thing that has helped me is **segmenting my reading into buckets based on the medium of consumption**.
 
@@ -39,7 +39,7 @@ The main con of e-books when compared to physical books is losing the raw tactil
 
 There's something delightful about holding the processed remnants of a tree[^6] in your hand. In my mind, it evokes an image of the tree of knowledge bearing fruits laden with the flesh of wisdom.
 
-{{< figure src="/article_images/reading/tree_of_knowledge.jpg" >}}
+{{< figure src="/article_images/multimodal-reading/tree_of_knowledge.jpg" >}}
 
 This is the medium that we're most familiar with[^7]. This can be a good or bad thing. Most people (myself included) did not like many of the books they were forced to read in school. I mean, how on earth can you expect a middle schooler to read _The Scarlet Letter_ and develop a lifelong love for reading? Not to mention the droll textbooks that drone on about esoteric facts with no clear bridge towards practicality.
 
@@ -59,7 +59,7 @@ We're in the middle of a technological renaissance, and it's certain that readin
 
 Congrats on making it this far. Here's a handy little chart, created by yours truly.
 
-{{< figure src="/article_images/reading/chart.jpg" >}}
+{{< figure src="/article_images/multimodal-reading/chart.jpg" >}}
 
 ---
 
