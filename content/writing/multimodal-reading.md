@@ -63,7 +63,7 @@ Congrats on making it this far. Here's a handy little chart, created by yours tr
 
 ---
 
-As always, I would love to hear your thoughts on these ideas and connect on [Twitter](https://twitter.com/nikhilthota).
+As always, I would love to hear your thoughts on these ideas and connect on [Twitter](https://twitter.com/nikhilthota/status/1332338653096521729).
 
 Thanks to [Macc](https://littlecurrywurst.com) for reading drafts of this.
 

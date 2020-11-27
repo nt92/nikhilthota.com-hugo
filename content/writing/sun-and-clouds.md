@@ -5,7 +5,7 @@ description: "Peace can always be found. It just takes a little time and effort.
 tags: ["Spirituality"]
 favorite: true
 readingTime: "5 min"
-image: "/article_images/avatar/main.jpg"
+image: "/article_images/sun-and-clouds/mountain.jpg"
 ---
 
 {{< figure class="main_image" src="/article_images/sun-and-clouds/mountain.jpg" >}}
