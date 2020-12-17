@@ -14,14 +14,11 @@
     var css = [
       "h1:hover .anchor span:before,",
       "h2:hover .anchor span:before,",
-      "h3:hover .anchor span:before,",
-      "h4:hover .anchor span:before,",
-      "h5:hover .anchor span:before,",
-      "h6:hover .anchor span:before {",
+      "h3:hover .anchor span:before {",
       'content: "\\1F517";',
       "position: absolute;",
       "left: 0px;",
-      "top: -3px;",
+      // "top: 0px;",
       "}",
     ]
       .join("")
@@ -33,15 +30,14 @@
   }
 
   function permalink() {
-    // Kept in sync with .postContent class to only put links on headers in the post content.
+    // Kept in sync with .post_content class to only put links on headers in the post content.
     var postContent = document.querySelector('.post_content')
 
     var anchor = document.createElement("a");
     anchor.className = className;
     anchor.innerHTML = "<span></span>";
 
-    // TODO: maybe enable this for all block text elements (basically just p) in order to link to any place
-    [].forEach.call(postContent.querySelectorAll("h1,h2,h3,h4,h5,h6"), function (el) {
+    [].forEach.call(postContent.querySelectorAll("h1,h2,h3"), function (el) {
       if (!el.id) {
         // let's make one
         var id = (el.textContent || el.innerText)
@@ -63,7 +59,11 @@
         // navigator.clipboard doesn't have 100% browser support so let fall through otherwise.
         navigator.clipboard.writeText(clone.href);
       };
-      el.insertBefore(clone, el.firstChild);
+      let elementContent = document.createElement("span")
+      elementContent.className = "postHeaderLink"
+      el.appendChild(elementContent);
+      elementContent.appendChild(el.firstChild);
+      el.insertBefore(clone, elementContent);
       count = count + 1;
     });
   }

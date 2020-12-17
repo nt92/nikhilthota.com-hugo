@@ -91,7 +91,7 @@ ol, ul {
 }
 
 a {
-  &:not(.image_link){
+  &:not(.image_link):not(.anchor){
     &:link, &:visited {
       color: $color-font-primary;
       text-decoration: none;
@@ -224,20 +224,8 @@ a[href^="http"], a[href^="mail"] {
     }
   }
 
-  // header permalinks
-  .anchor {
-    display: block;
-    padding-right: 6px;
-    padding-left: 30px;
-    margin-left: -30px;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    height: 100%;
-    background: transparent;
-    width: 100%;
+  input::before{
+    visibility: hidden;
   }
 
   .gist {
@@ -710,6 +698,25 @@ section.footnotes {
   }
 }
 
+/* Plugins */
+
+// Permalink
+.anchor {
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  text-decoration: none;
+  height: 24px;
+  background: transparent;
+  width: 100%;
+  visibility: hidden;
+}
+
 /* Animations */
 
 // got from https://jarv.is/notes/css-waving-hand-emoji/
@@ -731,117 +738,8 @@ span.wave:hover {
   100% { transform: rotate(  0.0deg) }
 }
 
-/* Borrowed from https://animate.style/ — https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.css */
-
-@-webkit-keyframes bounceInUp {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    visibility: visible;
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
-    transform: translate3d(0, 3000px, 0) scaleY(5);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
-    transform: translate3d(0, -20px, 0) scaleY(0.9);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
-    transform: translate3d(0, 10px, 0) scaleY(0.95);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
-    transform: translate3d(0, -5px, 0) scaleY(0.985);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bounceInUp {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    visibility: visible;
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
-    transform: translate3d(0, 3000px, 0) scaleY(5);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
-    transform: translate3d(0, -20px, 0) scaleY(0.9);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
-    transform: translate3d(0, 10px, 0) scaleY(0.95);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
-    transform: translate3d(0, -5px, 0) scaleY(0.985);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-}
-
 /* For non-mobile devices */
+
 @media (min-width: 48em) {
   h1 {
     font-size: 42px;
@@ -861,5 +759,10 @@ span.wave:hover {
 
   .post_container {
     min-width: $view-width;
+  }
+
+  // Only show anchor on non-mobile devices
+  .anchor {
+    visibility: visible;
   }
 }

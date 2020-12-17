@@ -23,7 +23,7 @@ Multitasking[^2] in this way takes some time to get used to. You'll likely find 
 
 One of my favorite perks of audiobooks is the ability to speed up or slow down the recording. My girlfriend says it gives her anxiety, but I swear by 2x[^3] when I'm doing something that requires very little of my mind.
 
-The main con of listening to audiobooks is that it's very difficult to save passages or ideas for later. You have to pause, write down what you heard, and then continue[^4]. There is however, technology working to solve this problem. [Airr](https://www.airr.io/) is an app that allows you to save snippets of audio through a gesture on your headphones (limited to podcasts for now) with some context and a possibe transcript to save it for later.
+The main con of listening to audiobooks is that it's very difficult to save passages or ideas for later. You have to pause, write down what you heard, and then continue[^4]. There is however, technology working to solve this problem. [Airr](https://www.airr.io/) is an app that allows you to save snippets of audio through a gesture on your headphones (limited to podcasts for now) with some context and a possible transcript to save it for later.
 
 ## E-books
 
