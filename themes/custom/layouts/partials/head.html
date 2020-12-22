@@ -33,6 +33,10 @@
     {{ $sass := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $sass.Permalink }}">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- From https://css-tricks.com/emojis-as-favicons/ show emoji as favicon for posts -->
+    {{ if .Params.emoji }}
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ .Params.emoji }}</text></svg>">
+    {{ end }}
     <!--- Adobe Typekit --->
     <link rel="stylesheet" href="https://use.typekit.net/qxe7qav.css">
     <script src="{{ "js/custom.js" | absURL}}"></script>
