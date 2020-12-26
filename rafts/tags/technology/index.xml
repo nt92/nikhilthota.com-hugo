@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multimodal Reading</title>
+      <link>http://localhost:1313/writing/multimodal-reading/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/multimodal-reading/</guid>
+      <description>Books are incredible. They&amp;rsquo;re even better when you can get them for free. However, one thing that I struggle with is figuring out what to read with the vast quantity of options available. One thing that has helped me is segmenting my reading into buckets based on the medium of consumption.
+What does that mean? Today, there are more ways to read a book than to just buy a physical tome and read it cover-to-cover.</description>
+    </item>
+    
+    <item>
+      <title>Libby: Free Knowledge</title>
+      <link>http://localhost:1313/writing/libby/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/libby/</guid>
+      <description>havin&amp;rsquo; fun ain&amp;rsquo;t hard&amp;hellip; if you got a library card
+  August 21st, 2019 was an interesting day for me. It was an average wednesday, except that I had just gotten an audiobook copy of When Breath Becomes Air by Paul Kalanithi. Being the 2x playback speed fiend that I am, I made it to the end in a couple of days and found myself tearing up in the gym in between sets of incline bench press.</description>
+    </item>
+    
+    <item>
+      <title>From Hacker to... Benefactor?</title>
+      <link>http://localhost:1313/writing/swamphacks/</link>
+      <pubDate>Thu, 06 Feb 2020 23:50:08 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/swamphacks/</guid>
+      <description>Last week, I went back to The University of Florida (UF) to recruit and represent Facebook as a corporate sponsor for SwampHacks (UF’s premier hackathon). As a former organizer of the event during my stint as a student, I was left feeling both humility and pride, seeing how far SwampHacks has come. During the early years of the event, we were lucky to have 200 attendees and had to basically beg sponsors to recognize the event as legitimate.</description>
+    </item>
+    
+    <item>
+      <title>Exploring My Mind With Python</title>
+      <link>http://localhost:1313/writing/python-mind-exploration/</link>
+      <pubDate>Sat, 25 May 2019 22:11:22 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/python-mind-exploration/</guid>
+      <description>A few months ago at a random Chinatown bar in New York City, Tyler Richards and I were having a conversation about journaling. I told him that I had over 4 years worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.
+The Idea: A system that emails me a random journal entry every day so I could see exactly what was going on in my mind at that given time.</description>
+    </item>
+    
+    <item>
+      <title>Digital Minimalism</title>
+      <link>http://localhost:1313/writing/digital-minimalism/</link>
+      <pubDate>Sat, 16 Feb 2019 18:11:01 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/digital-minimalism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

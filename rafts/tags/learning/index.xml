@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multimodal Reading</title>
+      <link>http://localhost:1313/writing/multimodal-reading/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/multimodal-reading/</guid>
+      <description>Books are incredible. They&amp;rsquo;re even better when you can get them for free. However, one thing that I struggle with is figuring out what to read with the vast quantity of options available. One thing that has helped me is segmenting my reading into buckets based on the medium of consumption.
+What does that mean? Today, there are more ways to read a book than to just buy a physical tome and read it cover-to-cover.</description>
+    </item>
+    
+    <item>
+      <title>Libby: Free Knowledge</title>
+      <link>http://localhost:1313/writing/libby/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/libby/</guid>
+      <description>havin&amp;rsquo; fun ain&amp;rsquo;t hard&amp;hellip; if you got a library card
+  August 21st, 2019 was an interesting day for me. It was an average wednesday, except that I had just gotten an audiobook copy of When Breath Becomes Air by Paul Kalanithi. Being the 2x playback speed fiend that I am, I made it to the end in a couple of days and found myself tearing up in the gym in between sets of incline bench press.</description>
+    </item>
+    
+  </channel>
+</rss>

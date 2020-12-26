@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/code/</link>
+    <description>Recent content in Code on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:11:22 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring My Mind With Python</title>
+      <link>http://localhost:1313/writing/python-mind-exploration/</link>
+      <pubDate>Sat, 25 May 2019 22:11:22 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/python-mind-exploration/</guid>
+      <description>A few months ago at a random Chinatown bar in New York City, Tyler Richards and I were having a conversation about journaling. I told him that I had over 4 years worth of consistent journal entries and Tyler, being the data-minded person he is, gave me an idea to reinforce the lessons and insights from these journaling sessions.
+The Idea: A system that emails me a random journal entry every day so I could see exactly what was going on in my mind at that given time.</description>
+    </item>
+    
+  </channel>
+</rss>

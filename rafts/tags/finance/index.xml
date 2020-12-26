@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finance on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/finance/</link>
+    <description>Recent content in Finance on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2020 14:15:15 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Frugality and Flourishing</title>
+      <link>http://localhost:1313/writing/frugality-flourishing/</link>
+      <pubDate>Mon, 10 Feb 2020 14:15:15 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/frugality-flourishing/</guid>
+      <description>It’s February, and I have a yearning to finally finish this piece. I’ve been putting it off for so long, but it’s time that I actually attempt to press some keys and create some prose. This is a topic I feel is especially relevant these days as I’ve been having interesting conversations and thoughts about money and the value of frugality. If my first several months into the world of true financial independence as a fully fledged ‘adult’ is any signal, I am obsessed with saving money.</description>
+    </item>
+    
+  </channel>
+</rss>

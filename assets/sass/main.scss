@@ -143,6 +143,7 @@ a[href^="http"], a[href^="mail"] {
   position: relative;
   margin: 30px auto 30px auto;
   max-width: $view-width;
+  overflow: hidden;
   padding: 0 16px 0 16px;
 }
 
@@ -339,22 +340,13 @@ a[href^="http"], a[href^="mail"] {
   font-style: none;
 }
 
-// .avatar {
-//   animation: bounceInUp .8s .5s forwards;
-//   visibility: hidden;
-// }
-
-// .page_content_animation {
-//   animation: fadeInUp .8s 1.4s forwards;
-//   visibility: hidden;
-// }
-
 .page_blurb {
   text-align: left;
+  padding-left: 4px;
   margin: 30px auto 30px auto;
-  max-width: 400px;
+  max-width: 360px;
 
-  p, li {
+  p {
     -webkit-margin-before: 6px;
     -webkit-margin-after: 6px;
   }
@@ -756,8 +748,9 @@ span.wave:hover {
     font-size: 17px;
   }
 
+  // Overflow on non-mobile to show big images
   .post_container {
-    min-width: $view-width;
+    overflow: visible;
   }
 
   // Only show anchor on non-mobile devices

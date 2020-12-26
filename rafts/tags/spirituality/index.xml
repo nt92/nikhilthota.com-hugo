@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spirituality on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/spirituality/</link>
+    <description>Recent content in Spirituality on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/spirituality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Sun and The Clouds</title>
+      <link>http://localhost:1313/writing/sun-and-clouds/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/sun-and-clouds/</guid>
+      <description>Imagine that we live where it&amp;#39;s always cloudy. We never see the sun. And we, of course, take our everyday experience as if it&amp;#39;s reality—the only reality. The clouds are perhaps a little claustrophobic in some vague way but they&amp;#39;re comfortable and familiar. One day we meet a visitor who tells us that what we&amp;#39;re used to isn&amp;#39;t the whole story, that there&amp;#39;s something else. Curious, we go with him, and he guides us up a mountain.</description>
+    </item>
+    
+    <item>
+      <title>The Untethered Soul</title>
+      <link>http://localhost:1313/writing/untethered-soul/</link>
+      <pubDate>Sun, 05 Apr 2020 23:50:08 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/untethered-soul/</guid>
+      <description>15808 NW 90th Street, Alachua, Florida, 32615 — The Temple of the Universe
+  Nested in the thicket of North Florida&amp;rsquo;s wilderness, about a 30 minute drive from the University of Florida, is the Temple of the Universe. The temple is a spiritual sanctuary where &amp;lsquo;men and women of any religion or set of beliefs can come together to experience the love, peace, and bliss which exists within all beings.</description>
+    </item>
+    
+  </channel>
+</rss>

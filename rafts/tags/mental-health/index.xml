@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mental Health on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/mental-health/</link>
+    <description>Recent content in Mental Health on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Feb 2019 18:11:01 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Minimalism</title>
+      <link>http://localhost:1313/writing/digital-minimalism/</link>
+      <pubDate>Sat, 16 Feb 2019 18:11:01 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/digital-minimalism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/media/</link>
+    <description>Recent content in Media on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/media/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musings on Avatar and War</title>
+      <link>http://localhost:1313/writing/avatar/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writing/avatar/</guid>
+      <description>Growing up we were taught that the Fire Nation was the greatest civilization in history. And somehow the war was our way of sharing our greatness with the rest of the world. What an amazing lie that was. The people of the world are terrified by the Fire Nation. They don&amp;#39;t see our greatness — They hate us! And we deserve it. We created an era of fear in the world.</description>
+    </item>
+    
+  </channel>
+</rss>

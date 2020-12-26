@@ -6,9 +6,109 @@
     <description>Recent content in Tags on Nikhil Thota</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/tags/technology/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spirituality</title>
+      <link>http://localhost:1313/tags/spirituality/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/spirituality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Avatar</title>
+      <link>http://localhost:1313/tags/avatar/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/avatar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>http://localhost:1313/tags/media/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book Review</title>
+      <link>http://localhost:1313/tags/book-review/</link>
+      <pubDate>Sun, 05 Apr 2020 23:50:08 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finance</title>
+      <link>http://localhost:1313/tags/finance/</link>
+      <pubDate>Mon, 10 Feb 2020 14:15:15 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>http://localhost:1313/tags/health/</link>
+      <pubDate>Mon, 16 Dec 2019 14:14:15 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/tags/travel/</link>
+      <pubDate>Thu, 26 Sep 2019 14:11:15 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
+      <pubDate>Sat, 25 May 2019 22:11:22 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mental Health</title>
+      <link>http://localhost:1313/tags/mental-health/</link>
+      <pubDate>Sat, 16 Feb 2019 18:11:01 -0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/mental-health/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

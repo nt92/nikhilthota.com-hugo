@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/health/</link>
+    <description>Recent content in Health on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Dec 2019 14:14:15 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Philosophy of a Dairy Pill</title>
+      <link>http://localhost:1313/writing/dairy/</link>
+      <pubDate>Mon, 16 Dec 2019 14:14:15 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/dairy/</guid>
+      <description>Lactose Intolerance [ lak-tohs in-tol-er-uh ns ] / noun — a digestive disorder caused by the inability to digest lactose, a main carbohydrate in dairy products, which can lead to a negative effect on quality of life. A very common disorder, with some groups estimated to have a 79% rate of affliction.
+ It was a lovely, brisk Sunday evening in Seattle. Autumn was imminent, so the leaves had recently shifted to a more varied palette of rustic earth tones.</description>
+    </item>
+    
+    <item>
+      <title>Sleep as a Service (SaaS)</title>
+      <link>http://localhost:1313/writing/sleep/</link>
+      <pubDate>Fri, 25 Oct 2019 14:11:54 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/sleep/</guid>
+      <description>I recently finished Matthew Walker’s Why We Sleep, a New York Times Bestseller which has been exploding in the productivity-obsessed circles that I’m a part of. For good reason too — this book distills the vast amount of modern sleep research over the past 20 years into one main idea: sleep is really important. In the past year or so, I’ve been experimenting with everything in the sleep-improvement space, from blackout curtains to melatonin to timing my caffeine consumption (all of these being small but integral pieces of the puzzle).</description>
+    </item>
+    
+  </channel>
+</rss>

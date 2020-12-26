@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Review on Nikhil Thota</title>
+    <link>http://localhost:1313/tags/book-review/</link>
+    <description>Recent content in Book Review on Nikhil Thota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Apr 2020 23:50:08 -0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Untethered Soul</title>
+      <link>http://localhost:1313/writing/untethered-soul/</link>
+      <pubDate>Sun, 05 Apr 2020 23:50:08 -0800</pubDate>
+      
+      <guid>http://localhost:1313/writing/untethered-soul/</guid>
+      <description>15808 NW 90th Street, Alachua, Florida, 32615 — The Temple of the Universe
+  Nested in the thicket of North Florida&amp;rsquo;s wilderness, about a 30 minute drive from the University of Florida, is the Temple of the Universe. The temple is a spiritual sanctuary where &amp;lsquo;men and women of any religion or set of beliefs can come together to experience the love, peace, and bliss which exists within all beings.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,76 +3,153 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/writing/fasting/</loc>
+    <lastmod>2020-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/</loc>
+    <lastmod>2020-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/learning/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/multimodal-reading/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2020-04-05T23:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/untethered-soul/</loc>
-    <lastmod>2020-04-05T23:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/interact/</loc>
-    <lastmod>2020-03-15T23:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/frugality-flourishing/</loc>
-    <lastmod>2020-02-10T14:15:15-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/swamphacks/</loc>
-    <lastmod>2020-02-06T23:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/dairy/</loc>
-    <lastmod>2019-12-16T14:14:15-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/sleep/</loc>
-    <lastmod>2019-10-25T14:11:54-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/2-months-solo-travel/</loc>
-    <lastmod>2019-09-26T14:11:15-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/nirvana-in-thailand/</loc>
-    <lastmod>2019-07-26T14:09:11-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/python-mind-exploration/</loc>
-    <lastmod>2019-05-25T22:11:22-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/two-months-backpack/</loc>
-    <lastmod>2019-04-25T22:11:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/digital-minimalism/</loc>
-    <lastmod>2019-02-16T18:11:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/test/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/spirituality/</loc>
+    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/sun-and-clouds/</loc>
+    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/avatar/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/media/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/avatar/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/libby/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/book-review/</loc>
+    <lastmod>2020-04-05T23:50:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/untethered-soul/</loc>
+    <lastmod>2020-04-05T23:50:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/interact/</loc>
+    <lastmod>2020-03-15T23:50:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/finance/</loc>
+    <lastmod>2020-02-10T14:15:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/frugality-flourishing/</loc>
+    <lastmod>2020-02-10T14:15:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/swamphacks/</loc>
+    <lastmod>2020-02-06T23:50:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/health/</loc>
+    <lastmod>2019-12-16T14:14:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/dairy/</loc>
+    <lastmod>2019-12-16T14:14:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/sleep/</loc>
+    <lastmod>2019-10-25T14:11:54-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/2-months-solo-travel/</loc>
+    <lastmod>2019-09-26T14:11:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/travel/</loc>
+    <lastmod>2019-09-26T14:11:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/nirvana-in-thailand/</loc>
+    <lastmod>2019-07-26T14:09:11-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/code/</loc>
+    <lastmod>2019-05-25T22:11:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/python-mind-exploration/</loc>
+    <lastmod>2019-05-25T22:11:22-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/two-months-backpack/</loc>
+    <lastmod>2019-04-25T22:11:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/writing/digital-minimalism/</loc>
+    <lastmod>2019-02-16T18:11:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/mental-health/</loc>
+    <lastmod>2019-02-16T18:11:01-08:00</lastmod>
   </url>
   
 </urlset>
