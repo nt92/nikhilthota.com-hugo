@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="post_container">
+        {{ partial "author.html" . }}
+        <p>Here are all of my newsletters, from Nov. 2020 to now. <a href="https://nikhilthota.com/newsletter/" target="_blank">Check it out!</a></p>
+        <ul class="post_list">
+            <!-- This works for whatever reason to filter based on Newsletter tag -->
+            {{ $p := slice "Newsletter" }}
+            {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
+        </ul>
+    </div>
+{{ end }}

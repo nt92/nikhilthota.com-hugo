@@ -358,6 +358,7 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .post_list {
+  width: 100%;
   list-style: none;
   padding: 0;
 }
@@ -386,7 +387,7 @@ a[href^="http"], a[href^="mail"] {
 
   &.small {
     width: 120px;
-    margin-right: 40px;
+    margin-right: 60px;
     padding-right: 20px;
   }
 }
@@ -420,10 +421,6 @@ a[href^="http"], a[href^="mail"] {
   margin-top: 2px;
   margin-bottom: 2px;
   margin-left: 6px;
-}
-
-.nikhil_small {
-  margin-right: 40px;
 }
 
 .image_link {
@@ -751,6 +748,7 @@ span.wave:hover {
   // Overflow on non-mobile to show big images
   .post_container {
     overflow: visible;
+    min-width: $view-width;
   }
 
   // Only show anchor on non-mobile devices

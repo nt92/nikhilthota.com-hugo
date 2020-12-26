@@ -4,6 +4,7 @@
     <body>
         <div class="post_container">
             {{ partial "author" . }}
+            <p>Here are a list of the posts on my site that are about {{ .Title }}.</p>
             {{ $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) }}
             <ul class="post_list">
                 {{ range sort .Paginator.Pages }} {{ .Render "summary" }} {{ end }}

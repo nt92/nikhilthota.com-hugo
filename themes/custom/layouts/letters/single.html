@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="post_container">
+    {{ partial "author.html" . }}
+    <div class="article_header">
+        <h1>{{ .Title }}</h1>
+        <p class="reading_time">
+            {{ if .Params.canonicalUrl }}
+                {{ .Params.readingTime }}
+            {{ else }}
+                {{ .ReadingTime }}
+            {{ end }}
+            min read —
+            {{ range (.GetTerms "tags") }}
+                <span><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
+            {{ end }}
+        </p>
+        <h2>{{ .Description }}</h2>
+    </div>
+    <article class="post_content">
+        {{ with .Params.canonicalUrl }}
+        <p class="elsewhere_post">
+            Hello intrepid reader! This particular post was in fact, originally published
+            <a href="{{.}}">elsewhere</a>...
+        </p>
+        {{ end }}
+        {{ .Content }}
+    </article>
+    <footer class="post_footer">
+        <hr/>
+        {{ partial "post_footer.html" . }}
+    </footer>
+</div>
+{{ end }}

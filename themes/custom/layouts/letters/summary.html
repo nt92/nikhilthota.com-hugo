@@ -1,0 +1,29 @@
+<div class="post_description">
+    <li>
+      <c2>
+      {{ if .Params.canonicalUrl }}
+        <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
+      {{ else }}
+        <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+      </c2>
+    </li>
+    <li>
+      <c2 class="postlist_data">
+        {{ .Date.Format "January 2006" }}
+        <span>//
+          {{ if .Params.canonicalUrl }}
+                {{ .Params.readingTime }}
+            {{ else }}
+                {{ .ReadingTime }}
+            {{ end }}
+          min
+        </span>
+      </c2>
+    </li>
+    <li>
+      <c2 class="postlist_description">
+        {{  .Params.Description }}
+      </c2>
+    </li>
+  </div>
