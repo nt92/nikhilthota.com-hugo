@@ -4,7 +4,13 @@
     <div class="article_header">
         <h1>{{ .Title }}</h1>
         <p class="reading_time">
-            {{ .ReadingTime }} min read — {{ range (.GetTerms "tags") }}
+            {{ if .Params.canonicalUrl }}
+                {{ .Params.readingTime }}
+            {{ else }}
+                {{ .ReadingTime }}
+            {{ end }}
+            min read —
+            {{ range (.GetTerms "tags") }}
                 <span><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
             {{ end }}
         </p>

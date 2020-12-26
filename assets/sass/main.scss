@@ -1,5 +1,5 @@
 /* Variables */
-$color-background: #fffefa;
+$color-background: #ffffff;
 $color-subtitle: #acacac;
 $color-highlight: #fef4ad;
 $color-highlight-faded: #fef5adaf;
@@ -28,7 +28,7 @@ body {
 
 body:after {
   display: none;
-  content: url(../images/medium.png) url(../images/github.png) url(../images/twitter.png);
+  content: url(../images/tinyletter.png) url(../images/github.png) url(../images/twitter.png);
 }
 
 ::selection {
@@ -59,22 +59,22 @@ h3 {
   font-size: 16px;
 }
 
-c2, p {
+p {
   color: $color-font-primary;
   font-size: 15px;
   font-style: normal;
   font-weight: 380;
   -webkit-margin-after: 22px;
   -webkit-margin-before: 22px;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 li {
   color: $color-font-primary;
   font-size: 15px;
   font-style: normal;
-  font-weight: lighter;
-  line-height: 1.6em;
+  font-weight: 280;
+  line-height: 1.7em;
 }
 
 hr {
@@ -82,11 +82,11 @@ hr {
 }
 
 ol, ul {
-  -webkit-margin-before: 22px;
-  -webkit-margin-after: 22px;
+  -webkit-margin-before: 6px;
+  -webkit-margin-after: 6px;
 
   li {
-    -webkit-margin-after: 4px;
+    -webkit-margin-after: 6px;
   }
 }
 
@@ -143,7 +143,7 @@ a[href^="http"], a[href^="mail"] {
   position: relative;
   margin: 30px auto 30px auto;
   max-width: $view-width;
-  padding: 0 12px 0 12px;
+  padding: 0 16px 0 16px;
 }
 
 .article_header {
@@ -220,7 +220,7 @@ a[href^="http"], a[href^="mail"] {
       display: inline-block;
       width: 1em;
       margin-left: -1em;
-      opacity: 80%;
+      opacity: $element-opacity;
     }
   }
 
@@ -232,12 +232,6 @@ a[href^="http"], a[href^="mail"] {
     position: relative;
     width: $view-width;
     max-width: 92vw;
-
-    // .gist-file {
-    //   .gist-data {
-    //     background-color: $color-background;
-    //   }
-    // }
   }
 
   .pullquote {
@@ -335,9 +329,9 @@ a[href^="http"], a[href^="mail"] {
 /* Main Page: nikhilthota.com */
 
 .container {
-  transform: translateY(4%);
-  padding: 0 12px 0 12px;
-  max-width: 500px;
+  transform: translateY(5%);
+  padding: 0 16px 0 16px;
+  max-width: $view-width;
   min-width: 300px;
 }
 
@@ -369,10 +363,6 @@ a[href^="http"], a[href^="mail"] {
 .writing_blurb {
   margin: 30px auto 20px auto;
   height: 45px;
-
-  c2 {
-    font-style: italic;
-  }
 }
 
 .post_list {
@@ -437,6 +427,7 @@ a[href^="http"], a[href^="mail"] {
   height: 55px;
   margin-top: 2px;
   margin-bottom: 2px;
+  margin-left: 6px;
 }
 
 .nikhil_small {
@@ -460,13 +451,23 @@ a[href^="http"], a[href^="mail"] {
   padding-bottom: 10px;
 }
 
-.medium {
-  background-size: 85%;
-  background-image: url(../images/medium_grey.png);
+// .medium {
+//   background-size: 85%;
+//   background-image: url(../images/medium_grey.png);
+//   background-repeat: no-repeat;
+
+//   &:hover, &:focus {
+//     background-image: url(../images/medium.png);
+//   }
+// }
+
+.tinyletter {
+  background-size: 110%;
+  background-image: url(../images/tinyletter_grey.png);
   background-repeat: no-repeat;
 
   &:hover, &:focus {
-    background-image: url(../images/medium.png);
+    background-image: url(../images/tinyletter.png);
   }
 }
 
@@ -519,8 +520,8 @@ a[href^="http"], a[href^="mail"] {
   cursor: pointer;
   border-radius: 0;
   margin-top: 0;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -708,8 +709,6 @@ section.footnotes {
   margin-left: -30px;
   cursor: pointer;
   position: absolute;
-  // top: 0;
-  // left: 0;
   text-decoration: none;
   height: 24px;
   background: transparent;
@@ -753,7 +752,7 @@ span.wave:hover {
     font-size: 18px;
   }
 
-  c1, c2, p, li {
+  p, li {
     font-size: 17px;
   }
 

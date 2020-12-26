@@ -4,8 +4,7 @@ date: 2019-10-25T14:11:54-08:00
 description: "We sleep for around a third of our lives. This piece aims to help those who read it gain greater command of their nocturnal hours."
 tags: ["Health"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/sleep-as-a-service-saas-e0efa0924297"
-readingTime: "6 min "
+emoji: 😴
 favorite: true
 image: "/article_images/sleep_1.jpeg"
 ---

@@ -3,7 +3,7 @@ title: "Musings on Avatar and War"
 date: 2020-07-16
 description: "Thoughts on the necessity of war, inspired by Avatar: The Last Airbender."
 tags: ["Media", "Avatar"]
-readingTime: "12 min"
+emoji: ☯️
 favorite: true
 image: "/article_images/avatar/main.jpg"
 ---

@@ -4,7 +4,7 @@ date: 2020-09-29
 description: "Peace can always be found. It just takes a little time and effort."
 tags: ["Spirituality"]
 favorite: true
-readingTime: "5 min"
+emoji: 🌤
 image: "/article_images/sun-and-clouds/mountain.jpg"
 ---
 

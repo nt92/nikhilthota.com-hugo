@@ -4,8 +4,7 @@ date: 2020-02-10T14:15:15-08:00
 description: "The conscious shift towards Financial Abundance."
 tags: ["Finance"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/on-frugality-and-flourishing-53bf7a54c82e"
-readingTime: "5 min"
+emoji: 💰
 image: "/article_images/frugality_1.jpeg"
 ---
 

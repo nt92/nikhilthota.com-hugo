@@ -4,8 +4,7 @@ date: 2019-12-16T14:14:15-08:00
 description: "My journey through lactose intolerance, and the lessons I learned along the way."
 tags: ["Health"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/the-philosophy-of-a-dairy-pill-a143a09f52fd"
-readingTime: "4 min"
+emoji: 🥛
 image: "/article_images/dairy_1.jpeg"
 ---
 

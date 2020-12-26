@@ -3,7 +3,7 @@ title: "Libby: Free Knowledge"
 date: 2020-06-25
 description: "Get audiobooks and e-books for free through your public library system with the incredible app, Libby."
 tags: ["Learning", "Technology"]
-readingTime: "8 min"
+emoji: 💳
 favorite: true
 image: "/article_images/libby/card.jpg"
 ---

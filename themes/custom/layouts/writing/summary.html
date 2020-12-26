@@ -11,7 +11,14 @@
     <li>
       <c2 class="postlist_data">
         {{ .Date.Format "January 2006" }}
-        <span>// {{ .ReadingTime }} min</span>
+        <span>//
+          {{ if .Params.canonicalUrl }}
+                {{ .Params.readingTime }}
+            {{ else }}
+                {{ .ReadingTime }}
+            {{ end }}
+          min
+        </span>
       </c2>
     </li>
     <li>

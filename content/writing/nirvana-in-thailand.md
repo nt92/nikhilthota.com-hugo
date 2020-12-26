@@ -4,8 +4,7 @@ date: 2019-07-26T14:09:11-08:00
 description: "An experiment in solitude and mindfulness during a trip to the beautiful city of Pai, Thailand."
 tags: ["Travel"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/another-techbro-goes-to-a-remote-village-in-thailand-and-finds-nirvana-53e1ad559973"
-readingTime: "6 min"
+emoji: 🐘
 image: "/article_images/thailand_1.jpeg"
 ---
 

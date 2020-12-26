@@ -4,7 +4,7 @@ date: 2020-04-05T23:50:08-08:00
 description: "My experience with the enigmatic Michael Singer and his powerful book: The Untethered Soul."
 tags: ["Book Review", "Spirituality"]
 draft: false
-readingTime: "8 min"
+emoji: 😌
 favorite: true
 image: "/article_images/untethered_1.jpg"
 ---
@@ -43,7 +43,7 @@ In his wise and grounded prose, Micky steps us through this idea and slowly peel
 
 > As I am writing this, the temple has closed down physical operations temporarily for the first time since its inception over 40 years ago, as a result of the Covid-19 pandemic. Due to this, Micky has decided to post his wisdom [online][6] for the benefit of the general public.
 
-*Thanks to [Mackenzie][7], [Spencer][8], [Jamie][9], [Andee][10], and @KevinChow for their feedback on drafts :}*
+*Thanks to [Mackenzie][7], [Spencer][8], [Jamie][9], [Andee][10], and [Kevin][11] for their feedback on drafts :}*
 
 [1]: https://www.tou.org/
 [2]: https://www.youtube.com/watch?v=WbMcUueg4Sc
@@ -55,5 +55,6 @@ In his wise and grounded prose, Micky steps us through this idea and slowly peel
 [8]: https://www.spencerchang.me/
 [9]: http://jamie-wong.com/
 [10]: https://medium.com/@andeeliao
+[11]: https://www.kchow.org/
 
 [^1]: I will admit, these heifers were extremely kind and would have probably been good friends of mine if I had spent more time with them.

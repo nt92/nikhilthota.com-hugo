@@ -4,8 +4,7 @@ date: 2019-04-25T22:11:00-08:00
 description: "How to pack for 2 months of travel in only one backpack."
 tags: ["Travel"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/two-months-in-a-backpack-f4f04665a55"
-readingTime: "6 min"
+emoji: 🎒
 image: "/article_images/backpack_1.jpeg"
 ---
 

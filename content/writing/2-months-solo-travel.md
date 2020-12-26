@@ -4,8 +4,7 @@ date: 2019-09-26T14:11:15-08:00
 description: "The trials and tribulations I experienced on a post-grad trip through Southeast Asia."
 tags: ["Travel"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/nikhils-travels-32b3491c38b0"
-readingTime: "6 min"
+emoji: 🌏
 image: "/article_images/2_month_travel_1.jpeg"
 ---
 

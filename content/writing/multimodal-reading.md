@@ -4,6 +4,7 @@ date: 2020-11-25
 description: "Not all mediums of reading are created equal."
 tags: ["Learning", "Technology"]
 favorite: true
+emoji: 📚
 image: "/article_images/multimodal-reading/chart_share.jpeg"
 ---
 

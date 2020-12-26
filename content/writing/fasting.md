@@ -1,6 +1,6 @@
 ---
 title: "What happens when you don’t eat for 72 hours?"
-date: 2020-12-18
+date: 2020-12-29
 description: "A ‘trip report’ of my 3 day fast, backed by science."
 tags: ["Health"]
 favorite: true
@@ -64,15 +64,18 @@ I had a lot of random, unsubstantiated facts and anecdotal knowledge floating ar
 
 This is one of the reasons why I decided to write this piece — I wanted to explore the research, understand for myself how fasting works, and tie the science into my experience, deep in the trenches of hunger. This next section will go over some of the common objections that I've had or heard, and will attempt to shed some light on them.
 
-**Fasting is just a fad diet**
+### Fasting is just a fad diet
+
 There have been many recent nutritional trends captivating the public eye, such as the meat-only [carnivore diet](https://www.healthline.com/nutrition/carnivore-diet#what-it-is). Although fasting has seen a resurgence due to a confluence of cultural factors, it’s inaccurate to characterize it as a fad. Societies have been employing it for [thousands of years](https://www.targethealth.com/post/short-history-of-fasting). Various religions have used it as a physical and spiritual cleanse, and the research points to fasting as a [lifestyle](https://ethnomed.org/resource/nutrition-and-fasting-in-vietnamese-culture/), not a passing fad.
 
-**It's not normal to starve ourselves**
+### It's not normal to starve ourselves
+
 It's certainly not normal in our modern society. We have on-demand access to delicious food all day. **Our problems result more from excess, rather than scarcity**. What our bodies aren't physiologically used to is a constant deluge of calories and digestive strain from non-stop eating. This IV drip of calories contributes to a whole host of [metabolic, weight, and neurological issues](https://www.cdc.gov/obesity/data/adult.html).
 
 From an evolutionary perspective, it’s [abnormal](https://www.pnas.org/content/111/47/16647) for us to be eating three meals a day plus snack — Dr. Mark Mattson of John’s Hopkins University even [asserts](https://www.ihmc.us/stemtalk/episode007/) that there’s no scientific basis for this culturally ingrained cadence. Before agriculture, it wasn’t [unusual](https://www.inverse.com/article/57835-intermittent-fasting-evolution) to eat one or two meals a day and thus our bodies evolved the ability to tap into existing fat stores for energy. Society has advanced faster than our biology, and the truth is that fasting is closer to what our bodies are designed to do.
 
-**It strains our bodies**
+### It strains our bodies
+
 This is true. Fasting is pretty strenuous on the body, but that doesn't mean it's a bad thing. There’s a potent [hormonal cocktail](https://pubmed.ncbi.nlm.nih.gov/2926306/) of cortisol and adrenaline that is secreted when in a fasted state. This contributes to the mental acuity that many experience but is also stressful on the body and can contribute to insomnia during extended fasts.
 
 {{< figure caption="Those wide awake white blocks tho 🙃" src="/article_images/fasting/oura_sleep1.jpeg" >}}
@@ -81,12 +84,14 @@ This is true. Fasting is pretty strenuous on the body, but that doesn't mean it'
 
 High intensity interval training and weightlifting literally [break down](https://pubmed.ncbi.nlm.nih.gov/15335243/) muscle fibers so they regrow stronger and denser than before. In a similar way, fasting trains your body to [switch](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5783752/) between glycogen and fat stores more efficiently, clean itself through autophagy, and better control its insulin response.
 
-**I'm going to lose my muscle**
+### I'm going to lose my muscle
+
 It just makes sense — if you don't eat food, your body has to eat itself to survive… right? The reality is more nuanced than that. It turns out that muscle gain / loss is mostly a function of [exercise](https://thefastingmethod.com/fasting-and-muscle-mass-fasting-part-14/). Sure, you need protein and calories to maintain muscle but your body has vast stores of both. Unless you have a low single-digit body fat %, you'll likely be fine.
 
 As I mentioned above, your body ramps up HGH production partially in order to [preserve muscle mass](https://thefastingmethod.com/fasting-and-muscle-mass-fasting-part-14/). If you're a primitive hunter that hasn't eaten for days, it doesn't make sense to start off munchin' on the parts of your body that are most likely to contribute to a successful hunt.
 
-**Isn't breakfast the most important meal of the day?**
+### Isn't breakfast the most important meal of the day?
+
 Not quite... The literal definition of breakfast (the meal you break your fast with) *is* arguably the most important meal of the day, but the conventional definition that involves sugary cereal and overpriced coffee is not.
 
 The notion of breakfast as *"the most important meal of the day"* was created by General Foods marketers in 1944 and other [cereal companies](https://www.theatlantic.com/business/archive/2016/06/how-marketers-invented-the-modern-version-of-breakfast/487130/) to, well, sell more cereal. Since then, there has been a lot of research [debunking](https://www.bmj.com/content/364/bmj.l42) these unsubstantiated findings.
@@ -97,12 +102,13 @@ The reality is that it’s important to break your fast with nutritious, protein
 
 I have notes / rants on multiple mediums (Zero, Roam, my memories, Mack) that I'm going to synthesize and share with you.
 
-**Thursday**
+### Thursday
+
 We ate our last meal for the weekend on Thursday evening (dramatically dubbed *The Final Supper*), after we were all finished working for the day. The feast was a hodge-podge mix of eggs, granola, and [extra fancy nuts](https://www.ams.usda.gov/sites/default/files/media/Mixed_Nuts_in_the_Shell_Standard%5B1%5D.pdf). Afterwards, we scrawled our *before* weights onto the living room whiteboard, downed a motley of [electrolyte supplements](https://drinklmnt.com/blogs/health/electrolytes-while-fasting-benefits-and-best-sources) (sodium, magnesium, zinc, and potassium) and drifted off into a deep slumber.
 
 {{< figure caption="[Bless Reddit](https://www.reddit.com/r/photoshopbattles/comments/1ckwje/last_supper_table_with_no_people/)" src="/article_images/fasting/last_supper.jpg" >}}
 
-**Friday**
+### Friday
 Friday morning was normal. I fast intermittently most days, so I knew the lay of the land up until 2pm. After that, I started to feel weird. I think my body was adjusting to becoming more fat-adapted. Here are some notes I took during this time.
 
 
@@ -112,7 +118,8 @@ Friday morning was normal. I fast intermittently most days, so I knew the lay of
 
 Around this time is also when Mack decided to [break her fast](https://littlecurrywurst.com/blog/fasting/) after the 24 hour mark, following some nausea and unsettling articles regarding the potential reproductive harms of fasting for women. That evening she made some fried eggs with avocado... The smells and sounds of the kitchen were tantalizing and I felt a strong desire to scarf down everything in the pantry. *I felt the most hunger about 24 hours into the fast*.
 
-**Saturday**
+### Saturday
+
 I woke up around 8am Saturday morning and felt terrible. Low energy, fantasies of food, lack of sleep[^7], and a general malaise. I had what was anecdotally known as the [keto flu](https://www.dietdoctor.com/low-carb/keto/flu-side-effects), a state that feels similar to a sickness (though not contagious) resulting from the transition into a fat burning state. *The flu* didn't last forever though, and after some electrolytes and a [coffee](https://pubmed.ncbi.nlm.nih.gov/28177691/) I felt better than ever.
 
 We spent the afternoon doing chores, and then went to Golden Gate Park for a few hours, soaking in the sights and the sun. We walked by many small bakeries and restaurants and even saw a man (1) drop some bread rolls on a questionable San Francisco sidewalk (2) curse at the sky and then (3) put the bread back in his brown paper bag. Respect. My savage, hungry self would’ve done the same.
@@ -121,7 +128,7 @@ I realized that past a certain point, the primary challenge of fasting is mental
 
 Mack and I discussed whether we would give up the need to eat if granted the option (we both said no), saw a roller skating derby in the park, packed into a tweakin’ MUNI bus, and picked up a few massive but *on sale* avocados & pumpkin on the way home. That evening I felt an incredible surge of mental energy and entered a deep state of focused flow. My body felt hazy, but my mind was as clear as ever.
 
-**Sunday**
+### Sunday
 
 {{< figure src="/article_images/fasting/tired_wired.png" >}}
 

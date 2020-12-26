@@ -4,8 +4,7 @@ date: 2019-05-25T22:11:22-08:00
 description: "Leveraging automation with Python to send myself my own journal entries daily."
 tags: ["Technology", "Code"]
 draft: false
-# canonicalUrl: "https://medium.com/@nikhilthota/exploring-my-mind-with-python-ae15751d50c5"
-readingTime: "3 min"
+emoji: 🧠
 image: "/article_images/python_1.jpg"
 ---
 
