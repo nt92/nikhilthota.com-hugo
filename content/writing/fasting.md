@@ -1,6 +1,6 @@
 ---
 title: "What happens when you don’t eat for 72 hours?"
-date: 2020-12-25
+date: 2020-12-27
 description: "A ‘trip report’ of my 3 day fast, backed by science."
 tags: ["Health"]
 favorite: true
