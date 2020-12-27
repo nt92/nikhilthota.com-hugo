@@ -78,7 +78,7 @@ From an evolutionary perspective, it’s [abnormal](https://www.pnas.org/content
 
 This is true. Fasting is pretty strenuous on the body, but that doesn't mean it's a bad thing. There’s a potent [hormonal cocktail](https://pubmed.ncbi.nlm.nih.gov/2926306/) of cortisol and adrenaline that is secreted when in a fasted state. This contributes to the mental acuity that many experience but is also stressful on the body and can contribute to insomnia during extended fasts.
 
-{{< figure caption="Those wide awake white blocks tho 🙃" src="/article_images/fasting/oura_sleep1.jpeg" >}}
+{{< figure class="main_image" caption="Those wide awake white blocks tho" src="/article_images/fasting/oura_sleep1.jpeg" >}}
 
 > **A digression on biometrics**: I track my sleep pretty extensively with the [Oura Ring](https://ouraring.com/). By all measures, my sleep was negatively impacted by fasting. Compared to what I would consider a ‘good’ night of sleep, I had a higher resting heart rate, a lower heart rate variability, a higher respiratory rate, and higher body temperature.
 
@@ -141,7 +141,6 @@ The entire day felt like a slow crescendo of hunger and excitement until **The B
 I started off slow, priming my stomach with lemon water, and then savoring bone broth as though it was the nectar of the gods. *I lost myself in the first few sips*. As the scent of spiced broccoli and salmon from the oven wafted through the kitchen, I buzzed with excitement (or maybe it was my rising blood sugar). Once the final piece of broccoli was gone, it turned into all-out mayhem.
 
 In total, here's what I ate:
-
 - Lemon water (half-cup)
 - Bone broth (half-cup)
 - Spicy tomato juice (half-cup)
