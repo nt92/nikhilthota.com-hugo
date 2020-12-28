@@ -208,7 +208,7 @@ Stay ~~hungry~~ fasted, my friends. 🥑
 
 ---
 
-Thank you so much for reading! This is the longest thing I've ever written, but I felt the subject deserved it. Have you ever considered fasting before? Is there anything that you know about it that I haven't mentioned in this piece? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota)
+Thank you so much for reading! This is the longest thing I've ever written, but I felt the subject deserved it. Have you ever considered fasting before? Is there anything that you know about it that I haven't mentioned in this piece? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota/status/1343568259304611840)
 
 If you are interested in fasting, do research beforehand to figure out if it's something that could benefit you, and possibly talk to a doctor to make sure you're not in a group that would be negatively affected. In addition, I recommend downloading the [Zero](https://www.zerofasting.com/) app by Dr. Peter Attia. It's free[^8], has a beautiful timer, and well-researched articles.
 
