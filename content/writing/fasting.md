@@ -72,7 +72,7 @@ There have been many recent nutritional trends captivating the public eye, such 
 
 It's certainly not normal in our modern society. We have on-demand access to delicious food all day. **Our problems result more from excess, rather than scarcity**. What our bodies aren't physiologically used to is a constant deluge of calories and digestive strain from non-stop eating. This IV drip of calories contributes to a whole host of [metabolic, weight, and neurological issues](https://www.cdc.gov/obesity/data/adult.html).
 
-From an evolutionary perspective, it’s [abnormal](https://www.pnas.org/content/111/47/16647) for us to be eating three meals a day plus snack — Dr. Mark Mattson of John’s Hopkins University even [asserts](https://www.ihmc.us/stemtalk/episode007/) that there’s no scientific basis for this culturally ingrained cadence. Before agriculture, it wasn’t [unusual](https://www.inverse.com/article/57835-intermittent-fasting-evolution) to eat one or two meals a day and thus our bodies evolved the ability to tap into existing fat stores for energy. Society has advanced faster than our biology, and the truth is that fasting is closer to what our bodies are designed to do.
+From an evolutionary perspective, it’s [abnormal](https://www.pnas.org/content/111/47/16647) for us to be eating three meals a day plus snack — Dr. Mark Mattson of Johns Hopkins University even [asserts](https://www.ihmc.us/stemtalk/episode007/) that there’s no scientific basis for this culturally ingrained cadence. Before agriculture, it wasn’t [unusual](https://www.inverse.com/article/57835-intermittent-fasting-evolution) to eat one or two meals a day and thus our bodies evolved the ability to tap into existing fat stores for energy. Society has advanced faster than our biology, and the truth is that fasting is closer to what our bodies are designed to do.
 
 ### It strains our bodies
 
@@ -165,26 +165,33 @@ And with that, my first ever extended fast was officially over. It was an incred
 ## Lessons Learned
 
 My general strategy (if you can even call it that) when trying something new is to throw myself into the fray. I schedule a time with an [‘accountability partner’](https://medium.com/@MaryLouWrites/accountability-partners-what-are-they-and-how-do-i-get-some-c5ebd1a828ef), do a sprint of research, and just let the experience unfold. After this, I like to reflect and distill the major lessons on how to improve the process in the future. Here is a combination of things I would do differently (1) before the fast (2) during the fast and (3) after the fast.
-- Leading up to the fast I would **ease my body into being fat-adapted**. This is a combination of (1) sandwiching your fast with a few days of a keto diet before & after — which Dr. Peter Attia calls [‘The Nothing Burger’](https://www.zerofasting.com/nutrition-in-the-new-year-fueling-your-fasts/) and (2) restricting your feeding window for a week leading up to the fast. Both of these help train your body & mind to function without food and get you into a fat-adapted state... *faster*.
-- Related to above, once the fast is over, I would **break the fast with a lighter hand**. The Zero app [recommends](https://www.zerofasting.com/breaking-your-fast/) that you follow a layered approach, gradually working your way up to more complex food every few hours.
-    - First, start with liquids such as broths or juices without sugar (to not strain the digestive system).
-    - Gradually introduce foods that are low on the [glycemic index](https://www.daravinto.com/2020/03/18/control-your-blood-sugar-with-low-glycemic-index-food/) like eggs, avocados, and soft-cooked vegetables.
-    - Transition slowly, with no more than 500 calories every 2-3 hours, while making sure to chew food thoroughly.
-    - Eat something with probiotics to ease digestion.
-- **Opt for salt pills or bullion instead of salt water**. The combination of Himalayan sea salt and lukewarm tap water is one of the most disgusting things I've ever tasted, even with flavor deprived taste buds. It's also difficult to gauge exactly how much salt water you should drink, while pills of salt or blocks of bullion are easier to measure out.
-- One of the toughest parts of an extended fast is the lack of quality sleep. This is partially due to an increased adrenal & cortisol response that's keeping you alert in case some juicy food wanders by. In the future, I would **take additional supplements and employ strategies to help sleep**.
-    - 100-600mg of [Phosphatidylserine](https://perfectketo.com/phosphatidylserine/) to calm the adrenal glands.
-    - 1mg of Melatonin to help transition the body into a state of sleep.
-    - [Blue light](https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side) avoidance 3-4 hours before bed.
-    - No caffeine after 2pm.
-    - Of course, the commonly recommended electrolytes like sodium, magnesium, and zinc at proper doses depending on your weight.
+
+Leading up to the fast I would **ease my body into being fat-adapted**. This is a combination of (1) sandwiching your fast with a few days of a keto diet before & after — which Dr. Peter Attia calls [‘The Nothing Burger’](https://www.zerofasting.com/nutrition-in-the-new-year-fueling-your-fasts/) and (2) restricting your feeding window for a week leading up to the fast. Both of these help train your body & mind to function without food and get you into a fat-adapted state... *faster*.
+
+Related to above, once the fast is over, I would **break the fast with a lighter hand**. The Zero app [recommends](https://www.zerofasting.com/breaking-your-fast/) that you follow a layered approach, gradually working your way up to more complex food every few hours.
+- First, start with liquids such as broths or juices without sugar (to not strain the digestive system).
+- Gradually introduce foods that are low on the [glycemic index](https://www.daravinto.com/2020/03/18/control-your-blood-sugar-with-low-glycemic-index-food/) like eggs, avocados, and soft-cooked vegetables.
+- Transition slowly, with no more than 500 calories every 2-3 hours, while making sure to chew food thoroughly.
+- Eat something with probiotics to ease digestion.
+
+**Opt for salt pills or bullion instead of salt water**. The combination of Himalayan sea salt and lukewarm tap water is one of the most disgusting things I've ever tasted, even with flavor deprived taste buds. It's also difficult to gauge exactly how much salt water you should drink, while pills of salt or blocks of bullion are easier to measure out.
+
+One of the toughest parts of an extended fast is the lack of quality sleep. This is partially due to an increased adrenal & cortisol response that's keeping you alert in case some juicy food wanders by. In the future, I would **take additional supplements and employ strategies to help sleep**.
+- 100-600mg of [Phosphatidylserine](https://perfectketo.com/phosphatidylserine/) to calm the adrenal glands.
+- 1mg of Melatonin to help transition the body into a state of sleep.
+- [Blue light](https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side) avoidance 3-4 hours before bed.
+- No caffeine after 2pm.
+- Of course, the commonly recommended electrolytes like sodium, magnesium, and zinc at proper doses depending on your weight.
 
 {{< figure caption="Thanks Mack..." src="/article_images/fasting/thot_in_bed.jpeg" >}}
 
-- Some low-hanging fruit is to **not torture yourself**. This means staying away from food or anything that could remind you of food (especially from 2pm - 6pm which is typically peak hunger). This is difficult if you're around other people that aren't fasting, but can be remedied by ample communication and staying away from delicious Italian bakeries.
-- I started (and subsequently broke) my fast in the evening. This is just [one way](https://www.reddit.com/r/fasting/comments/5nkoyr/whens_the_best_time_of_the_day_to_start_you_fast/) of starting a fast. In the future, I would **experiment with different start-times**. For example, by starting in the morning, you could better time your break to ease back into a normal diet instead of stuffing your face at 8pm like I did. The downside is that the first few days will be more difficult, but it's all about what works best for you.
-- One travel strategy is to **fast on the plane**. One benefit is the premeditated decision to say no to the rubbery McChicken & milkshake at the airport. The other major benefit is a reduction in [jet lag](https://www.travelandleisure.com/trip-ideas/yoga-wellness/delayed-meal-times-jet-lag) — your circadian rhythm transitions better to a new time if you fast during the lag and begin eating according to the new time.
-- To minimize hunger, I would **drink more coffee, green tea, and carbonated water**. I had a half-cup of black coffee in the mornings but mostly stayed away due to caffeine sensitivity — however that's what decaf is for. In addition, green tea has [catechins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6076941/) which help liberate fatty acids from stores and into the bloodstream, while reducing hunger. Carbonated water can also reduce hunger and provide some *textural diversity* to fluid consumption.
+Some low-hanging fruit is to **not torture yourself**. This means staying away from food or anything that could remind you of food (especially from 2pm - 6pm which is typically peak hunger). This is difficult if you're around other people that aren't fasting, but can be remedied by ample communication and staying away from delicious Italian bakeries.
+
+I started (and subsequently broke) my fast in the evening. This is just [one way](https://www.reddit.com/r/fasting/comments/5nkoyr/whens_the_best_time_of_the_day_to_start_you_fast/) of starting a fast. In the future, I would **experiment with different start-times**. For example, by starting in the morning, you could better time your break to ease back into a normal diet instead of stuffing your face at 8pm like I did. The downside is that the first few days will be more difficult, but it's all about what works best for you.
+
+One travel strategy is to **fast on the plane**. One benefit is the premeditated decision to say no to the rubbery McChicken & milkshake at the airport. The other major benefit is a reduction in [jet lag](https://www.travelandleisure.com/trip-ideas/yoga-wellness/delayed-meal-times-jet-lag) — your circadian rhythm transitions better to a new time if you fast during the lag and begin eating according to the new time.
+
+To minimize hunger, I would **drink more coffee, green tea, and carbonated water**. I had a half-cup of black coffee in the mornings but mostly stayed away due to caffeine sensitivity — however that's what decaf is for. In addition, green tea has [catechins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6076941/) which help liberate fatty acids from stores and into the bloodstream, while reducing hunger. Carbonated water can also reduce hunger and provide some *textural diversity* to fluid consumption.
 
 ## **Fasting Checklist**
 
