@@ -104,7 +104,7 @@ I have notes / rants on multiple mediums (Zero, Roam, my memories, Mack) that I'
 
 ### Thursday
 
-We ate our last meal for the weekend on Thursday evening (dramatically dubbed *The Final Supper*), after we were all finished working for the day. The feast was a hodge-podge mix of eggs, granola, and [extra fancy nuts](https://www.ams.usda.gov/sites/default/files/media/Mixed_Nuts_in_the_Shell_Standard%5B1%5D.pdf). Afterwards, we scrawled our *before* weights onto the living room whiteboard, downed a motley of [electrolyte supplements](https://drinklmnt.com/blogs/health/electrolytes-while-fasting-benefits-and-best-sources) (sodium, magnesium, zinc, and potassium) and drifted off into a deep slumber.
+We ate our last meal for the weekend on Thursday evening (dramatically dubbed *The Final Supper*), after we were all finished working for the day. The feast was a hodge-podge mix of eggs, granola, and [extra fancy nuts](https://www.ams.usda.gov/sites/default/files/media/Mixed_Nuts_in_the_Shell_Standard%5B1%5D.pdf). Afterwards, we scrawled our *before* weights onto the living room whiteboard, downed a motley of [electrolyte supplements](https://drinklmnt.com/blogs/health/electrolytes-while-fasting-benefits-and-best-sources) (sodium, magnesium, zinc, calcium, and potassium) and drifted off into a deep slumber.
 
 {{< figure caption="[Bless Reddit](https://www.reddit.com/r/photoshopbattles/comments/1ckwje/last_supper_table_with_no_people/)" src="/article_images/fasting/last_supper.jpg" >}}
 
@@ -181,7 +181,8 @@ One of the toughest parts of an extended fast is the lack of quality sleep. This
 - 1mg of Melatonin to help transition the body into a state of sleep.
 - [Blue light](https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side) avoidance 3-4 hours before bed.
 - No caffeine after 2pm.
-- Of course, the commonly recommended electrolytes like sodium, magnesium, and zinc at proper doses depending on your weight.
+- Of course, the commonly recommended electrolytes like sodium, magnesium, potassium, and zinc at proper doses depending on your weight.
+  - *Unfortunately there haven't been any studies looking at optimal electrolyte intakes during fasting. I would recommend just following the guidelines on the nutrition labels.*
 
 {{< figure caption="Thanks Mack..." src="/article_images/fasting/thot_in_bed.jpeg" >}}
 
@@ -195,7 +196,8 @@ To minimize hunger, I would **drink more coffee, green tea, and carbonated water
 
 ## **Fasting Checklist**
 
-- Mandatory electrolytes: 5000mg sodium, 1000mg potassium, 300mg magnesium.
+- Mandatory electrolytes: sodium, potassium, magnesium.
+- Recommended electrolytes: zinc, calcium, phosphorous, chloride.
 - Optional supplements for sleep: 100-600mg phosphatidylserine, 1mg melatonin before bed.
 - Drink plenty of water (still & carbonated) as well as black coffee or green tea to stave off hunger & help release ketones.
 - Spend the week before slowly restricting your feeding window and reducing carb intake.
