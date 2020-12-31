@@ -1,8 +1,8 @@
 ---
 title: "What happens when you don’t eat for 72 hours?"
 date: 2020-12-27
-description: "A ‘trip report’ of my 3 day fast, backed by science."
-tags: ["Health"]
+description: "I did a 3 day fast and only had coffee, water, and electrolytes. Here is a ‘trip report' of my fasting experience, backed by science."
+tags: ["Health", "Fasting", "Nutrition"]
 favorite: true
 # draft: true
 emoji: 🥑
@@ -60,7 +60,7 @@ I had a lot of random, unsubstantiated facts and anecdotal knowledge floating ar
 
 > *"Uhh.... it uhh.. helps you live longer, since glycogen is gone and then ketones are good for you plus like autophagy to eat your cells for cancer and stuff."*
 
-{{< figure src="/article_images/fasting/souvla.jpg" >}}
+{{< figure alt="souvla drawing" src="/article_images/fasting/souvla.jpg" >}}
 
 This is one of the reasons why I decided to write this piece — I wanted to explore the research, understand for myself how fasting works, and tie the science into my experience, deep in the trenches of hunger. This next section will go over some of the common objections that I've had or heard, and will attempt to shed some light on them.
 
@@ -130,7 +130,7 @@ Mack and I discussed whether we would give up the need to eat if granted the opt
 
 ### Sunday
 
-{{< figure src="/article_images/fasting/tired_wired.png" >}}
+{{< figure alt="tired & wired image from zero" src="/article_images/fasting/tired_wired.png" >}}
 
 Gooooooood morning! It was the final day of the fast and I couldn't believe I'd made it this long. I felt much better than the previous morning but was still dazed and sleep deprived. Tired and wired, indeed.
 
@@ -207,7 +207,7 @@ To minimize hunger, I would **drink more coffee, green tea, and carbonated water
 
 Halfway through the fast, a friend sent me this:
 
-{{< figure src="/article_images/fasting/reality_text.jpeg" >}}
+{{< figure alt="messenger text" src="/article_images/fasting/reality_text.jpeg" >}}
 
 Brilliant. I think I have seen through reality a bit more. We live in a tiny band of understanding, with the whole gamut of human experience just beyond our comfort zone. The unquestionable axioms we've been told about nutrition like the food pyramid's [carb heavy](https://www.hsph.harvard.edu/news/hsph-in-the-news/eat-moderate-amount-of-carbs-for-health/) diet as the source of truth, the [necessity](https://www.webmd.com/diet/obesity/features/6_meals_a_day) of small meals throughout the day for weight loss, and the [demonization](https://www.health.harvard.edu/staying-healthy/the-truth-about-fats-bad-and-good) of all fats are just not true.
 
