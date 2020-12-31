@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{{ .Description }}">
     <meta name="keywords"
-        content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
+        content="{{ with .Params.Tags }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
     <!--— facebook open graph tags -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
@@ -19,6 +19,8 @@
     <meta name="twitter:description" content="{{ .Description }}" />
     <meta name="twitter:image" content="{{ .Params.image | absURL }}" />
     <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:creator" content="@nikhilthota" />
+    <meta name="twitter:site" content="@nikhilthota" />
     {{ if .IsHome }}
     <meta name="twitter:label1" content="Currently" />
     <meta name="twitter:data1" content='Engineer @ Facebook on Marketplace Integrity 🛍' />
