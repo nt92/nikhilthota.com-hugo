@@ -133,30 +133,16 @@ a[href^="http"], a[href^="mail"] {
     }
   }
 }
-
 .banner_image {
-  margin-bottom: 30px;
-
-  img {
     margin-left: 0;
     margin-right: 0;
-    max-width: 100%;
-    display: flex;
-    margin: auto;
-  }
+    margin-bottom: 30px;
 
-  @media(min-width: 801px) {
     img {
-      left: 50%;
-      margin-left: -25vw;
-      max-width: 50vw;
-      position: relative;
-      right: 50%;
-      width: 100vw;
-      min-width: $view-width;
+      max-width: 100%;
+      display: flex;
     }
   }
-}
 
 /* Individual Post Page: nikhilthota.com/post/ */
 
