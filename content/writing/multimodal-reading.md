@@ -5,6 +5,7 @@ description: "Not all mediums of reading are created equal."
 tags: ["Learning", "Technology"]
 favorite: true
 emoji: 📚
+related: ['writing/libby']
 image: "/article_images/multimodal-reading/chart_share.jpeg"
 ---
 

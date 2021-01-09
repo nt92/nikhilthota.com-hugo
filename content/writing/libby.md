@@ -5,6 +5,7 @@ description: "Get audiobooks and e-books for free through your public library sy
 tags: ["Learning", "Technology"]
 emoji: 💳
 favorite: true
+related: ['writing/multimodal-reading']
 image: "/article_images/libby/card.jpg"
 ---
 

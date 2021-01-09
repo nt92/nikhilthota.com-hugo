@@ -6,6 +6,7 @@ tags: ["Book Review", "Spirituality"]
 draft: false
 emoji: 😌
 favorite: true
+related: ['writing/sun-and-clouds']
 image: "/article_images/untethered_1.jpg"
 ---
 

@@ -5,6 +5,7 @@ description: "How to pack for 2 months of travel in only one backpack."
 tags: ["Travel"]
 draft: false
 emoji: 🎒
+related: ['writing/2-months-solo-travel', 'writing/nirvana-in-thailand']
 image: "/article_images/backpack_1.jpeg"
 ---
 

@@ -5,6 +5,7 @@ description: "The trials and tribulations I experienced on a post-grad trip thro
 tags: ["Travel"]
 draft: false
 emoji: 🌏
+related: ['writing/two-months-backpack', 'writing/nirvana-in-thailand']
 image: "/article_images/2_month_travel_1.jpeg"
 ---
 

@@ -5,6 +5,7 @@ description: "Peace can always be found. It just takes a little time and effort.
 tags: ["Spirituality"]
 favorite: true
 emoji: 🌤
+related: ['writing/untethered-soul']
 image: "/article_images/sun-and-clouds/mountain.jpg"
 ---
 

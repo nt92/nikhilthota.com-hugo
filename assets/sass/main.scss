@@ -12,6 +12,40 @@ $color-button-background: #94949431;
 $element-opacity: 60%;
 $view-width: 600px;
 
+// source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+$screenXsmallMin: 320px;
+$screenSmallMin: 481px;
+$screenMediumMin: 768px;
+$screenLargeMin: 1025px;
+$screenXlargeMin: 1281px;
+
+$screenMinWidths: (
+  xsmallScreen: $screenXsmallMin,
+  smallScreen: $screenSmallMin,
+  mediumScreen: $screenMediumMin,
+  largeScreen: $screenLargeMin,
+  xlargeScreen: $screenXlargeMin,
+);
+
+$screenMaxWidths: (
+  xsmallScreen: $screenSmallMin - 1,
+  smallScreen: $screenMediumMin - 1,
+  mediumScreen: $screenLargeMin - 1,
+  largeScreen: $screenXlargeMin - 1,
+);
+
+// sources
+// https://stackoverflow.com/questions/9829612/save-media-query-in-variable
+// https://stackoverflow.com/questions/55882215/how-can-i-use-multiple-include-in-scss
+//  mixin to print out media queries (based on map keys passed)
+@mixin media($keys...) {
+  @each $key in $keys {
+    @media only screen and (min-width: map-get($screenMinWidths, $key)) and (max-width: map-get($screenMaxWidths, $key)) {
+      @content;
+    }
+  }
+}
+
 /* Core Components */
 
 body {
@@ -570,6 +604,69 @@ section.footnotes {
   }
 }
 
+.related_posts {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem 1.5rem;
+
+  @include media(xsmallScreen) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.related_post {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.2s;
+  max-height: 155px;
+  position: relative;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+
+  & h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  & p {
+    line-height: 1.2;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+
+  .post_date {
+    font-style: italic;
+  }
+
+  .post_description {
+    text-align: center;
+  }
+}
+
+.related_link.related_link {
+  color: $color-font-secondary;
+  text-decoration: none;
+  padding: 10px;
+
+  &:hover, &:active {
+    color: $color-font-primary;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-color: $color-button-background;
+    text-decoration: none;
+  }
+}
+
 .post_footer {
   width: 100%;
 
@@ -580,6 +677,8 @@ section.footnotes {
   .footer_cta {
     padding: 8px;
     background-color: #9494941c;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
     align-items: center;
     border-radius: 8px;
     margin: 24px 0 16px 0;

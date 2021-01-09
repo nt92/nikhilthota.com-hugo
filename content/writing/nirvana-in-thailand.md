@@ -5,6 +5,7 @@ description: "An experiment in solitude and mindfulness during a trip to the bea
 tags: ["Travel"]
 draft: false
 emoji: 🐘
+related: ['writing/two-months-backpack', 'writing/2-months-solo-travel']
 image: "/article_images/thailand_1.jpeg"
 ---
 
