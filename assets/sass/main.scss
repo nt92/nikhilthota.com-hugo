@@ -11,6 +11,7 @@ $color-button-background: #94949431;
 
 $element-opacity: 60%;
 $view-width: 600px;
+$border-radius-smooth: 6px;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -98,8 +99,8 @@ p {
   font-size: 15px;
   font-style: normal;
   font-weight: 380;
-  -webkit-margin-after: 22px;
-  -webkit-margin-before: 22px;
+  -webkit-margin-after: 20px;
+  -webkit-margin-before: 20px;
   line-height: 1.7em;
 }
 
@@ -131,8 +132,8 @@ a {
       text-decoration: none;
       background-color: $color-button-background;
       padding: 1px 5px;
-      border-radius: 2px;
-      -moz-border-radius: 2px;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
       -webkit-box-decoration-break: clone;
 	    box-decoration-break: clone;
       -webkit-transition: all 0.2s ease-in-out;
@@ -222,6 +223,16 @@ a[href^="http"], a[href^="mail"] {
   line-height: 150%;
   text-align: left;
 
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2, h3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
   hr {
     max-width: 150px;
     border-width: 2px;
@@ -297,10 +308,11 @@ a[href^="http"], a[href^="mail"] {
   figure {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     &:not(.main_image) {
       display: table;
-      margin: auto;
 
       figcaption {
         display: table-caption;
@@ -619,7 +631,7 @@ section.footnotes {
 .related_post {
   display: flex;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: $border-radius-smooth;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: background-color 0.2s;
@@ -680,7 +692,7 @@ section.footnotes {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
     align-items: center;
-    border-radius: 8px;
+    border-radius: $border-radius-smooth;
     margin: 24px 0 16px 0;
   }
 
@@ -695,7 +707,7 @@ section.footnotes {
   input, button {
     font-family: proxima-nova, sans-serif;
     font-size: 15px;
-    border-radius: 6px;
+    border-radius: $border-radius-smooth;
     border: none;
     height: 33px;
   }
@@ -754,17 +766,19 @@ section.footnotes {
     }
 
     .next_link {
-      padding-left: 8px;
+      padding-left: 10px;
+      padding-right: 4px;
     }
 
     .prev_link {
-      padding-right: 8px;
+      padding-right: 10px;
+      padding-left: 4px;
     }
 
     a {
       display: flex;
       align-items: center;
-      border-radius: 8px;
+      border-radius: $border-radius-smooth;
 
       &:link, &:visited {
         color: $color-font-secondary;
