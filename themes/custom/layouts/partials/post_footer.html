@@ -17,18 +17,18 @@
 </div>
 {{ partial "related.html" . }}
 <div class="adjacent_posts">
-    {{ if .Next }}
+    {{ if .NextInSection }}
     <div class="prev">
-        <a class="image_link prev_link" href="{{ .Next.Permalink }}">
+        <a class="image_link prev_link" href="{{ .NextInSection.Permalink }}">
             <i class='uil uil-enter'></i>
-             <h3>{{.Next.Title}}</h3>
+             <h3>{{.NextInSection.Title}}</h3>
         </a>
     </div>
     {{ end }}
-    {{ if .Prev }}
+    {{ if .PrevInSection }}
     <div class="next">
-        <a class="image_link next_link" href="{{ .Prev.Permalink }}">
-            <h3>{{.Prev.Title}} </h3>
+        <a class="image_link next_link" href="{{ .PrevInSection.Permalink }}">
+            <h3>{{.PrevInSection.Title}} </h3>
             <i class='uil uil-corner-down-right-alt'></i>
         </a>
     </div>

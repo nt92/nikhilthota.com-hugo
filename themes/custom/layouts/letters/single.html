@@ -28,6 +28,7 @@
     <footer class="post_footer">
         <hr/>
         {{ partial "post_footer.html" . }}
+        {{ .Scratch.Set "footer_type" "Newsletter" }}
     </footer>
 </div>
 {{ end }}
