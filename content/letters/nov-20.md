@@ -9,6 +9,8 @@ emoji: 📜
 
 {{< figure class="banner_image" src="/images/newsletter_transparent.png">}}
 
+[*click here to view this on tinyletter*](https://tinyletter.com/nikhilthota/letters/thot-s-nov-2020-thoughts)
+
 Hello to my (checks mailing list) 29 subscribers! **Welcome to the first edition of Thot's Thoughts**. My intention with this *monthly* newsletter is to (1) reflect on the month's events and distill major lessons into a few digestible themes (2) serve as a forcing function for me to create more than I consume and of course (3) provide value to my *many* subscribers.
 
 This is still an experiment but here is how I intend to structure each newsletter (after a brief meta-update on the newsletter itself):
