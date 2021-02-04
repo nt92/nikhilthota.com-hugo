@@ -1,11 +1,10 @@
 ---
-title: "S01 E03: ..."
+title: "S01 E03: The Sandwich Islands"
 date: 2021-01-30
-description: "Thot's January 2021 Thoughts"
+description: "Hawaiian Memory Fragments, Lucid Dreaming, and Goal Setting"
 tags: ["Newsletter"]
-draft: true
-canonicalUrl: "..."
-readingTime: "8"
+canonicalUrl: "https://tinyletter.com/nikhilthota/letters/s01-e03-the-sandwich-islands"
+readingTime: "9"
 # favorite: true
 emoji: 🏝
 ---

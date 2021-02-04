@@ -1,11 +1,11 @@
 {{ define "main" }}
-    <div class="post_container">
+    <div class="banner_list_container">
         <figure class="banner_image">
             <a href="/" class="image_link">
                 <img src="/images/writing_banner.png"></img>
             </a>
         </figure>
-        <ul class="post_list">
+        <ul class="banner_post_list">
             {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
         </ul>
     </div>

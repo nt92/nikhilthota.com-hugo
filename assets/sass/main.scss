@@ -172,6 +172,7 @@ a[href^="http"], a[href^="mail"] {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
+    margin-top: 0px;
 
     img {
       box-shadow: none !important;
@@ -185,6 +186,22 @@ a[href^="http"], a[href^="mail"] {
 }
 
 /* Individual Post Page: nikhilthota.com/post/ */
+
+.banner_list_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: $view-width;
+  overflow: hidden;
+}
+
+.banner_post_list {
+  width: 92%;
+  list-style: none;
+  padding: 0;
+}
 
 .post_container {
   display: flex;
