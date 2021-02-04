@@ -1,11 +1,10 @@
 {{ define "main" }}
     <div class="post_container">
-        {{ partial "author.html" . }}
-        <!-- <figure class="banner_image">
+        <figure class="banner_image">
             <a href="/" class="image_link">
-                <img src="/images/thots_thoughts_2_transparent.png"></img>
+                <img src="/images/now_banner.png"></img>
             </a>
-        </figure> -->
+        </figure>
         <div class="post_content">
             <h3>🧠 What I've been thinking about & working on...</h3>
             <ul>
@@ -14,7 +13,7 @@
             </ul>
             <h3>🎶 Listening History</h3>
             <p class="italic">My top 5 artists for the past month, pulled from my <a href="https://open.spotify.com/user/1245029147">Spotify</a></p>
-            <ul>
+            <!-- <ul>
                 {{ $resource := (.Resources.GetMatch "spotify.json").RelPermalink }}
                 {{ $data := getJSON "content" $resource }}
                 {{ range $artists := $data.items }}
@@ -24,7 +23,7 @@
                         <li>{{ (index .images 0).url }}</li>
                     </ul>
                 {{ end }}
-              </ul>
+              </ul> -->
             <h3>📚 What I've been reading</h3>
             <p class="italic">The books I'm currently reading, pulled from my <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota">Goodreads</a></p>
 
