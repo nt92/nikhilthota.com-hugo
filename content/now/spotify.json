@@ -1,0 +1,198 @@
+{
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0fTav4sBLmYOAzKuJw0grL"
+        },
+        "followers": {
+          "href": null,
+          "total": 352254
+        },
+        "genres": [
+          "alternative r&b",
+          "chill r&b",
+          "indie r&b",
+          "indie soul"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0fTav4sBLmYOAzKuJw0grL",
+        "id": "0fTav4sBLmYOAzKuJw0grL",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/81ada3d40c2a772da82ea5b393365aa02d7e6509",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/fb0db9298f3b1e36d3d9ffb423caf9850f6596b5",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/c71c1c5673591b8e09e06bdb331e30be9f7ae152",
+            "width": 160
+          }
+        ],
+        "name": "Mac Ayres",
+        "popularity": 67,
+        "type": "artist",
+        "uri": "spotify:artist:0fTav4sBLmYOAzKuJw0grL"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6N4HlHINMvoTyAL0yhBUCk"
+        },
+        "followers": {
+          "href": null,
+          "total": 96656
+        },
+        "genres": [
+          "chillhop",
+          "focus beats",
+          "japanese chillhop",
+          "lo-fi beats"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6N4HlHINMvoTyAL0yhBUCk",
+        "id": "6N4HlHINMvoTyAL0yhBUCk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/5ee96737f2ab28baea74095b320c1653344c40ac",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/5f0d9abe736f73c918c344cdac77170cfe8ede73",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/95e53795963d046d3ab04aeaffd55da206a9726e",
+            "width": 160
+          }
+        ],
+        "name": "Saib",
+        "popularity": 66,
+        "type": "artist",
+        "uri": "spotify:artist:6N4HlHINMvoTyAL0yhBUCk"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye"
+        },
+        "followers": {
+          "href": null,
+          "total": 810714
+        },
+        "genres": [
+          "indie soul",
+          "jazz pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1uiEZYehlNivdK3iQyAbye",
+        "id": "1uiEZYehlNivdK3iQyAbye",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/fad839d0564bf98f27a0b0fa048d7b0ec0033651",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/036883cc19c6f16615f7eecca3011f001adf9e1a",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/0e028fe978fe9a6ce12842bdd0918d188dbb9ec9",
+            "width": 160
+          }
+        ],
+        "name": "Tom Misch",
+        "popularity": 73,
+        "type": "artist",
+        "uri": "spotify:artist:1uiEZYehlNivdK3iQyAbye"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2kQnsbKnIiMahOetwlfcaS"
+        },
+        "followers": {
+          "href": null,
+          "total": 267111
+        },
+        "genres": [
+          "alternative r&b",
+          "chill r&b",
+          "indie r&b",
+          "indie soul"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2kQnsbKnIiMahOetwlfcaS",
+        "id": "2kQnsbKnIiMahOetwlfcaS",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/80c33d60eb7ecb82913b04bec9c6038994724dd1",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/16db0f882e50fcaac7639a19c5b240e82b5b73e3",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/dab6a9eda87703d890c521b8ddf99ef4494db547",
+            "width": 160
+          }
+        ],
+        "name": "Raveena",
+        "popularity": 63,
+        "type": "artist",
+        "uri": "spotify:artist:2kQnsbKnIiMahOetwlfcaS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0hEurMDQu99nJRq8pTxO14"
+        },
+        "followers": {
+          "href": null,
+          "total": 4886445
+        },
+        "genres": [
+          "neo mellow",
+          "pop",
+          "pop rock",
+          "singer-songwriter"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0hEurMDQu99nJRq8pTxO14",
+        "id": "0hEurMDQu99nJRq8pTxO14",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/093f63fe03e52d014286eb6e0afa9a099214cf65",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/c0f28fcc6e8482b2e49bd5a3720200d4e5a1875b",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/f5496e2e528f2715933c774a136cc3a42d6f0803",
+            "width": 160
+          }
+        ],
+        "name": "John Mayer",
+        "popularity": 83,
+        "type": "artist",
+        "uri": "spotify:artist:0hEurMDQu99nJRq8pTxO14"
+      }
+    ],
+    "total": 10,
+    "limit": 5,
+    "offset": 0,
+    "previous": null,
+    "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0&time_range=short_term",
+    "next": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=5&time_range=short_term"
+  }

@@ -1,5 +1,5 @@
 ---
-aliases: ["thoughts", "thots-thoughts", "newsletters"]
+aliases: []
 title: "Now"
 description: "What I am up to now"
 emoji: 📍
