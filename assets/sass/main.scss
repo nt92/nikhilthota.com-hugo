@@ -240,6 +240,16 @@ a[href^="http"], a[href^="mail"] {
   }
 }
 
+.now_content {
+  text-align: left;
+  width: 92%;
+
+  p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
 .post_content {
   font-style: normal;
   line-height: 150%;
