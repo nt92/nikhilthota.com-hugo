@@ -248,6 +248,16 @@ a[href^="http"], a[href^="mail"] {
     margin-top: 16px;
     margin-bottom: 16px;
   }
+
+  hr {
+    max-width: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-font-secondary;
+    margin: 50px auto;
+    color: $color-font-secondary;
+    opacity: 30%;
+  }
 }
 
 .post_content {
