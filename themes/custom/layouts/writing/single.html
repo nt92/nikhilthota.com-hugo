@@ -15,6 +15,7 @@
             {{ end }}
         </p>
         <h2>{{ .Description }}</h2>
+        {{ partial "toc.html" . }}
     </div>
     <article class="post_content">
         {{ with .Params.canonicalUrl }}
