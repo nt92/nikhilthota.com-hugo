@@ -35,3 +35,4 @@
     {{ end }}
 </div>
 <script src="/js/permalink.js"></script>
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
