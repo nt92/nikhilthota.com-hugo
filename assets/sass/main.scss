@@ -549,7 +549,7 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .twitter {
-  background-size: 90%;
+  background-size: 92%;
   background-image: url(../images/twitter_grey.png);
   background-repeat: no-repeat;
 
@@ -568,6 +568,17 @@ a[href^="http"], a[href^="mail"] {
   }
 }
 
+.gyro {
+  background-size: 100%;
+  border-radius: 8px;
+  background-image: url(../images/gyro_grey.png);
+  background-repeat: no-repeat;
+
+  &:hover, &:focus {
+    background-image: url(../images/gyro.png);
+  }
+}
+
 .link_button {
   width: 30px;
   height: 30px;
@@ -577,7 +588,6 @@ a[href^="http"], a[href^="mail"] {
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 0;
   margin-top: 0;
   margin-right: 12px;
   margin-left: 12px;
