@@ -1,7 +1,7 @@
 ---
 title: "Disjointed Fellowship Fragments"
 date: 2020-03-15T23:50:08-08:00
-description: "Essays that I used to apply for the Interact Fellowship."
+description: "Essays that I used to apply for the Interact Fellowship (I did not end up attending)."
 tags: [""]
 draft: false
 emoji: 🏕

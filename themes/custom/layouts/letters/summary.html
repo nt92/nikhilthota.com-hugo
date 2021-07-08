@@ -1,16 +1,13 @@
-<div class="post_description">
-    <li>
+<div class="post_summary_container">
+  <div class="post_summary_image_container">
+    {{ with .Params.image }}
+    <img class="post_summary_image" src="{{ . }}" />
+    {{ end }}
+  </div>
+  <div class="post_description">
+    <li class="postlist_data">
       <span>
-      {{ if .Params.canonicalUrl }}
-        <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
-      {{ else }}
-        <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
-      </span>
-    </li>
-    <li>
-      <span class="postlist_data">
-        {{ .Date.Format "January 2006" }}
+        {{ .Date.Format "January, 2006" }}
         <span>//
           {{ if .Params.canonicalUrl }}
                 {{ .Params.readingTime }}
@@ -22,8 +19,18 @@
       </span>
     </li>
     <li>
+      <span>
+      {{ if .Params.canonicalUrl }}
+        <a class="post_title" target="_blank" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
+      {{ else }}
+        <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+      </span>
+    </li>
+    <li>
       <span class="postlist_description">
         {{  .Params.Description }}
       </span>
     </li>
+  </div>
   </div>

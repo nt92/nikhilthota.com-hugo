@@ -110,6 +110,23 @@ $screenMaxWidths: (
   }
 }
 
+@mixin image-dropshadow() {
+  box-shadow: 0 0px 16px 2px $color-shadow,
+    0 0px 16px -16px $color-shadow;
+}
+
+@mixin collapsed-post-summary-container() {
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+
+  .post_summary_container {
+    width: 100%;
+  }
+}
+
 /* Core Components */
 
 body {
@@ -421,7 +438,7 @@ a[href^="http"], a[href^="mail"] {
     }
 
     img {
-      box-shadow: 0 0px 8px 2px $color-shadow, 0 0px 20px -18px $color-shadow;
+      @include image-dropshadow();
     }
 
     &.main_image {
@@ -513,6 +530,10 @@ a[href^="http"], a[href^="mail"] {
   height: 45px;
 }
 
+.post_title {
+  font-size: 15px;
+}
+
 .post_list {
   width: 100%;
   list-style: none;
@@ -524,10 +545,6 @@ a[href^="http"], a[href^="mail"] {
   flex-direction: column;
   margin-bottom: 26px;
   text-align: left;
-}
-
-.postlist_data {
-  color: $color-font-secondary
 }
 
 .postlist_description {
@@ -546,6 +563,28 @@ a[href^="http"], a[href^="mail"] {
     margin-right: 60px;
     padding-right: 20px;
   }
+}
+
+.post_summary_container {
+  display: flex;
+  margin-top: 32px;
+  
+  @include media(xsmallScreen) {
+    @include collapsed-post-summary-container();
+  }
+}
+
+.post_summary_image_container {
+  margin-right: 24px;
+  // margin-bottom: 6px;
+}
+
+.post_summary_image {
+  width: 225px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  @include image-dropshadow();
 }
 
 /* Author Section */
@@ -733,14 +772,14 @@ section.footnotes {
   display: flex;
   flex-direction: column;
   border-radius: $border-radius-smooth;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: background-color 0.2s;
   max-height: 155px;
   position: relative;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   overflow: hidden;
+
+  @include image-dropshadow();
 
   & h3 {
     margin-top: 0;
@@ -790,11 +829,11 @@ section.footnotes {
   .footer_cta {
     padding: 12px;
     background-color: #9494941c;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
     align-items: center;
     border-radius: $border-radius-smooth;
     margin: 24px 0 16px 0;
+
+    @include image-dropshadow();
   }
 
   .footer_blurb {
@@ -967,6 +1006,14 @@ span.wave:hover {
 
   p, li {
     font-size: $font-size-small-web;
+  }
+
+  .post_title {
+    font-size: 17px;
+  }
+
+  .postlist_data {
+    -webkit-margin-before: -6px;
   }
 
   // Overflow on non-mobile to show big images

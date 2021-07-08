@@ -5,6 +5,7 @@ description: "My experience as a sponsor at SwampHacks - an event I used to orga
 tags: ["Technology"]
 draft: false
 emoji: 🐊
+image: "https://i1.sndcdn.com/artworks-000193903555-bo2srk-t500x500.jpg"
 ---
 
 Last week, I went back to The University of Florida (UF) to recruit and represent Facebook as a corporate sponsor for [SwampHacks](https://2020.swamphacks.com/) (UF’s premier hackathon). As a former organizer of the event during my stint as a student, I was left feeling both humility and pride, seeing how far SwampHacks has come. During the [early years](https://2017.swamphacks.com/team.html) of the event, we were lucky to have 200 attendees and had to basically beg sponsors to recognize the event as legitimate. A [*fire* mixtape](https://soundcloud.com/user-162103925/views-from-the-swamp) helped us get pretty far though! At SwampHacks 2020 however, there were over 600 hackers, with corporate representation (and $$$) from all sides of the industry.

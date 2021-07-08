@@ -7,4 +7,5 @@ canonicalUrl: "https://tinyletter.com/nikhilthota/letters/s01-e03-the-sandwich-i
 readingTime: "9"
 # favorite: true
 emoji: 🏝
+image: "https://lumiere-a.akamaihd.net/v1/images/image_1c6a9b5d.jpeg"
 ---
