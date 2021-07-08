@@ -1,4 +1,7 @@
 {{ define "main" }}
+<div class="progress-container fixed-top">
+    <span class="progress-bar"></span>
+</div>
 <div class="post_container">
     {{ partial "author.html" . }}
     <div class="article_header">
@@ -31,4 +34,44 @@
         {{ partial "post_footer.html" . }}
     </footer>
 </div>
+<script>
+    // scroll indicator
+    function scrollProgressBar() {
+      var getMax = function () {
+        return $(document).height() - $(window).height();
+      };
+  
+      var getValue = function () {
+        return $(window).scrollTop();
+      };
+  
+      var progressBar = $(".progress-bar"),
+        max = getMax(),
+        value,
+        width;
+  
+      var getWidth = function () {
+        // Calculate width in percentage
+        value = getValue();
+        width = (value / max) * 100;
+        width = width + "%";
+        return width;
+      };
+  
+      var setWidth = function () {
+        progressBar.css({ width: getWidth() });
+      };
+  
+      $(document).on("scroll", setWidth);
+      $(window).on("resize", function () {
+        // Need to reset max
+        max = getMax();
+        setWidth();
+      });
+    }
+    $(document).ready(function () {
+        console.log('eh');
+      scrollProgressBar();
+    });
+</script>
 {{ end }}

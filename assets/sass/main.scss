@@ -354,7 +354,7 @@ a[href^="http"], a[href^="mail"] {
     max-width: 150px;
     border-width: 2px;
     border-style: solid;
-    border-color: $color-font-secondary;
+    // border-color: $color-font-secondary;
     margin: 50px auto;
     color: $color-font-secondary;
     opacity: 30%;
@@ -987,6 +987,28 @@ span.wave:hover {
    40% { transform: rotate(  9.0deg) }
    50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
   100% { transform: rotate(  0.0deg) }
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  height: 5px;
+  display: block;
+}
+.progress-bar {
+  background-color: $color-link-external;
+  opacity: 80%;
+  width: 0%;
+  display: block;
+  height: inherit;
 }
 
 /* For non-mobile devices */
