@@ -1,5 +1,5 @@
 ---
-aliases: [tinker]
+aliases: ["tinker"]
 title: "Tech"
 description: "My technical creations"
 emoji: 📍🤖
