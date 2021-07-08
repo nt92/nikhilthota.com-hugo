@@ -4,6 +4,9 @@ $color-subtitle: #acacac;
 $color-highlight: #fef9c3;
 $color-highlight-faded: #fef5adaf;
 
+$color-blockquote-background: #fafafa;
+$color-blockquote-border: #f4f4f5;
+
 $color-link-external: #d83f3f;
 $color-link-internal: #555454;
 
@@ -364,20 +367,13 @@ a[href^="http"], a[href^="mail"] {
     margin: 0;
     padding-left: 1rem;
     position: relative;
-
-    &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      width: 1px;
-      height: 100%;
-      background: #c5c4c4;
-      opacity: $element-opacity;
-      border-radius: 2px / 4px;
-    }
+    background-color: $color-blockquote-background;
+    border: 1px;
+    border-style: solid;
+    border-color: $color-blockquote-border;
 
     p {
-      margin: 10px 0 10px 0;
+      padding: 10px 20px 10px 20px;
     }
   }
 
@@ -408,17 +404,36 @@ a[href^="http"], a[href^="mail"] {
   }
 
   .pullquote {
-    position: relative;
     margin: 1em;
+    position: relative;
+    font-size: 115%;
 
     &::before {
       content: "“";
       position: absolute;
       right: 100%;
-      font-size: 60px;
+      font-size: 50px;
       line-height: 0;
       top: 25px;
       color: $color-font-secondary;
+    }
+
+    &::after {
+      content: "";
+      max-width: 645px;
+      left: -45px;
+      width: 100vw;
+      height: 110%;
+      background: $color-blockquote-background;
+      border: 1px;
+      border-style: solid;
+      border-color: $color-blockquote-border;
+      display: block;
+      position: absolute;
+      top: -5%;
+      z-index: -1;
+      // border-radius: 8px;
+      box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
     }
   }
 
@@ -531,7 +546,7 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .post_title {
-  font-size: 15px;
+  font-size: 110%;
 }
 
 .post_list {
@@ -828,7 +843,7 @@ section.footnotes {
 
   .footer_cta {
     padding: 12px;
-    background-color: #9494941c;
+    background-color: $color-blockquote-border;
     align-items: center;
     border-radius: $border-radius-smooth;
     margin: 24px 0 16px 0;
@@ -1028,10 +1043,6 @@ span.wave:hover {
 
   p, li {
     font-size: $font-size-small-web;
-  }
-
-  .post_title {
-    font-size: 17px;
   }
 
   .postlist_data {
