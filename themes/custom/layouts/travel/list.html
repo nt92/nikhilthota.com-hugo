@@ -7,7 +7,6 @@
         </figure>
         <!-- TODO: add a short blurb explaining what a 'travel diary' is -->
         <ul class="banner_post_list">
-            <!-- This works for whatever reason to filter based on Newsletter tag -->
             {{ $p := slice "Travel" }}
             {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
         </ul>
