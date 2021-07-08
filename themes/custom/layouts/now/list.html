@@ -1,37 +1,42 @@
 {{ define "main" }}
-    <div class="banner_list_container">
-        <figure class="banner_image">
-            <a href="/" class="image_link">
-                <img src="/images/now_banner.png"></img>
-            </a>
-        </figure>
-        <div class="now_content">
-            <!-- <h1>What I've been doing</h1> -->
-            <h3>📝 Writing a blog & newsletter</h3>
-                <p>This website / blog and <a href="https://tinyletter.com/nikhilthota">Thot's Thoughts</a>
-                    (my monthly newsletter) are avenues for creative output. My goal is to write a few thot-ful
-                    things every month.
-                </p>
-            <h3>🏊🏽‍♂️ Learning how to Swim</h3>
-                <p>Somehow, I've made it almost 25 years without learning how to *properly* swim. Over the
-                    years, I've made many attempts to learn, but they've not stuck. I'm using my free time and
-                    the 110°F Arizona weather to become a strong swimmer by the end of the summer.
-                </p>
-            <h3>🦖 Exploring Tech's Roots</h3>
-                <p>I've been recently enthralled by tech history. In additon to learning more about those who
-                    helped inspire the computing revolution, I'm filling some
-                    <a href="https://missing.csail.mit.edu/2020/">technical gaps</a> from my education
-                    by learning shell scriping, command line, and server management.
-                </p>
-            <h3>👨🏽‍💻 Engineering @ Facebook</h3>
-                <p>I'm exploring a promising new opportunity at my day job. Stay tuned — it's something
-                    that I'm quite excited about.
-                </p>
-            <h3>🎶 Listening History</h3>
-                <p class="italic">My top artists for the past month, pulled from my
-                    <a href="https://open.spotify.com/user/1245029147">Spotify</a>
-                </p>
-            <!-- <ul>
+<div class="banner_list_container">
+    <figure class="banner_image">
+        <a href="/" class="image_link">
+            <img src="/images/now_banner.png"></img>
+        </a>
+    </figure>
+    <div class="now_content">
+        <!-- <h1>What I've been doing</h1> -->
+        <h3>📝 Writing a blog & newsletter</h3>
+        <p>
+            This website / blog and <a href="https://tinyletter.com/nikhilthota">Thot's Thoughts</a>
+            (my monthly newsletter) are avenues for creative output. My goal is to write a few thot-ful
+            things every month.
+        </p>
+        <h3>🏊🏽‍♂️ Learning how to Swim</h3>
+        <p>
+            Somehow, I've made it 25 years without learning how to *properly* swim. Over the
+            years, I've made many <a
+                href="https://tinyletter.com/nikhilthota/letters/s02-e04-aquatic-confessions">attempts</a> learn, but
+            they've not stuck. I'm using my free time possibly lessons to become a strong swimmer by the end of the
+            summer.
+        </p>
+        <h3>🎤 Taking Singing Lessons</h3>
+        <p>
+            Music used to be a huge part of my life. I played bassoon, piano, and was immersed in theory for years. The tech grind has stunted my pursuit but through Zoom singing lessons, I am hoping to rekindle this part of my soul.
+        </p>
+        <h3>👨🏽‍💻 Engineering @ WhatsApp</h3>
+        <p>
+            I'm excited to say that I'm <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:6811013817716363264/">now</a> an engineer on
+            the Graph Infra team at WhatsApp (working on address book,
+            group messaging, device sync, etc.) — I'm currently spending my time ramping up on Erlang and the new stack.
+        </p>
+        <h3>🎶 Listening History</h3>
+        <p class="italic">My top artists for the past month, pulled from my
+            <a href="https://open.spotify.com/user/1245029147">Spotify</a>
+        </p>
+        <!-- <ul>
                 {{ $resource := (.Resources.GetMatch "spotify.json").RelPermalink }}
                 {{ $data := getJSON "content" $resource }}
                 {{ range $artists := $data.items }}
@@ -42,23 +47,32 @@
                     </ul>
                 {{ end }}
               </ul> -->
-                <!-- https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/?type=artists&time_range=short_term&limit=&offset= -->
-                <ul>
-                    <li><a href="https://open.spotify.com/artist/5evuJYN1sgxxSQWs9mw1e3">Molife</a></li>
-                    <li><a href="https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye">Tom Misch</a></li>
-                    <li><a href="https://open.spotify.com/artist/6N4HlHINMvoTyAL0yhBUCk">Saib</a></li>
-                    <li><a href="https://open.spotify.com/artist/2mVVjNmdjXZZDvhgQWiakk">Khruangbin</a></li>
-                </ul>
-            <h3>📚 What I've been reading</h3>
-            <p class="italic">The books I'm currently reading, pulled from my <a href="https://www.goodreads.com/user/show/36837307-nikhil-thota">Goodreads</a></p>
-            <!-- https://www.goodreads.com/review/list/36837307?shelf=currently-reading -->
-            <ul>
-                <li><a href="https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes">How to Take Smart Notes</a> by Sönke Ahrens</li>
-                <li><a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning">Man's Search for Meaning</a> by Viktor Frankl</li>
-            </ul>
-            <hr>
-            <p>Inspired by <a href="https://antdke.co/pages/now/">Anthony</a> and <a href="https://nownownow.com/about">Derek</a></p>
-            <p><span class="italic">Updated: May. 13, 2021 from Scottsdale, AZ</span> 🎄</p>
-        </div>
+        <!-- https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/?type=artists&time_range=short_term&limit=&offset= -->
+        <ul>
+            <li><a href="https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye">Tom Misch</a></li>
+            <li><a href="https://open.spotify.com/artist/0hEurMDQu99nJRq8pTxO14">Frank Ocean</a></li>
+            <li><a href="https://open.spotify.com/artist/0hEurMDQu99nJRq8pTxO14">John Mayer</a></li>
+            <li><a href="https://open.spotify.com/artist/4ETSs924pXMzjIeD6E9b4u">Surfaces</a></li>
+            <li><a href="https://open.spotify.com/artist/5evuJYN1sgxxSQWs9mw1e3">Molife</a></li>
+        </ul>
+        <h3>📚 What I've been reading</h3>
+        <p class="italic">The books I'm currently reading, pulled from my <a
+                href="https://www.goodreads.com/user/show/36837307-nikhil-thota">Goodreads</a></p>
+        <!-- https://www.goodreads.com/review/list/36837307?shelf=currently-reading -->
+        <ul>
+            <li><a href="https://www.goodreads.com/book/show/46205669-recapture-the-rapture">Recapture The Rapture</a>
+                by Jamie Wheal (nonstop)</li>
+            <li><a href="https://www.goodreads.com/book/show/11289729-sacred-economics">Sacred Economics</a> by Charles
+                Eisenstein (at night before bed) </li>
+            <li><a href="https://www.goodreads.com/book/show/41721428-can-t-hurt-me">Can't Hurt Me</a> by David Goggins
+                (audiobook while exercising)</li>
+            <li><a href="https://www.goodreads.com/book/show/20518872-the-three-body-problem">The Three-Body Problem</a>
+                by Liu Cixin (audiobook while swimming)</li>
+        </ul>
+        <hr>
+        <p>Inspired by <a href="https://antdke.co/pages/now/">Anthony</a> and <a
+                href="https://nownownow.com/about">Derek</a></p>
+        <p><span class="italic">Updated: Jul. 7, 2021 from San Francisco, CA</span> 🎄</p>
     </div>
+</div>
 {{ end }}
