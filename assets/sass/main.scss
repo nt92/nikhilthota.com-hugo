@@ -380,17 +380,17 @@ a[href^="http"], a[href^="mail"] {
   /* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 
   ul {
-    list-style: none;
+    // list-style: none;
 
-    li::before {
-      content: "\2022";
-      color: $color-font-primary;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-      opacity: $element-opacity;
-    }
+    // li::before {
+    //   content: "\2022";
+    //   color: $color-font-primary;
+    //   font-weight: normal;
+    //   display: inline-block;
+    //   width: 1.2em;
+    //   margin-left: -1.2em;
+    //   // opacity: $element-opacity;
+    // }
   }
 
   input::before{
