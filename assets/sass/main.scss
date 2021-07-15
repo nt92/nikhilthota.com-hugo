@@ -161,16 +161,22 @@ mark {
   background: $color-highlight;
 }
 
+h1, h2, h3, h4, h5, h6, hr, ol, p, table, ul, .pullquote {
+  margin-bottom: 24px;
+}
+
+h1, h2, p, ul, ol {
+  margin-top: 0;
+}
+
 h1 {
   color: $color-font-primary;
   font-size: $font-size-large-mobile;
-  -webkit-margin-after: 4px;
+  -webkit-margin-after: 0;
 }
 
 h2 {
   font-size: 16px;
-  -webkit-margin-after: 0px;
-  -webkit-margin-before: 30px;
 }
 
 h3 {
@@ -182,8 +188,6 @@ p {
   font-size: $font-size-small-mobile;
   font-style: normal;
   font-weight: 380;
-  -webkit-margin-after: 20px;
-  -webkit-margin-before: 20px;
   line-height: 1.7em;
 }
 
@@ -197,15 +201,6 @@ li {
 
 hr {
   opacity: $element-opacity;
-}
-
-ol, ul {
-  -webkit-margin-before: 6px;
-  -webkit-margin-after: 6px;
-
-  li {
-    -webkit-margin-after: 6px;
-  }
 }
 
 a {
@@ -247,10 +242,7 @@ a[href^="http"], a[href^="mail"] {
   }
 }
 .banner_image {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
-    margin-top: 0px;
+  margin: 0 0 30px 0;
 
     img {
       box-shadow: none !important;
@@ -303,11 +295,10 @@ a[href^="http"], a[href^="mail"] {
   h2 {
     opacity: $element-opacity;
     color: $color-font-secondary;
-    -webkit-margin-before: 10px;
   }
 
   .reading_time {
-    margin: 0;
+    margin: 6px 0 12px 0;
     font-weight: lighter;;
   }
 
@@ -323,8 +314,8 @@ a[href^="http"], a[href^="mail"] {
   width: 92%;
 
   p {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 24px;
   }
 
   hr {
@@ -344,13 +335,7 @@ a[href^="http"], a[href^="mail"] {
   text-align: left;
 
   p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  h2, h3 {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
   }
 
   hr {
@@ -364,7 +349,7 @@ a[href^="http"], a[href^="mail"] {
   }
 
   blockquote {
-    margin: 0;
+    margin: 0 0 24px 0;
     padding-left: 1rem;
     position: relative;
     background-color: $color-blockquote-background;
@@ -374,6 +359,7 @@ a[href^="http"], a[href^="mail"] {
 
     p {
       padding: 10px 20px 10px 20px;
+      margin: 0;
     }
   }
 
@@ -422,26 +408,23 @@ a[href^="http"], a[href^="mail"] {
       content: "";
       max-width: 645px;
       left: -45px;
-      width: 100vw;
-      height: 110%;
+      width: 106vw;
+      height: 106%;
       background: $color-blockquote-background;
       border: 1px;
       border-style: solid;
       border-color: $color-blockquote-border;
       display: block;
       position: absolute;
-      top: -5%;
+      top: -3%;
       z-index: -1;
-      // border-radius: 8px;
+      border-radius: 8px;
       box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
     }
   }
 
   figure {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 0 24px 0;
 
     &:not(.main_image) {
       display: table;
@@ -518,10 +501,14 @@ a[href^="http"], a[href^="mail"] {
 /* Main Page: nikhilthota.com */
 
 .container {
-  transform: translateY(5%);
+  transform: translateY(2%);
   padding: 0 16px 0 16px;
   max-width: $view-width;
   min-width: 300px;
+}
+
+.title {
+  margin-top: 24px;
 }
 
 .emoji {
@@ -541,7 +528,7 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .writing_blurb {
-  margin: 30px auto 20px auto;
+  margin: 20px auto 20px auto;
   height: 45px;
 }
 
@@ -583,6 +570,10 @@ a[href^="http"], a[href^="mail"] {
 .post_summary_container {
   display: flex;
   margin-top: 32px;
+
+  li {
+    -webkit-margin-after: 8px;
+  }
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
@@ -758,8 +749,7 @@ section.footnotes {
 
 .footnotes {
   p {
-    -webkit-margin-after: 12px;
-    -webkit-margin-before: 0;
+    margin: 0;
   }
 }
 
@@ -846,7 +836,7 @@ section.footnotes {
     background-color: $color-blockquote-border;
     align-items: center;
     border-radius: $border-radius-smooth;
-    margin: 24px 0 16px 0;
+    margin: 24px 0 24px 0;
 
     @include image-dropshadow();
   }
@@ -1029,6 +1019,10 @@ span.wave:hover {
 /* For non-mobile devices */
 
 @media (min-width: 48em) {
+  .container {
+    transform: translateY(8%);
+  }
+
   h1 {
     font-size: $font-size-large-web;
   }
