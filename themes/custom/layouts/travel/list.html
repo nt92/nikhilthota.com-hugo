@@ -1,14 +1,24 @@
 {{ define "main" }}
-    <div class="banner_list_container">
-        <figure class="banner_image">
-            <a href="/" class="image_link">
-                <img src="/images/travel_banner.png"></img>
-            </a>
-        </figure>
-        <!-- TODO: add a short blurb explaining what a 'travel diary' is -->
-        <ul class="banner_post_list">
-            {{ $p := slice "Travel" }}
-            {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
+<div class="banner_list_container">
+    <figure class="banner_image">
+        <a href="/" class="image_link">
+            <img src="/images/travel_banner.png"></img>
+        </a>
+    </figure>
+    <div class="now_content">
+        <p><span class="italic">What is a travel journal?</span> This is where I hope to write
+            about places I've been &
+            what I learned from being there. I think a good travel journal entry should include the
+            following elements:</p>
+        <ul>
+            <li>A log of destinations and meaningful experiences & locations</li>
+            <li>Recommendations and suggestions for prospective travelers</li>
+            <li>Reflections and lessons learned from the time spent there</li>
         </ul>
     </div>
+    <ul class="banner_post_list">
+        {{ $p := slice "Travel" }}
+        {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
+    </ul>
+</div>
 {{ end }}

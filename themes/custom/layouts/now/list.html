@@ -6,26 +6,25 @@
         </a>
     </figure>
     <div class="now_content">
-        <!-- <h1>What I've been doing</h1> -->
+        <h3>🧠 Building a Memex</h3>
+        <p>
+            I've not been this excited about a side project in a while. Essentially, I'm trying to build a system
+            that will let me search through everything I've ever written, seen, read, or found impactful in some way.
+            Check out my latest newsletter for more context.
+        </p>
         <h3>📝 Writing a blog & newsletter</h3>
         <p>
             This website / blog and <a href="https://tinyletter.com/nikhilthota">Thot's Thoughts</a>
             (my monthly newsletter) are avenues for creative output. My goal is to write a few thot-ful
             things every month.
         </p>
-        <h3>🏊🏽‍♂️ Learning how to Swim</h3>
+        <h3>🏊🏽‍♂️ Learning to Swim</h3>
         <p>
             Somehow, I've made it 25 years without learning how to *properly* swim. Over the
             years, I've made many <a
                 href="https://tinyletter.com/nikhilthota/letters/s02-e04-aquatic-confessions">attempts</a> learn, but
             they've not stuck. I'm using my free time possibly lessons to become a strong swimmer by the end of the
             summer.
-        </p>
-        <h3>🎤 Taking Singing Lessons</h3>
-        <p>
-            Music used to be a huge part of my life. I played bassoon, piano, and was immersed in theory for years. The
-            tech grind has stunted my pursuit but through Zoom singing lessons, I am hoping to rekindle this part of my
-            soul.
         </p>
         <h3>👨🏽‍💻 Engineering @ WhatsApp</h3>
         <p>
@@ -36,20 +35,9 @@
         </p>
         <h3>🎶 Listening History</h3>
         <p class="italic">My top artists for the past month, pulled from my
-            <a href="https://open.spotify.com/user/1245029147">Spotify</a>
+            <a href="https://open.spotify.com/user/1245029147">Spotify</a> using their
+            <a href="https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/?type=artists&time_range=short_term&limit=&offset=">API</a>:
         </p>
-        <!-- <ul>
-                {{ $resource := (.Resources.GetMatch "spotify.json").RelPermalink }}
-                {{ $data := getJSON "content" $resource }}
-                {{ range $artists := $data.items }}
-                    <ul>
-                        <li>{{ .external_urls.spotify }}</li>
-                        <li>{{ .name }}</li>
-                        <li>{{ (index .images 0).url }}</li>
-                    </ul>
-                {{ end }}
-              </ul> -->
-        <!-- https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/?type=artists&time_range=short_term&limit=&offset= -->
         <ul>
             <li><a href="https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye">Tom Misch</a></li>
             <li><a href="https://open.spotify.com/artist/0hEurMDQu99nJRq8pTxO14">Frank Ocean</a></li>
@@ -59,8 +47,7 @@
         </ul>
         <h3>📚 What I've been reading</h3>
         <p class="italic">The books I'm currently reading, pulled from my <a
-                href="https://www.goodreads.com/user/show/36837307-nikhil-thota">Goodreads</a></p>
-        <!-- https://www.goodreads.com/review/list/36837307?shelf=currently-reading -->
+                href="https://www.goodreads.com/review/list/36837307?shelf=currently-reading">Goodreads</a>:</p>
         <ul>
             <li><a href="https://www.goodreads.com/book/show/46205669-recapture-the-rapture">Recapture The Rapture</a>
                 by Jamie Wheal (nonstop)</li>
@@ -74,7 +61,7 @@
         <hr>
         <p>Inspired by <a href="https://antdke.co/pages/now/">Anthony</a> and <a
                 href="https://nownownow.com/about">Derek</a></p>
-        <p><span class="italic">Updated: Jul. 7, 2021 from San Francisco, CA</span> 🎄</p>
+        <p><span class="italic">Updated: Jul. 30, 2021 from San Francisco, CA</span> 🎄</p>
     </div>
 </div>
 {{ end }}

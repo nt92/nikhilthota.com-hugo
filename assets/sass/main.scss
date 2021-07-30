@@ -120,13 +120,16 @@ $screenMaxWidths: (
 
 @mixin collapsed-post-summary-container() {
   flex-direction: column;
-  align-items: center;
   img {
     width: 100%;
   }
 
   .post_summary_container {
     width: 100%;
+  }
+
+  .post_summary_image_container {
+    margin-right: 0;
   }
 }
 

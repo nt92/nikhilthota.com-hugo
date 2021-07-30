@@ -48,8 +48,6 @@
     {{ if .Params.emoji }}
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ .Params.emoji }}</text></svg>">
     {{ end }}
-    <!--- Adobe Typekit --->
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/qxe7qav.css"> -->
     <script src="{{ "js/custom.js" | absURL}}"></script>
     {{ if .Params.canonicalUrl }}
     <link rel="canonical" target="_blank" href="{{ .Params.canonicalUrl }}">
