@@ -959,6 +959,30 @@ section.footnotes {
   }
 }
 
+/* /notes route */
+
+.summary_small_container {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.summary_small_item {
+  line-height: 1.6em;
+  margin: 1em 0;
+}
+
+.date_prefix {
+  display: inline-block;
+  min-width: 3.125rem;
+  text-align: right;
+  color: var(--font-secondary);
+  opacity: 80%;
+}
+
+.summary_small_link {
+  margin-left: 20px;
+}
+
 /* Plugins */
 
 // Permalink

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="banner_list_container">
+    <figure class="banner_image">
+        <a href="/" class="image_link">
+            <img src="/images/notes_banner.png"></img>
+        </a>
+    </figure>
+    <div class="now_content">
+        <p>lightweight notes, ideas, musings, and inspiration</p>
+    </div>
+    <!-- <ul class="banner_post_list"> -->
+    {{ $p := slice "Notes" }}
+    {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary_small" }} {{ end }}
+    <!-- </ul> -->
+</div>
+{{ end }}

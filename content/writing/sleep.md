@@ -5,7 +5,7 @@ description: "We sleep for around a third of our lives. This piece aims to help 
 tags: ["Health"]
 draft: false
 emoji: 😴
-favorite: true
+favorite: false
 image: "/article_images/sleep_1.jpeg"
 ---
 

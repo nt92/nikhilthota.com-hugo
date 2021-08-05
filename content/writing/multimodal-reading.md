@@ -3,7 +3,7 @@ title: "Multimodal Reading"
 date: 2020-11-25
 description: "Not all mediums of reading are created equal."
 tags: ["Learning", "Technology"]
-favorite: true
+favorite: false
 emoji: 📚
 related: ['writing/libby']
 image: "/article_images/multimodal-reading/chart_share.jpeg"
