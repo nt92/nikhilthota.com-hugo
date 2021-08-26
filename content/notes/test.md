@@ -1,6 +1,6 @@
 ---
 title: "Test"
-date: 2020-05-05T23:50:08-08:00
+date: 2020-05-05
 description: "Testy test"
 tags: ["test", "Notes"]
 draft: true

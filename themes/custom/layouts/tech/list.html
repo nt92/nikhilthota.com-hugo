@@ -7,9 +7,8 @@
             </a>
         </figure>
         <!-- </div> -->
-        <!-- <p>Here are all of my newsletters, from Nov. 2020 to now. <a href="https://nikhilthota.com/newsletter/" target="_blank">Check it out!</a></p> -->
         <ul class="banner_post_list">
-            <!-- This works for whatever reason to filter based on Newsletter tag -->
+            <!-- This works for whatever reason to filter based on Tinker tag -->
             {{ $p := slice "Tinker" }}
             {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
         </ul>

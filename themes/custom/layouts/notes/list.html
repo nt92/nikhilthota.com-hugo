@@ -6,11 +6,12 @@
         </a>
     </figure>
     <div class="now_content">
-        <p>lightweight notes, ideas, musings, and inspiration</p>
+        <p>lightweight notes on ideas, inspiration, and experiments</p>
     </div>
     <!-- <ul class="banner_post_list"> -->
+    <div class="summary_small_container">
     {{ $p := slice "Notes" }}
     {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary_small" }} {{ end }}
-    <!-- </ul> -->
+    </div>
 </div>
 {{ end }}

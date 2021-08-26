@@ -8,7 +8,9 @@ $color-blockquote-background: #fafafa;
 $color-blockquote-border: #f4f4f5;
 
 $color-link-external: #d83f3f;
+$color-link-external-faded: #d83f3f7e;
 $color-link-internal: #555454;
+$color-link-internal-faded: #55545475;
 
 $color-font-primary: #333333;
 $color-shadow: #33333328;
@@ -149,7 +151,11 @@ body {
 // Preload images before hover
 body:after {
   display: none;
-  content: url(../images/tinyletter.png) url(../images/github.png) url(../images/twitter.png) url(../images/gyro.png);
+  content: 
+    url(../images/tinyletter.png) 
+    url(../images/github.png) 
+    url(../images/twitter.png) 
+    url(../images/gyro.png);
 }
 
 ::selection {
@@ -207,6 +213,7 @@ hr {
 }
 
 a {
+  text-decoration: none;
   &:not(.image_link):not(.anchor){
     &:link, &:visited {
       color: $color-link-external;
@@ -214,11 +221,21 @@ a {
 	    box-decoration-break: clone;
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
+      text-decoration: none;
+      
+      // using a lightweight version of this for custom underlining
+      // https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/
+      background-image: 
+        linear-gradient(
+          $color-link-external-faded, 
+          $color-link-external-faded);
+      background-position: 0 96%; 
+      background-repeat: no-repeat;
+      background-size: 100% .5px;
     }
 
     &:hover, &:active {
       color: $color-link-external;
-      border-bottom-color: #000;
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s  ease-in-out;
       opacity: $element-opacity;
@@ -230,6 +247,11 @@ a[href^="/"] {
   &:not(.image_link){
     &:link, &:visited {
       color: $color-link-internal;
+      background-image: 
+        linear-gradient(
+          $color-link-internal-faded, 
+          $color-link-internal-faded);
+      // border-bottom: .2px solid $color-link-internal-faded;
     }
   }
   &.yellow_link {
@@ -740,13 +762,14 @@ section.footnotes {
 }
 
 .footnote-ref {
-  text-decoration: none;
+  background-image: none !important;
   font-size: smaller;
   color: $color-font-secondary;
 }
 
 .footnote-backref {
   text-decoration: none;
+  background-image: none !important;
   font-size: large;
 }
 
@@ -962,25 +985,27 @@ section.footnotes {
 /* /notes route */
 
 .summary_small_container {
-  align-items: flex-start;
-  justify-content: flex-start;
+  width: calc(100% - 32px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .summary_small_item {
   line-height: 1.6em;
   margin: 1em 0;
+  text-align:start;
 }
 
 .date_prefix {
   display: inline-block;
-  min-width: 3.125rem;
+  min-width: 5em;
   text-align: right;
   color: var(--font-secondary);
-  opacity: 80%;
+  opacity: $element-opacity;
 }
 
 .summary_small_link {
-  margin-left: 20px;
+  margin-left: 16px;
 }
 
 /* Plugins */
