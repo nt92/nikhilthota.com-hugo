@@ -1,10 +1,10 @@
 ---
 title: "On Anime and Manga アニメ"
-date: 2021-08-23
+date: 2021-08-30
 description: "What is anime? How has it evolved? Why is it a brilliant and entertaining form of media?"
 tags: ["Anime", "Media"]
 favorite: true
-draft: true
+draft: false
 emoji: 🖼
 image: "/article_images/anime/cover.jpeg"
 ---
@@ -14,6 +14,14 @@ image: "/article_images/anime/cover.jpeg"
 > If you'd like to skip to a tl;dr on what to know when trying to start watching anime, [click here](/writing/anime/#a-prospective-anime-watchers-guide).
 
 I've noticed a trend with people that enjoy anime. Outside of the more passionate outliers, fans tend to underplay or even omit their love for the genre until *someone else* brings it up. With these people, conversations go somewhat like this:
+
+{{< figure caption="comic creds: my 10 y/o sister Neha" src="/article_images/anime/anime_comic.jpg" >}}
+
+> I apologize for my atrocious handwriting. Here are captions:
+> 1. “blah blah blah”
+> 2. "yeah, there’s this weird japanese show that I watch sometimes in between loads of laundry, maybe you’ve heard of it? <ANIME_SHOW>"
+> 3. ...
+> 4. "OMG YES I love <ANIME_SHOW> I’ve watched it 34 times and own <ANIME_CHARACTER>’s sword"
 
 In western culture, there's a stigma associated with watching and enjoying animation as an adult. The idea that anime is a form of entertainment relegated solely to childhood has been beaten into the American psyche by weekend re-runs of *Naruto* and *Dragon Ball Z*. These shows are prime examples of [shōnen](https://animanga.fandom.com/wiki/Sh%C5%8Dnen), a sub-genre of action-filled anime catering to a young male audience. It would be incorrect to assume that these popular shows are all that anime has to offer.
 
