@@ -221,7 +221,7 @@ In a [recent newsletter](https://tinyletter.com/nikhilthota/letters/s02-e02-allo
 
 Shoutout to some of the weebs in my life: [Spencer](https://www.spencerchang.me/), [Yutai](https://twitter.com/yutai95), [Mack](https://littlecurrywurst.com/), [Tyler](http://www.tylerjrichards.com/), Jeff, and Connor for inspiring a lot of the ideas and fodder for this piece and looking over drafts.
 
-Thanks for reading! Has reading this changed your perspective on anime? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota/)
+Thanks for reading! Has reading this changed your perspective on anime? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota/status/1432453965136818180)
 
 [^1]: The [Wikipedia page](https://en.wikipedia.org/wiki/History_of_manga) on the "History of Manga" is excellent and where I drew a lot of the information in this section from.
 [^2]: Another notable example of political use of art is the [Anti-Bolshevik propaganda](https://en.wikipedia.org/wiki/Anti-Bolshevik_propaganda), which was in opposition to the radical Bolsheviks in the Russian political scene.
