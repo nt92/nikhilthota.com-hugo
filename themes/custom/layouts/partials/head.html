@@ -43,6 +43,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     {{ $sass := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $sass.Permalink }}">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <!-- From https://css-tricks.com/emojis-as-favicons/ show emoji as favicon for posts -->
     {{ if .Params.emoji }}

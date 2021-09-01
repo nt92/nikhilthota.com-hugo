@@ -14,13 +14,10 @@
     <li class="postlist_data">
       <span>
         {{ .Date.Format "January 2, 2006" }}
-        <span>//
-          {{ if .Params.canonicalUrl }}
-                {{ .Params.readingTime }}
-            {{ else }}
-                {{ .ReadingTime }}
-            {{ end }}
-          min
+        <span>
+          {{ if .Params.favorite }}
+            // <span class="iconify" data-icon="emojione:star"></span>
+          {{ end }}
         </span>
       </span>
     </li>

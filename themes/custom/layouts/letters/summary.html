@@ -1,13 +1,7 @@
 <div class="post_summary_container">
   <div class="post_summary_image_container">
-    {{ if .Params.canonicalUrl }}
-      <a class="image_link" target="_blank" href="{{ .Params.canonicalUrl }}">
-        <img class="post_summary_image" src="{{ .Params.image }}" />
-      </a>
-    {{ else }}
-      <a class="image_link" href="{{ .RelPermalink }}">
-        <img class="post_summary_image" src="{{ .Params.image }}" />
-      </a>
+    {{ with .Params.image }}
+    <img class="post_summary_image" src="{{ . }}" />
     {{ end }}
   </div>
   <div class="post_description">
@@ -15,12 +9,12 @@
       <span>
         {{ .Date.Format "January 2006" }}
         <span>//
-          {{ if .Params.canonicalUrl }}
-                {{ .Params.readingTime }}
-            {{ else }}
-                {{ .ReadingTime }}
-            {{ end }}
-          min
+          <a href="https://tinyletter.com/nikhilthota">
+            <span class="iconify" data-icon="fluent:news-28-regular"></span>
+            newsletter</a>
+          {{ if .Params.favorite }}
+            // <span class="iconify" data-icon="emojione:star"></span>
+          {{ end }}
         </span>
       </span>
     </li>

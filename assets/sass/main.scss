@@ -212,6 +212,12 @@ hr {
   opacity: $element-opacity;
 }
 
+// align icons properly
+svg {
+  margin-bottom: -3px;
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
   &:not(.image_link):not(.anchor){
