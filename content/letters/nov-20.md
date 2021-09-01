@@ -7,4 +7,5 @@ canonicalUrl: "https://tinyletter.com/nikhilthota/letters/thot-s-nov-2020-though
 readingTime: "6"
 favorite: false
 emoji: 📜
+image: "/images/newsletter_transparent.png"
 ---

@@ -7,4 +7,5 @@ canonicalUrl: "https://tinyletter.com/nikhilthota/letters/s02-e01-zen-and-the-ar
 readingTime: "4"
 favorite: false
 emoji: 💼
+image: "/images/thots_thoughts_2_transparent.png"
 ---

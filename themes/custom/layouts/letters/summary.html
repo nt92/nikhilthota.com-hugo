@@ -1,7 +1,13 @@
 <div class="post_summary_container">
   <div class="post_summary_image_container">
-    {{ with .Params.image }}
-    <img class="post_summary_image" src="{{ . }}" />
+    {{ if .Params.canonicalUrl }}
+      <a class="image_link" target="_blank" href="{{ .Params.canonicalUrl }}">
+        <img class="post_summary_image" src="{{ .Params.image }}" />
+      </a>
+    {{ else }}
+      <a class="image_link" href="{{ .RelPermalink }}">
+        <img class="post_summary_image" src="{{ .Params.image }}" />
+      </a>
     {{ end }}
   </div>
   <div class="post_description">

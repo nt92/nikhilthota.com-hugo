@@ -5,6 +5,7 @@ description: "Essays that I used to apply for the Interact Fellowship (I did not
 tags: [""]
 draft: false
 emoji: 🏕
+image: "/article_images/interact.jpeg"
 ---
 
  A few months ago, I applied to the [Interact Fellowship][1], but unfortunately got rejected shortly after. The application essays however, were incredibly insightful and posed a lot of interesting questions that I found myself thinking a lot about. I wanted to share my ramblings for some of these questions because I think that they tell a lot about who I am as a person. Shoutout to [Kenton][2] for the idea.

@@ -15,7 +15,7 @@ image: "/article_images/anime/cover.jpeg"
 
 I've noticed a trend with people that enjoy anime. Outside of the more passionate outliers, fans tend to underplay or even omit their love for the genre until *someone else* brings it up. With these people, conversations go somewhat like this:
 
-{{< figure caption="comic creds: my 10 y/o sister Neha" src="/article_images/anime/anime_comic.jpg" >}}
+{{< figure caption="comic creds: my funny 10 y/o sister Neha" src="/article_images/anime/anime_comic.jpg" >}}
 
 > I apologize for my atrocious handwriting. Here are captions:
 > 1. “blah blah blah”
