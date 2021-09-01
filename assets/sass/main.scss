@@ -17,6 +17,8 @@ $color-shadow: #33333328;
 $color-font-secondary: #7c7c7c;
 $color-button-background: #94949431;
 
+$navBar-height: 50px;
+
 /* Font Sizes */ 
 $font-size-small-mobile: 14px;
 $font-size-small-web: 16px;
@@ -286,6 +288,108 @@ a[href^="http"], a[href^="mail"] {
   font-style: italic;
 }
 
+/* Navbar */
+
+.navbar_actions {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 8px;
+  display: grid;
+  grid-gap: .5rem;
+  grid-auto-flow: column;
+
+  a {
+    padding: 1px;
+
+    @include media(xsmallScreen) {
+      padding: 1px 4px;
+      background: $color-link-external-faded;
+      border-radius: 4px;
+    }
+
+    span {
+      @include media(xsmallScreen) {
+        display:none;
+      }
+    }
+  }
+}
+
+#navbar {
+  box-shadow: 0 4px 6px -6px $color-link-internal-faded;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $navBar-height;
+  z-index: 999;
+  scroll-margin-top: $navBar-height;
+
+  /* Collapse nav bar on scroll down */
+  &.collapse {
+    animation: collapse 0.25s ease forwards;
+  }
+
+  /* Open nav bar on scroll up */
+  &.open {
+    animation: open 0.25s ease forwards;
+  }
+
+  .socialMediaContainer {
+    margin: 0;
+    margin-left: auto;
+
+    i {
+      font-size: 24px;
+    }
+  }
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  max-width: $view-width;
+  margin: auto;
+
+  @include media(xsmallScreen) {
+    // font-size: 90%;
+    margin: 0 5px;
+  }
+
+  a:not(.socialMediaLink) {
+    color: $color-link-internal !important;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+@keyframes collapse {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+
+  to {
+    opacity: 0;
+    top: -$navBar-height;
+  }
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+    top: -$navBar-height;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 /* Individual Post Page: nikhilthota.com/post/ */
 
 .banner_list_container {
@@ -309,7 +413,7 @@ a[href^="http"], a[href^="mail"] {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 30px 0 30px 0;
+  margin: $navBar-height+12 0 30px 0;
   max-width: $view-width;
   overflow: hidden;
   padding: 0 16px 0 16px;
@@ -596,6 +700,12 @@ a[href^="http"], a[href^="mail"] {
     margin-right: 60px;
     padding-right: 20px;
   }
+  
+  &.mini {
+    margin-top: 6px;
+    width: 34px;
+    vertical-align: middle;
+  }
 }
 
 .post_summary_container {
@@ -657,6 +767,11 @@ a[href^="http"], a[href^="mail"] {
 
 .image_link {
   border-bottom-style: none !important;
+}
+
+.avatar_link {
+  width: 42px;
+  height: 42px;
 }
 
 /* Icon Lists */
@@ -1057,7 +1172,7 @@ span.wave:hover {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .progress-container {
