@@ -15,6 +15,16 @@
       <span>
         {{ .Date.Format "January 2, 2006" }}
         <span>
+          {{ if in .Params.tags "Travel" }}
+            // <a href="/travel">
+              <span class="iconify" data-icon="fa-solid:globe-americas"></span>
+              travel</a>
+          {{ end }}
+          {{ if in .Params.tags "Tinker" }}
+            // <a href="/tech">
+              <span class="iconify" data-icon="ant-design:code-filled"></span>
+              projects</a>
+          {{ end }}
           {{ if .Params.favorite }}
             // <span class="iconify" data-icon="emojione:star"></span>
           {{ end }}
