@@ -1,4 +1,4 @@
-<!-- {{ define "main" }}
+{{ define "main" }}
 <div class="post_container">
     {{ partial "author.html" . }}
     <div class="article_header">
@@ -9,13 +9,8 @@
             {{ else }}
                 {{ .ReadingTime }}
             {{ end }}
-            min read —
-            {{ range (.GetTerms "tags") }}
-                <span><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></span>
-            {{ end }}
+            min read
         </p>
-        <h2>{{ .Description }}</h2>
-        {{ partial "toc.html" . }}
     </div>
     <article class="post_content">
         {{ with .Params.canonicalUrl }}
@@ -31,4 +26,4 @@
         {{ partial "post_footer.html" . }}
     </footer>
 </div>
-{{ end }} -->
+{{ end }}

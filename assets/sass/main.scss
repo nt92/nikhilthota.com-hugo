@@ -768,6 +768,17 @@ a[href^="http"], a[href^="mail"] {
 
 .image_link {
   border-bottom-style: none !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: $element-opacity;
+  }
+}
+
+.navbar_emoji {
+  // vertical-align: middle;
+  margin-left: 4px;
 }
 
 .avatar_link {
