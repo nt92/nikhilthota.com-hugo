@@ -8,5 +8,8 @@
         <ul class="banner_post_list">
             {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
         </ul>
+        <figure class="banner_footer">
+            <img src="/images/footer_banner.png"></img>
+        </figure>
     </div>
 {{ end }}

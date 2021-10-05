@@ -274,15 +274,27 @@ a[href^="http"], a[href^="mail"] {
     }
   }
 }
+
 .banner_image {
   margin: 0 0 30px 0;
 
-    img {
-      box-shadow: none !important;
-      max-width: 100%;
-      display: flex;
-    }
+  img {
+    box-shadow: none !important;
+    max-width: 100%;
+    display: flex;
   }
+}
+
+.banner_footer {
+  margin: 20px 0 0 0;
+
+  img {
+    box-shadow: none !important;
+    max-width: 100%;
+    display: flex;
+  }
+}
+  
 
 .italic {
   font-style: italic;
@@ -397,7 +409,6 @@ a[href^="http"], a[href^="mail"] {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-bottom: 30px;
   max-width: $view-width;
   overflow: hidden;
 }
@@ -413,7 +424,7 @@ a[href^="http"], a[href^="mail"] {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
   // margin: $navBar-height+12 0 30px 0;
   max-width: $view-width;
   overflow: hidden;
@@ -694,16 +705,18 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .nikhil {
-  width: 250px;
+  width: 300px;
 
   &.small {
     width: 120px;
     margin-right: 60px;
+    margin-bottom: 30px;
     padding-right: 20px;
   }
   
   &.mini {
-    margin-top: 6px;
+    margin-top: 8px;
+    border-radius: 8px;
     width: 34px;
     vertical-align: middle;
   }

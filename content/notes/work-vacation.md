@@ -1,12 +1,12 @@
 ---
 title: "Work-Vacation Balance"
-date: 2021-10-04
-description: "How I quantitatively measure the effect of a self experiment"
-tags: ["Notes", "Health", "Biohacking"]
-favorite: true
+date: 2021-10-03
+description: "How I like to balance work & vacation"
+tags: ["Work", "Travel", "Notes"]
+favorite: false
 draft: false
-emoji: 🧪
-image: "/article_images/self-experimentation/xkcd.png"
+emoji: ⛱
+image: "/article_images/work-vacation/work-vacation.jpg"
 ---
 
 [This was originally posted on my Hawaii Travel Journal.](/writing/fears/)
