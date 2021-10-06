@@ -2,7 +2,7 @@
 title: "Lad Culture vs. Chad Culture"
 date: 2021-10-06
 description: "Being part of a group of lads can provide support, synergistic growth, and above all — vibes."
-tags: ["Culture", "Travel"]
+tags: ["Culture", "Travel", "Notes"]
 favorite: false
 draft: false
 emoji: 👯
