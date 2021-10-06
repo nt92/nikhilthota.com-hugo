@@ -8,5 +8,5 @@ canonicalUrl: "https://blog.usejournal.com/digital-minimalism-ac083064b4e4"
 favorite: true
 readingTime: "6"
 emoji: 📱
-image: "https://miro.medium.com/max/2000/0*5AAn5adweXrTFM-3"
+image: "/article_images/digital-minimalism.jpeg"
 ---
