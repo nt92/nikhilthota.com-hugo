@@ -2,7 +2,7 @@
 title: "The Discomfort Index"
 date: 2021-02-26
 description: "Discomfort is unavoidable when trying something new. How can you use this fact to optimize your progress?"
-tags: ["Learning", "Self Improvement"]
+tags: ["Learning", "Self Improvement", "Notes"]
 favorite: false
 katex: true
 markeup: "mmark"

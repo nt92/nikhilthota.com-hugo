@@ -11,9 +11,11 @@ image: "/article_images/work-vacation/work-vacation.jpg"
 
 [This was originally posted on my Hawaii Travel Journal.](/writing/fears/)
 
+...
+
 Our first few days in Kona were standard. We got some morning coffee, I rolled into work at 7am, grinded out some code, and clocked out by 3pm. The evenings were filled with walks, historic sites [(more on hawaiian history here)](https://tinyletter.com/nikhilthota/letters/s01-e03-the-sandwich-islands), and sunsets by the small beach near our Airbnb known as *"Keiki Beach Queen's Bath"*.
 
-By merging the energies of work and life in this way, I've realized that I genuinely enjoy working on meaningful projects while on vacation. It sounds counterproductive, but I find it difficult to fully disconnect for over 3 days without getting restless. I like being able to choose this lifestyle, and it might be that choice that makes all the difference. Over the course of a week, here's how I'd like to spend a vacation:
+By merging the energies of work and life in this way, **I've realized that I genuinely enjoy working on meaningful projects while on vacation.** It sounds counterproductive, but I find it difficult to fully disconnect for over 3 days without getting restless. I like being able to choose this lifestyle, and it might be that choice that makes all the difference. Over the course of a week, here's how I'd like to spend a vacation:
 
 - 3-4 days of intense & focused work on something meaningful (for no more than 6 hours per day)
 - Evenings and a long weekend of exploration, physical activity, time spent with loved ones, hobbies, and curiosity-driven learning
