@@ -1036,7 +1036,22 @@ section.footnotes {
     background-color: $color-background;
   }
 
-  button {
+  .copy_link_button {
+    // font-size: 15px;
+    padding: 0px 10px 0px 4px;
+    background-color: $color-font-primary;
+    color: $color-background;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover, &:active {
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s  ease-in-out;
+      opacity: $element-opacity;
+    }
+  }
+
+  .submit_button {
     padding: 8px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -1170,6 +1185,29 @@ section.footnotes {
   visibility: hidden;
 }
 
+/* Snackbar */
+#snackbar {
+  visibility: hidden;
+  min-width: 200px; 
+  margin-left: -100px;
+  background-color: $color-font-primary;
+  color: $color-background; 
+  text-align: center; 
+  border-radius: 6px;
+  padding: 6px; 
+  position: fixed;
+  z-index: 1; 
+  left: 50%; 
+  bottom: 30px; 
+  font-size: $font-size-small-web;
+}
+
+#snackbar.show {
+  visibility: visible; 
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
 /* Animations */
 
 // got from https://jarv.is/notes/css-waving-hand-emoji/
@@ -1189,6 +1227,27 @@ span.wave:hover {
    40% { transform: rotate(  9.0deg) }
    50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
   100% { transform: rotate(  0.0deg) }
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }
 
 .fixed-top {

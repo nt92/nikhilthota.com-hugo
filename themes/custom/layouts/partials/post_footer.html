@@ -1,16 +1,20 @@
 <div class="footer_cta">
     <div class="footer_blurb">
         <p>Thanks for reading! If you enjoy my site, you can subscribe via
-        <a class="yellow_link" href="/index.xml">RSS</a>, peep me on
-        <a href="https://twitter.com/nikhilthota" target="_blank">Twitter</a>,
-        check out my other <a class="yellow_link" href="/">writing</a>, or
-        follow my <a href="https://tinyletter.com/nikhilthota" target="_blank">newsletter</a>.</p>
+            <a class="yellow_link" href="/index.xml">RSS</a>, peep me on
+            <a href="https://twitter.com/nikhilthota" target="_blank">Twitter</a>,
+            check out my other <a class="yellow_link" href="/">writing</a>, or
+            follow my <a href="https://tinyletter.com/nikhilthota" target="_blank">newsletter</a>.</p>
+            <p>{{ with .Permalink }}
+                <button class="icon copy_link_button" onclick="copyLink({{.}})"><i class="uil uil-link-h" ></i> Copy Post Link</button>
+            {{ end }}</p>
+        <!-- </p> -->
     </div>
     <form class="tinyletter" action="https://tinyletter.com/nikhilthota" method="post" target="popupwindow"
         onsubmit="window.open('https://tinyletter.com/nikhilthota', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
         <div class="tinyletter-input">
             <input type="text" placeholder="Your Email" name="email" id="tlemail" />
-            <button type="submit">Subscribe</button>
+            <button class="submit_button" type="submit">Subscribe</button>
             <input type="hidden" value="1" name="embed"/>
         </div>
     </form>
@@ -37,5 +41,7 @@
 <figure class="banner_footer">
     <img src="/images/footer_banner.png"></img>
 </figure>
+<div id="snackbar"/>
 <script src="/js/permalink.js"></script>
+<script src="/js/post_footer.js"></script>
 {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
