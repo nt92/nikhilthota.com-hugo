@@ -6,8 +6,6 @@ set -e
 # Ask for commit message
 read -p 'Commit Message: ' commitvar
 
-printf "\033[0;32mDeploying to GitHub -> DigitalOcean...\033[0m\n"
-
 # Build the project.
 hugo --minify
 
@@ -18,11 +16,7 @@ cd public
 git add -A
 
 # Commit changes.
-msg="updating site $(date)"
-if [ -n "$*" ]; then
-	msg="$*"
-fi
-git commit -m "$msg"
+git commit -m "$commitvar"
 
 # Push source and build repos.
 git push
