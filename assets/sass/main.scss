@@ -585,6 +585,13 @@ a[href^="http"], a[href^="mail"] {
       @include image-dropshadow();
     }
 
+    &.xkcd {
+      width: -webkit-fill-available;
+      img{
+        box-shadow: none;
+      }
+    }
+
     &.main_image {
 
       figcaption {
