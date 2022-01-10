@@ -1,15 +1,14 @@
 ---
 title: "Monitoring my Blood Sugar as a Non-Diabetic"
-date: 2021-12-30
+date: 2022-01-10
 description: "I used a continuous glucose monitor for a month as a non-diabetic — here’s what I learned."
 tags: ["Health", "Biohacking", "Nutrition"]
 favorite: true
-draft: true
 emoji: 🩸
-image: "/article_images/fasting/last_supper_share.jpeg"
+image: "/article_images/cgm/cgm_cover.png"
 ---
 
-[TODO: cover photo]
+{{< figure class="main_image" src="/article_images/cgm/cgm_cover.png">}}
 
 As I get older, I find myself continuing to optimize my health under the guidance of one core principle — **that** **most of the negativity I experience externally is caused by internal biological factors (poor sleep, blood sugar crash, nutrient deficiency, etc.)**
 
@@ -67,7 +66,7 @@ We all react slightly differently to various kinds of food due to our genetic ma
 
 Another interesting finding was that a couple of bananas spiked my blood sugar more than a whole bowl of *thick* ramen, whiskey, and a few Guinness beers. Maybe there's a reason Peter Attia has cut bananas out of his diet in recent years.[^1]
 
-{{< figure caption="" src="/article_images/cgm/banana_vs_ramen.png" >}}
+{{< figure src="/article_images/cgm/banana_vs_ramen.png" >}}
 
 ## Experimenting with a CGM
 
@@ -117,7 +116,7 @@ Q: How does stress influence blood sugar?
 
 A: Stress has a fairly universal response throughout your body, whether it’s mental or physical. Stress tends to increase your blood sugar as your body mounts a response against the perceived threat by releasing glucose (energy) from storage. This might be why my blood sugar ticked up a bit while exercising in a fasted state.
 
-[TODO: chart of post-exercise but fasted glucose response]
+{{< figure src="/article_images/cgm/exercise_graph.png" >}}
 
 > 
 
@@ -125,7 +124,7 @@ Q: Does the speed of eating influence your glucose response?
 
 A: Definitely. After consuming something, your body needs some time to process it. If you eat super quickly, it will need to process more food at once, spiking your blood sugar more quickly than if you ate slowly. For myself, I noticed that my blood sugar barely spiked when eating a *huge* meal of sushi & hibachi (carb central) because it was distributed over a few hours.
 
-[TODO: chart of sushi & hibachi meal]
+{{< figure src="/article_images/cgm/sushi_graph.png" >}}
 
 > 
 

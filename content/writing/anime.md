@@ -223,6 +223,8 @@ Shoutout to some of the weebs in my life: [Spencer](https://www.spencerchang.me/
 
 Thanks for reading! Has reading this changed your perspective on anime? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota/status/1432453965136818180)
 
+{{< tweet 1432453965136818180 >}}
+
 [^1]: The [Wikipedia page](https://en.wikipedia.org/wiki/History_of_manga) on the "History of Manga" is excellent and where I drew a lot of the information in this section from.
 [^2]: Another notable example of political use of art is the [Anti-Bolshevik propaganda](https://en.wikipedia.org/wiki/Anti-Bolshevik_propaganda), which was in opposition to the radical Bolsheviks in the Russian political scene.
 [^3]: In addition to importing political values, the United States also started importing their comics and cartoons, which deeply influenced the style of manga at this pivotal period. [Osamu](https://en.wikipedia.org/wiki/Osamu_Tezuka) is known as the Japanese equivalent to Walt Disney, who he considered a major inspiration during this time.
