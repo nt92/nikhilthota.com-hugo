@@ -122,6 +122,11 @@ $screenMaxWidths: (
     0 0px 16px -16px $color-shadow;
 }
 
+@mixin red-color-dropshadow() {
+  box-shadow: 0 0px 16px 2px $color-link-external-faded,
+    0 0px 16px -16px $color-shadow;
+}
+
 @mixin collapsed-post-summary-container() {
   flex-direction: column;
   img {
@@ -686,13 +691,15 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .post_title {
-  font-size: 110%;
+  font-size: 130%;
+  font-weight: 500;
 }
 
 .post_list {
   width: 100%;
   list-style: none;
   padding: 0;
+  margin-bottom: 40px;
 }
 
 .post_description {
@@ -704,6 +711,11 @@ a[href^="http"], a[href^="mail"] {
 
 .postlist_description {
   font-style: italic;
+}
+
+.postlist_data {
+  color: $color-font-secondary;
+  font-size: 90%;
 }
 
 .post_date {
@@ -739,6 +751,19 @@ a[href^="http"], a[href^="mail"] {
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
   }
+
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 42px;
+    content: "";
+    height: 1px;
+    background: $color-font-secondary;
+    opacity: 30%;
+    width: 290px;
+  }
 }
 
 .post_summary_image_container {
@@ -748,7 +773,6 @@ a[href^="http"], a[href^="mail"] {
 
 .post_summary_image {
   width: 225px;
-  height: 150px;
   object-fit: cover;
   border-radius: 4px;
   @include image-dropshadow();
@@ -956,13 +980,10 @@ section.footnotes {
   flex-direction: column;
   border-radius: $border-radius-smooth;
   transition: background-color 0.2s;
-  max-height: 155px;
   position: relative;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   overflow: hidden;
-
-  @include image-dropshadow();
 
   & h3 {
     margin-top: 0;
@@ -1016,7 +1037,7 @@ section.footnotes {
     border-radius: $border-radius-smooth;
     margin: 24px 0 24px 0;
 
-    @include image-dropshadow();
+    @include red-color-dropshadow();
   }
 
   .footer_blurb {

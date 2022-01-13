@@ -4,8 +4,8 @@ date: 2020-12-27
 description: "I did a 3 day fast and only had coffee, water, and electrolytes. Here is a ‘trip report' of my fasting experience, backed by science."
 tags: ["Health", "Fasting", "Nutrition"]
 favorite: true
-# draft: true
 emoji: 🥑
+related: ["writing/cgm"]
 image: "/article_images/fasting/last_supper_share.jpeg"
 ---
 

@@ -5,6 +5,7 @@ description: "I used a continuous glucose monitor for a month as a non-diabetic 
 tags: ["Health", "Biohacking", "Nutrition"]
 favorite: true
 emoji: 🩸
+related: ["writing/fasting"]
 image: "/article_images/cgm/cgm_cover.png"
 ---
 

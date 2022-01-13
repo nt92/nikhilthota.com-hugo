@@ -29,6 +29,9 @@
     <ul class="post_list">
     {{ range where .Site.RegularPages ".Params.favorite" true}} {{ .Render "summary" }} {{ end }}
     </ul>
+    <figure class="banner_footer">
+      <img src="/images/footer_banner.png"></img>
+  </figure>
   </div>
 </div>
 {{ end }}
