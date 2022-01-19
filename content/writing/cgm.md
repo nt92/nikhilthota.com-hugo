@@ -174,4 +174,6 @@ As for my next experiment with a CGM (oh there will definitely be a next one), t
 
 Alright friends, that’s it for now. Have you ever considered experimenting with a CGM before? Is there anything that you know about blood sugar or metabolic health that I haven’t mentioned in this piece? I would love to know and connect on [Twitter](https://twitter.com/nikhilthota)!
 
+{{< tweet 1480937822840258563 >}}
+
 [^1]: I recall him mentioning this in some podcast somewhere but I couldn't find the source. 
