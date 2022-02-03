@@ -4,6 +4,7 @@
             <a href="/" class="image_link">
                 <img src="/images/writing_banner.png"></img>
             </a>
+            <span>👆🏽 (click banner to go home)</span>
         </figure>
         <ul class="banner_post_list">
             {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}

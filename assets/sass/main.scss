@@ -281,12 +281,21 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .banner_image {
+  position: relative;
   margin: 0 0 30px 0;
 
   img {
     box-shadow: none !important;
     max-width: 100%;
     display: flex;
+  }
+
+  span {
+    position: absolute;
+    bottom: -40;
+    right: 0;
+    font-size: 70%;
+    font-style: italic;
   }
 }
 
