@@ -366,8 +366,8 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .navbar_actions {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-top: 8px;
   display: grid;
   grid-gap: .5rem;
@@ -398,7 +398,7 @@ a[href^="http"], a[href^="mail"] {
 
 .navbar_external {
   display: grid;
-  grid-gap: .8rem;
+  grid-gap: 1rem;
   grid-auto-flow: column;
   
   a {
@@ -458,7 +458,7 @@ a[href^="http"], a[href^="mail"] {
 
 .overlay_content {
   position: relative;
-  top: 10%;
+  top: 20%;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -468,7 +468,6 @@ a[href^="http"], a[href^="mail"] {
 .navbar_external_overlay {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   display: grid;
-  grid-gap: .8rem;
   grid-auto-flow: column;
   justify-content: center;
   width: 100%;
@@ -959,6 +958,36 @@ a[href^="http"], a[href^="mail"] {
 
   &:hover, &:focus {
     background-image: url(../images/github.png);
+  }
+}
+
+.linkedin {
+  background-size: 110%;
+  background-image: url(../images/linkedin_gray.png);
+  background-repeat: no-repeat;
+
+  &:hover, &:focus {
+    background-image: url(../images/linkedin.png);
+  }
+}
+
+.spotify {
+  background-size: 100%;
+  background-image: url(../images/spotify_gray.png);
+  background-repeat: no-repeat;
+
+  &:hover, &:focus {
+    background-image: url(../images/spotify.png);
+  }
+}
+
+.goodreads {
+  background-size: 100%;
+  background-image: url(../images/goodreads_gray.png);
+  background-repeat: no-repeat;
+
+  &:hover, &:focus {
+    background-image: url(../images/goodreads.png);
   }
 }
 
