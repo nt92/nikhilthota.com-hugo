@@ -454,6 +454,7 @@ a[href^="http"], a[href^="mail"] {
   background-color: $color-background;
   overflow-x: hidden;
   transition: 0.1s;
+  overflow: hidden;
 }
 
 .overlay_content {
@@ -474,7 +475,7 @@ a[href^="http"], a[href^="mail"] {
   bottom: 0;
   left: 0;
   position: absolute;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding-top: 8px;
   
   a {
