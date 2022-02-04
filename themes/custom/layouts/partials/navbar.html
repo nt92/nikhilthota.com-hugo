@@ -1,56 +1,91 @@
 <!-- src: https://blog.christopherianmurphy.com/2017/05/expand-collapse-navbar/ -->
 <nav id="navbar">
-    <div class="navbar_container">
-          <a href="/" class="image_link avatar_link"
-              ><img class="nikhil mini" src="{{ "images/nikhil-v2-card-small.png" | absURL}}"
-          /></a>
-          <a href="/" class="navbar_link"><h2>{{.Site.Title}}</h2></a>
-      <div class="navbar_actions">
-        <a href="/writing" class="image_link"><span>writing</span> <b class="navbar_emoji">✍🏽</b></a>
-        <a href="/travel" class="image_link"><span>travel</span> <b class="navbar_emoji">🌎</b></a>
-        <!-- <a href="/books"><span>books</span> <b>📚</b></a> -->
-        <a href="/notes" class="image_link"><span>notes</span> <b class="navbar_emoji">📝</b></a>
-        <a href="/projects" class="image_link"><span>projects</span> <b class="navbar_emoji">⚒️</b></a>
+  <div class="navbar_container">
+    <div class="navbar_title">
+      <a href="/" class="image_link avatar_link">
+        <img class="nikhil mini" src="{{ "images/nikhil-v2-card-small.png" | absURL}}"/>
+      </a>
+      <a href="/" class="navbar_link image_link"><h2>Nikhil Thota</h2></a>
     </div>
+    <div class="navbar_actions">
+      <a href="/writing" class="image_link"><span>writing</span> <b class="navbar_emoji">✍🏽</b></a>
+      <a href="/travel" class="image_link"><span>travel</span> <b class="navbar_emoji">🌎</b></a>
+      <!-- <a href="/books"><span>books</span> <b>📚</b></a> -->
+      <a href="/notes" class="image_link"><span>notes</span> <b class="navbar_emoji">📝</b></a>
+      <a href="/projects" class="image_link"><span>projects</span> <b class="navbar_emoji">⚒️</b></a>
     </div>
-    <script>
-      // Store navbar classes
-      var navbarElem = document.getElementById("navbar");
-      var navClasses = navbarElem.classList;
-      var navbarHeight = navbarElem.clientHeight;
-  
-      function downAction() {
-        navClasses.remove("open");
-        navClasses.add("collapse");
+    <div class="navbar_external">
+      <a class="twitter link_button image_link" href="https://twitter.com/nikhilthota" ></a>
+      <a class="github link_button image_link" href="https://github.com/nt92" ></a>
+    </div>
+    <div class="navbar_hamburger">
+      <div style="font-size:32px;cursor:pointer" onclick="openNav()">&#9776;</div>
+    </div>
+  </div>
+
+  <script>
+    // Store navbar classes
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    // returns current scroll position
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    // Initial scroll position
+    var scrollState = 0;
+
+    // Primary scroll event function
+    var scrollDetect = function(down, up) {
+      // Current scroll position
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
       }
+      // Set previous scroll position
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+<div id="myNav" class="overlay">
+  <div style="font-size:32px;cursor:pointer;margin-left:auto;width:32px;" onclick="closeNav()">&times;</div>
+  <div class="overlay_content">
+    <a href="/writing" class="image_link"><span>writing</span> <b class="navbar_emoji">✍🏽</b></a>
+    <a href="/travel" class="image_link"><span>travel</span> <b class="navbar_emoji">🌎</b></a>
+    <!-- <a href="/books"><span>books</span> <b>📚</b></a> -->
+    <a href="/notes" class="image_link"><span>notes</span> <b class="navbar_emoji">📝</b></a>
+    <a href="/projects" class="image_link"><span>projects</span> <b class="navbar_emoji">⚒️</b></a>
+  </div>
+  <div class="navbar_external_overlay">
+    <a class="twitter link_button image_link" href="https://twitter.com/nikhilthota" ></a>
+    <a class="github link_button image_link" href="https://github.com/nt92" ></a>
+  </div>
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
   
-      function upAction() {
-        navClasses.remove("collapse");
-        navClasses.add("open");
-      }
-  
-      // returns current scroll position
-      var scrollTop = function() {
-        return window.scrollY;
-      };
-  
-      // Initial scroll position
-      var scrollState = 0;
-  
-      // Primary scroll event function
-      var scrollDetect = function(down, up) {
-        // Current scroll position
-        var currentScroll = scrollTop();
-        if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
-          down();
-        } else if (currentScroll < scrollState) {
-          up();
-        }
-        // Set previous scroll position
-        scrollState = scrollTop();
-      };
-      window.addEventListener("scroll", function() {
-        scrollDetect(downAction, upAction);
-      });
-    </script>
-  </nav>
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>

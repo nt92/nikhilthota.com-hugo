@@ -295,7 +295,6 @@ a[href^="http"], a[href^="mail"] {
     bottom: -40;
     right: 0;
     font-size: 70%;
-    font-style: italic;
   }
 }
 
@@ -316,31 +315,6 @@ a[href^="http"], a[href^="mail"] {
 
 /* Navbar */
 
-.navbar_actions {
-  margin-left: auto;
-  margin-right: 8px;
-  margin-top: 8px;
-  display: grid;
-  grid-gap: .5rem;
-  grid-auto-flow: column;
-
-  a {
-    padding: 1px;
-
-    @include media(xsmallScreen) {
-      padding: 1px 8px 3px 0px;
-      background: $color-link-external-faded;
-      border-radius: 4px;
-    }
-
-    span {
-      @include media(xsmallScreen) {
-        display:none;
-      }
-    }
-  }
-}
-
 #navbar {
   box-shadow: 0 4px 6px -6px $color-link-internal-faded;
   background-color: white;
@@ -352,12 +326,10 @@ a[href^="http"], a[href^="mail"] {
   z-index: 999;
   scroll-margin-top: $navBar-height;
 
-  /* Collapse nav bar on scroll down */
   &.collapse {
     animation: collapse 0.25s ease forwards;
   }
 
-  /* Open nav bar on scroll up */
   &.open {
     animation: open 0.25s ease forwards;
   }
@@ -375,10 +347,11 @@ a[href^="http"], a[href^="mail"] {
 .navbar_container {
   display: flex;
   align-items: center;
-  max-width: $view-width;
+  justify-content: center;
+  // max-width: $view-width;
   margin: auto;
 
-  @include media(xsmallScreen) {
+  @include media(mediumScreen, smallScreen, xsmallScreen) {
     // font-size: 90%;
     margin: 0 5px;
   }
@@ -389,6 +362,61 @@ a[href^="http"], a[href^="mail"] {
 
   h2 {
     margin: 0;
+  }
+}
+
+.navbar_actions {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 8px;
+  display: grid;
+  grid-gap: .5rem;
+  grid-auto-flow: column;
+
+  @include media(mediumScreen, smallScreen, xsmallScreen) {
+    margin: 0;
+  }
+
+  a {
+    padding: 1px;
+
+    @include media(mediumScreen, smallScreen, xsmallScreen) {
+      display:none;
+    }
+  }
+}
+
+.navbar_title {
+  display: flex;
+  align-items: center; 
+}
+
+.navbar_link {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.navbar_external {
+  display: grid;
+  grid-gap: .8rem;
+  grid-auto-flow: column;
+  
+  a {
+    margin-top: 10px;
+    width: 99%;
+
+    @include media(mediumScreen, smallScreen, xsmallScreen) {
+      display:none;
+    }
+  }
+}
+
+.navbar_hamburger {
+  display: none;
+
+  @include media(mediumScreen, smallScreen, xsmallScreen) {
+    display: block;
+    margin-left: auto;
   }
 }
 
@@ -414,6 +442,59 @@ a[href^="http"], a[href^="mail"] {
     opacity: 1;
     top: 0;
   }
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: $color-background;
+  overflow-x: hidden;
+  transition: 0.1s;
+}
+
+.overlay_content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navbar_external_overlay {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-gap: .8rem;
+  grid-auto-flow: column;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  margin-bottom: 16px;
+  padding-top: 8px;
+  
+  a {
+    margin-top: 10px;
+    width: 20px;
+  }
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 140%;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
 /* Individual Post Page: nikhilthota.com/post/ */
