@@ -873,6 +873,14 @@ a[href^="http"], a[href^="mail"] {
   max-height: 16px;
 }
 
+.whatsapp_logo {
+  margin-bottom: -6px;
+  max-height: 18px;
+  background-color: #455a6480;
+  padding: 2px;
+  border-radius: 4px;
+}
+
 /* Author Section */
 
 .author_container {
@@ -988,7 +996,7 @@ a[href^="http"], a[href^="mail"] {
 }
 
 .goodreads {
-  background-size: 100%;
+  background-size: 90%;
   background-image: url(../images/goodreads_gray.png);
   background-repeat: no-repeat;
 
@@ -1434,6 +1442,11 @@ span.wave:hover {
 
   .dOrg_logo {
     max-height: 18px;
+  }
+
+  .whatsapp_logo {
+    margin-bottom: -8px;
+    max-height: 24px;
   }
 
   h1 {
