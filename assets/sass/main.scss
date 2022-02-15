@@ -767,11 +767,11 @@ a[href^="http"], a[href^="mail"] {
   text-align: left;
   padding-left: 4px;
   margin: 30px auto 30px auto;
-  max-width: 400px;
+  max-width: 500px;
 
   p {
-    -webkit-margin-before: 6px;
-    -webkit-margin-after: 6px;
+    -webkit-margin-before: 12px;
+    -webkit-margin-after: 12px;
   }
 }
 
@@ -866,6 +866,11 @@ a[href^="http"], a[href^="mail"] {
   object-fit: cover;
   border-radius: 4px;
   @include image-dropshadow();
+}
+
+.dOrg_logo {
+  margin-bottom: -4px;
+  max-height: 16px;
 }
 
 /* Author Section */
@@ -1425,6 +1430,10 @@ span.wave:hover {
 @media (min-width: 48em) {
   .container {
     transform: translateY(6%);
+  }
+
+  .dOrg_logo {
+    max-height: 18px;
   }
 
   h1 {
