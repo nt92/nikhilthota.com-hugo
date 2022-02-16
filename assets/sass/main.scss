@@ -398,12 +398,16 @@ a[href^="http"], a[href^="mail"] {
 
 .navbar_external {
   display: grid;
-  grid-gap: 1rem;
   grid-auto-flow: column;
   
   a {
-    margin-top: 10px;
-    width: 99%;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-left: 12px;
+
+    svg {
+      width: 1.2em;
+    }
 
     @include media(mediumScreen, smallScreen, xsmallScreen) {
       display:none;
@@ -480,6 +484,8 @@ a[href^="http"], a[href^="mail"] {
   
   a {
     margin-top: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
     width: 20px;
   }
 }
@@ -493,9 +499,9 @@ a[href^="http"], a[href^="mail"] {
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
+// .overlay a:hover, .overlay a:focus {
+//   color: #f1f1f1;
+// }
 
 /* Individual Post Page: nikhilthota.com/post/ */
 
@@ -945,80 +951,9 @@ a[href^="http"], a[href^="mail"] {
   padding-bottom: 10px;
 }
 
-.tinyletter {
-  background-size: 110%;
-  background-image: url(../images/tinyletter_grey.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/tinyletter.png);
-  }
-}
-
-.twitter {
-  background-size: 92%;
-  background-image: url(../images/twitter_grey.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/twitter.png);
-  }
-}
-
-.github {
-  background-size: 90%;
-  background-image: url(../images/github_grey.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/github.png);
-  }
-}
-
-.linkedin {
-  background-size: 110%;
-  background-image: url(../images/linkedin_gray.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/linkedin.png);
-  }
-}
-
-.spotify {
-  background-size: 100%;
-  background-image: url(../images/spotify_gray.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/spotify.png);
-  }
-}
-
-.goodreads {
-  background-size: 90%;
-  background-image: url(../images/goodreads_gray.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/goodreads.png);
-  }
-}
-
-.gyro {
-  background-size: 100%;
-  border-radius: 8px;
-  background-image: url(../images/gyro_grey.png);
-  background-repeat: no-repeat;
-
-  &:hover, &:focus {
-    background-image: url(../images/gyro.png);
-  }
-}
-
 .link_button {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   background-position: center;
   display: block;
   border: 0;
@@ -1026,11 +961,22 @@ a[href^="http"], a[href^="mail"] {
   text-decoration: none;
   cursor: pointer;
   margin-top: 0;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 18px;
+  margin-left: 18px;
   padding: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+
+  filter: grayscale(1);
+
+  &:hover, &:focus {
+    filter: grayscale(0);
+  } 
+
+  svg {
+    width: 1.6em;
+    height: 1.6em;
+  }
 }
 
 .small_button {
