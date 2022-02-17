@@ -887,6 +887,22 @@ a[href^="http"], a[href^="mail"] {
   border-radius: 4px;
 }
 
+// Maybe animations...
+
+.title {
+  animation: bounceInUp 1.2s forwards;
+}
+
+.avatar {
+  animation: bounceInUp 1.2s .5s forwards;
+  visibility: hidden;
+}
+
+.page_content_animation {
+  animation: fadeInUp .8s 1.5s forwards;
+  visibility: hidden;
+}
+
 /* Author Section */
 
 .author_container {
@@ -913,9 +929,19 @@ a[href^="http"], a[href^="mail"] {
   align-items: center;
   justify-content: center;
   height: 55px;
-  margin-top: 2px;
+  margin-top: 4px;
   margin-bottom: 2px;
   margin-left: 6px;
+
+  a {
+    margin-right: 8px;
+    margin-left: 8px; 
+
+    svg {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  }
 }
 
 .image_link {
@@ -1275,6 +1301,33 @@ section.footnotes {
   margin-left: 16px;
 }
 
+/* /projects route */
+
+.in_progress_project { 
+  animation: squiggly-anim .4s linear infinite;
+  // display: inline-block;
+  // vertical-align: middle;
+}
+
+@keyframes squiggly-anim {
+  0% {
+    filter: url('#squiggly-0')
+  }
+  25% {
+    filter: url('#squiggly-1')
+  }
+  50% {
+    filter: url('#squiggly-2')
+  }
+  75% {
+    filter: url('#squiggly-3')
+  }
+  100% {
+    filter: url('#squiggly-4')
+  }
+}
+
+
 /* Plugins */
 
 // Permalink
@@ -1316,6 +1369,116 @@ section.footnotes {
 }
 
 /* Animations */
+
+/* Borrowed from https://animate.style/ — https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.css */
+
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    visibility: visible;
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
+    transform: translate3d(0, 3000px, 0) scaleY(5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
+    transform: translate3d(0, -20px, 0) scaleY(0.9);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
+    transform: translate3d(0, 10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
+    transform: translate3d(0, -5px, 0) scaleY(0.985);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    visibility: visible;
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0) scaleY(5);
+    transform: translate3d(0, 3000px, 0) scaleY(5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0) scaleY(0.9);
+    transform: translate3d(0, -20px, 0) scaleY(0.9);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0) scaleY(0.95);
+    transform: translate3d(0, 10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0) scaleY(0.985);
+    transform: translate3d(0, -5px, 0) scaleY(0.985);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
 
 // got from https://jarv.is/notes/css-waving-hand-emoji/
 span.wave:hover {
@@ -1383,7 +1546,7 @@ span.wave:hover {
 
 @media (min-width: 48em) {
   .container {
-    transform: translateY(6%);
+    transform: translateY(2%);
   }
 
   .dOrg_logo {

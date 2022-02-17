@@ -1,9 +1,11 @@
 ---
 title: "Exploring My Mind With Python"
 date: 2019-05-25T22:11:22-08:00
+dateRange: "Mar '19"
 description: "Leveraging automation with Python to send myself my own journal entries daily."
 tags: ["Technology", "Code", "Tinker"]
-draft: false
+favorite: true
+writeup: true
 emoji: 🧠
 related: []
 image: "/article_images/python_1.jpg"

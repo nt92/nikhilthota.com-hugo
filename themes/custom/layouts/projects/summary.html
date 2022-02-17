@@ -1,0 +1,51 @@
+<div class="post_summary_container">
+  <div class="post_summary_image_container">
+    {{ if .Params.writeup }}
+      <a class="image_link" href="{{ .RelPermalink }}">
+        <img class="post_summary_image" src="{{ .Params.image }}" />
+      </a>
+    {{ else }}
+      <img class="post_summary_image" src="{{ .Params.image }}" />
+    {{ end }}
+  </div>
+  <div class="post_description">
+    <li class="postlist_data">
+      <span>
+        {{ if .Params.githubLink }}
+          <a class="image_link" href="{{ .Params.githubLink }}">
+            <span style="color: gray;" class="iconify" data-icon="akar-icons:github-fill"></span>
+          </a> |
+        {{ end }}
+        {{ if .Params.projectLink }}
+          <a class="image_link" href="{{ .Params.projectLink }}">
+            <span style="color: gray;" class="iconify" data-icon="bi:link"></span>
+          </a> |
+        {{ end }}
+        {{ if .Params.dateRange }}
+          {{ .Params.dateRange }}
+        {{ else }}
+          <span class="in_progress_project">In Progress...</span>
+        {{ end }}
+        <span>
+          {{ if .Params.favorite }}
+            | <span class="iconify" data-icon="emojione:star"></span>
+          {{ end }}
+        </span>
+      </span>
+    </li>
+    <li>
+      <span>
+      {{ if .Params.writeup }}
+        <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ else }}
+        <span class="post_title">{{ .Title }}</span>
+      {{ end }}
+      </span>
+    </li>
+    <li>
+      <span class="postlist_description">
+        {{  .Params.Description }}
+      </span>
+    </li>
+  </div>
+  </div>

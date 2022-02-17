@@ -1,12 +1,15 @@
 ---
 title: "Building a Memex"
 date: 2021-08-03
-description: "Building a modern version of the original 'second brain'"
+dateRange: "Aug '21 to Dec '21"
+description: "Building a modern version of the original 'second brain' by synthezing multiple data sources together into a cohesive system to search through my cruft of information."
 tags: ["Tinker", "Knowledge Management", "Notes"]
 favorite: true
-draft: false
+writeup: true
 emoji: 🧠
 image: "/article_images/memex/memex.png"
+projectLink: "https://github.com/nt92/memex/"
+githubLink: "https://github.com/nt92/memex/"
 ---
 
 [This was originally posted on my newsletter.](https://tinyletter.com/nikhilthota/letters/s02-e05-on-booling-knowledge-management-tooling)

@@ -16,17 +16,17 @@
         {{ .Date.Format "January 2, 2006" }}
         <span>
           {{ if in .Params.tags "Travel" }}
-            // <a href="/travel">
+            | <a href="/travel">
               <span class="iconify" data-icon="fa-solid:globe-americas"></span>
               travel</a>
           {{ end }}
           {{ if in .Params.tags "Tinker" }}
-            // <a href="/projects">
+            | <a href="/projects">
               <span class="iconify" data-icon="mdi:hammer-wrench"></span>
               project</a>
           {{ end }}
           {{ if .Params.favorite }}
-            // <span class="iconify" data-icon="emojione:star"></span>
+            | <span class="iconify" data-icon="emojione:star"></span>
           {{ end }}
         </span>
       </span>
