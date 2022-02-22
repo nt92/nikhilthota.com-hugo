@@ -889,19 +889,19 @@ a[href^="http"], a[href^="mail"] {
 
 // Maybe animations...
 
-.title {
-  animation: bounceInUp 1.2s forwards;
-}
+// .title {
+//   animation: bounceInUp 1.2s forwards;
+// }
 
-.avatar {
-  animation: bounceInUp 1.2s .5s forwards;
-  visibility: hidden;
-}
+// .avatar {
+//   animation: bounceInUp 1.2s .5s forwards;
+//   visibility: hidden;
+// }
 
-.page_content_animation {
-  animation: fadeInUp .8s 1.5s forwards;
-  visibility: hidden;
-}
+// .page_content_animation {
+//   animation: fadeInUp .8s 1.5s forwards;
+//   visibility: hidden;
+// }
 
 /* Author Section */
 
@@ -1305,8 +1305,6 @@ section.footnotes {
 
 .in_progress_project { 
   animation: squiggly-anim .4s linear infinite;
-  // display: inline-block;
-  // vertical-align: middle;
 }
 
 @keyframes squiggly-anim {
