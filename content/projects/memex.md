@@ -8,7 +8,7 @@ favorite: true
 writeup: true
 emoji: 🧠
 image: "/article_images/memex/memex.png"
-projectLink: "https://github.com/nt92/memex/"
+# projectLink: "https://github.com/nt92/memex/"
 githubLink: "https://github.com/nt92/memex/"
 ---
 
