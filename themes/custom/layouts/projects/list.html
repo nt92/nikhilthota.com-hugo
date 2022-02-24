@@ -18,6 +18,7 @@
             {{ $p := slice "Tinker" }}
             {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
         </ul>
+        {{ partial "footer.html" . }}
     </div>
     {{ partial "squiggly.html" . }}
 {{ end }}

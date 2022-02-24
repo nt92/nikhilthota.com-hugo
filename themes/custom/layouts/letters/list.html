@@ -14,8 +14,6 @@
             {{ $p := slice "Newsletter" }}
             {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
         </ul>
-        <figure class="banner_footer">
-            <img src="/images/footer_banner.png"></img>
-        </figure>
+        {{ partial "footer.html" . }}
     </div>
 {{ end }}

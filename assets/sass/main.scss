@@ -225,6 +225,11 @@ svg {
   font-size: 18px;
 }
 
+.empty_svg {
+  width: 0;
+  height: 0;
+}
+
 a {
   text-decoration: none;
   &:not(.image_link):not(.anchor){
