@@ -3,7 +3,7 @@ title: "Facing Fears in Big Island"
 date: 2021-09-10
 description: "Balancing work & vacation, finding strength in the face of limitations, and travel recommendations for a big hunk of volcanic rock in the Pacific."
 tags: ["Travel", "Hawaii"]
-favorite: true
+favorite: false
 emoji: 🏖
 image: "/article_images/fears/cover.jpg"
 ---

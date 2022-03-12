@@ -4,7 +4,7 @@ date: 2019-05-25T22:11:22-08:00
 dateRange: "Mar '19"
 description: "Leveraging automation with Python to send myself my own journal entries daily."
 tags: ["Technology", "Code", "Tinker"]
-favorite: true
+favorite: false
 writeup: true
 emoji: 🧠
 related: []

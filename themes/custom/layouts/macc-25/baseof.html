@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link href="https://unpkg.com/telescopic-text/lib/index.css" rel="stylesheet">
+    <body>
+        {{- block "main" . }}{{- end }}
+    </body>
+</html>

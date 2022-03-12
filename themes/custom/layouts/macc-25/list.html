@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div id="text-container"></div>
+
+<script>
+    const content = `
+* I 
+  * Lovingly, I
+* made tea`;
+    const node = createTelescopicTextFromBulletedList(content);
+    const container = document.getElementById("text-container");
+    container.appendChild(node);
+</script>
+{{ end }}
