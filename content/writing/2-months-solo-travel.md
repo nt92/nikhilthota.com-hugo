@@ -2,7 +2,7 @@
 title: "2 Months of Solo Travel"
 date: 2019-09-26T14:11:15-08:00
 description: "The trials and tribulations I experienced on a post-grad trip through Southeast Asia."
-tags: ["Travel"]
+tags: ["Blog", "Travel"]
 draft: false
 emoji: 🌏
 related: ['writing/two-months-backpack', 'writing/nirvana-in-thailand']

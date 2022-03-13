@@ -2,7 +2,7 @@
 title: "The Sun and The Clouds"
 date: 2020-09-29
 description: "Peace can always be found. It just takes a little time and effort."
-tags: ["Spirituality"]
+tags: ["Blog", "Spirituality"]
 favorite: true
 emoji: 🌤
 related: ['writing/untethered-soul']

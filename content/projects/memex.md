@@ -16,7 +16,7 @@ githubLink: "https://github.com/nt92/memex/"
 
 A few weeks ago I came across this tweet from Linus, better known as [@thesephist](https://twitter.com/thesephist):
 
-{{< tweet 1412956530220093448 >}}
+{{< tweet id=1412956530220093448 user="thesephist" >}}
 
 Over a weekend, Linus collected a bunch of his personal data (blog posts, tweets, journal entries, etc.) into a system that would allow him to search through everything on demand. He essentially built a prototype of Vannevar Bush's memex, which Bush defined as *"a device in which an individual stores all their books, records, and communications to supplement their memory".*
 

@@ -2,7 +2,7 @@
 title: "From Hacker to... Benefactor?"
 date: 2020-02-06T23:50:08-08:00
 description: "My experience as a sponsor at SwampHacks - an event I used to organize."
-tags: ["Technology"]
+tags: ["Blog", "Technology"]
 draft: false
 emoji: 🐊
 image: "https://i1.sndcdn.com/artworks-000193903555-bo2srk-t500x500.jpg"

@@ -2,7 +2,7 @@
 title: "The Philosophy of a Dairy Pill"
 date: 2019-12-16T14:14:15-08:00
 description: "My journey through lactose intolerance, and the lessons I learned along the way."
-tags: ["Health"]
+tags: ["Blog", "Health"]
 draft: false
 emoji: 🥛
 image: "/article_images/dairy_1.jpeg"

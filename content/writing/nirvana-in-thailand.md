@@ -2,7 +2,7 @@
 title: "Nirvana in Thailand"
 date: 2019-07-26T14:09:11-08:00
 description: "An experiment in solitude and mindfulness during a trip to the beautiful city of Pai, Thailand."
-tags: ["Travel"]
+tags: ["Blog", "Travel"]
 draft: false
 emoji: 🐘
 related: ['writing/two-months-backpack', 'writing/2-months-solo-travel']

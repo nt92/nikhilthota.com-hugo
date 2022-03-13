@@ -2,7 +2,7 @@
 title: "The Unsustainable Activity of New York City"
 date: 2021-11-03
 description: "On visiting and living in 'the greatest city on earth'"
-tags: ["Travel", "NYC"]
+tags: ["Blog", "Travel", "NYC"]
 favorite: true
 draft: false
 emoji: 🗽

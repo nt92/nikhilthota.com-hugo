@@ -2,7 +2,7 @@
 title: "On Anime and Manga アニメ"
 date: 2021-08-30
 description: "What is anime? How has it evolved? Why is it a brilliant and entertaining form of media?"
-tags: ["Anime", "Media"]
+tags: ["Blog", "Anime", "Media"]
 favorite: true
 draft: false
 emoji: 🖼
@@ -204,7 +204,7 @@ Okay, that's probably more information about anime than you'll ever need to know
 - **Where should I watch it?** The best source for watching anime (outside of Japan, maybe) is [Crunchyroll](https://www.crunchyroll.com/). You can watch almost any anime shortly after it's released **for free**. The desktop version doesn't even have ads!
 - **Is it in English?** Yes — well... some of it is. The majority of the high-quality anime was originally conceived and made in Japan. The more popular shows now have English dubbing (voice actors that have translated the show to English) but honestly, that's the suboptimal way to enjoy it, IMO. Almost all anime has English subtitles which allow you to understand the plot while not losing the emotion and context that the original voices give you. *Subs > Dubs*
 
-{{< tweet 1429547662571884552 >}}
+{{< tweet id=1429547662571884552 user="genepark" >}}
 
 - **What is the age range?** As mentioned earlier, there are genres (shōnen and shōjo) specifically targeted at a younger audience. The vast majority is, however, for all *adult* audiences. In fact, some more gruesome shows like *Attack on Titan* would certainly not be appropriate for a child that cannot handle a ~~little bit~~ lot of gore.
 - **What sub-genres of anime are there?** Honestly, if you can think of a niche, there's probably an anime for it. [Here's a non-exhaustive list to start.](https://reelrundown.com/animation/Anime-Genre-List)
@@ -215,7 +215,7 @@ Okay, that's probably more information about anime than you'll ever need to know
 
 In a [recent newsletter](https://tinyletter.com/nikhilthota/letters/s02-e02-alloying-adults-with-animation), I wrote about anime after watching AoT (which I just finished re-watching  *again* with Mack). It's one of those things that iykyk[^9] and if you didn't know, now ya know. The stigma and lack of understanding of this art form is pervasive in our culture, and I hope this piece has done its part to alleviate that a little bit.
 
-{{< tweet 1417648642182189057 >}}
+{{< tweet id=1417648642182189057 user="nikhilthota" >}}
 
 ---
 
@@ -223,7 +223,7 @@ Shoutout to some of the weebs in my life: [Spencer](https://www.spencerchang.me/
 
 Thanks for reading! Has reading this changed your perspective on anime? I would love to hear about it and connect on [Twitter!](https://twitter.com/nikhilthota/status/1432453965136818180)
 
-{{< tweet 1432453965136818180 >}}
+{{< tweet id=1432453965136818180 user="nikhilthota" >}}
 
 [^1]: The [Wikipedia page](https://en.wikipedia.org/wiki/History_of_manga) on the "History of Manga" is excellent and where I drew a lot of the information in this section from.
 [^2]: Another notable example of political use of art is the [Anti-Bolshevik propaganda](https://en.wikipedia.org/wiki/Anti-Bolshevik_propaganda), which was in opposition to the radical Bolsheviks in the Russian political scene.

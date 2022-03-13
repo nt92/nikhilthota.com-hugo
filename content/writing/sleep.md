@@ -2,7 +2,7 @@
 title: "Sleep as a Service (SaaS)"
 date: 2019-10-25T14:11:54-08:00
 description: "We sleep for around a third of our lives. This piece aims to help those who read it gain greater command of their nocturnal hours."
-tags: ["Health"]
+tags: ["Blog", "Health"]
 draft: false
 emoji: 😴
 favorite: false

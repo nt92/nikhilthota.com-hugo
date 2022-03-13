@@ -2,7 +2,7 @@
 title: "On Frugality and Flourishing"
 date: 2020-02-10T14:15:15-08:00
 description: "The conscious shift towards Financial Abundance."
-tags: ["Finance"]
+tags: ["Blog", "Finance"]
 draft: false
 emoji: 💰
 image: "/article_images/frugality_1.jpeg"

@@ -2,7 +2,7 @@
 title: "Two Months in a Backpack"
 date: 2019-04-25T22:11:00-08:00
 description: "How to pack for 2 months of travel in only one backpack."
-tags: ["Travel"]
+tags: ["Blog", "Travel"]
 draft: false
 emoji: 🎒
 related: ['writing/2-months-solo-travel', 'writing/nirvana-in-thailand']

@@ -7,7 +7,8 @@
             <span>👆🏽 (click banner to go home)</span>
         </figure>
         <ul class="banner_post_list">
-            {{ range where .Site.RegularPages ".Params.unlisted" "!=" "true"}} {{ .Render "summary" }} {{ end }}
+            {{ $p := slice "Blog" "Newsletter" "Notes" }}
+            {{ range where .Site.RegularPages "Params.tags" "intersect" $p}} {{ .Render "summary" }} {{ end }}
         </ul>
         {{ partial "footer.html" . }}
     </div>
