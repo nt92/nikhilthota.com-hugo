@@ -2,12 +2,15 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        {{- partial "navbar.html" . -}}
         <div class="post_container">
             {{ partial "author" . }}
             <article class="post_content">
                 <p class="elsewhere_post">
-                    Hello intrepid explorer! This link does not work — can I point you to my <a href="/">homepage</a> instead? 🏠
+                    Hello intrepid explorer! This link does not work — can I point you to my <a href="/">homepage</a> instead?
+                    Maybe this cute little dog will help you find your way. 🏠
                 </p>
+                <img style="width: 100%;" src="/images/doggie.png">
             </article>
             <footer class="post_footer">
                 <hr/>
