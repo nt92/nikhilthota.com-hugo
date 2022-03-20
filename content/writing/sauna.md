@@ -203,16 +203,10 @@ That's it for now. Many of my friends know that I never shut up about saunas, an
 
 {{< tweet id=1502022021844250633 user="yutai95" >}}
 
-[^1]: In isolation, it’s difficult to extrapolate these results with scientific integrity to the average reader who never saunas, since the study compares those that sauna 1x a week to those that sauna 4-7x a week. However, when augmenting these results with the rest of the literature around saunas, I think it’s safe to conclude that at least some of these benefits from 4-7x sauna sessions a week would apply to those that don’t regularly sauna.
-
+[^1]: In isolation, it’s difficult to extrapolate these results with scientific integrity to the average reader who never saunas, since the study compares those that sauna 1x a week to those that sauna 4-7x a week. However, when augmenting these results with the rest of the literature around saunas, I think it’s safe to conclude that at least *some* of these benefits from 4-7x sauna sessions a week would apply to those that don’t regularly sauna.
 [^2]: This should go without saying, but I'm using the term addiction in a very tongue-in-cheek way. I am in no way minimizing clinical addiction, and if you are truly addicted to something (be it saunas or otherwise), please seek psychological help. Disclaimer over.
-
-[^3]: A great resource for learning about the history of saunas can be found on the Archimedes Banya blog.
-
-[^4]: References to all of the quantified metrics related to your body's response to heat stress can be found here.
-
-[^5]: As an example, Prion diseases (e.g. Mad Cow Disease) are rare neurodegenerative diseases that are known to be caused by a cascade of misfolded proteins in the brain.
-
-[^6]: HSPs are naturally over-expressed in Alzheimer’s patients that don’t use the sauna and have been shown to actively protect against the early stages of amyloid-beta (brain plaque found in Alzheimer’s patients) formation, which suggests that the body naturally recruits HSPs even in the absence of heat to mitigate protein misfolding.
-
-[^7]: A contraindication is “a specific situation in which a drug, procedure, or surgery should not be used because it may be harmful to the person” according to Medline, or rather something that might have a negative synergistic effect e.g. if you have a specific heart condition and also hit the sauna regularly.
+[^3]: A great resource for learning about the history of saunas can be found on the [Archimedes Banya blog](https://banyasf.com/history-bathing/).
+[^4]: References to all of the quantified metrics related to your body's response to heat stress can be found [here](https://www.sciencedirect.com/science/article/pii/S0531556521002916#st0055).
+[^5]: As an example, [Prion diseases](https://www.cdc.gov/prions/index.html) (e.g. Mad Cow Disease) are rare neurodegenerative diseases that are known to be caused by a cascade of misfolded proteins in the brain.
+[^6]: HSPs are naturally over-expressed in Alzheimer’s patients that don’t use the sauna and have been [shown](https://pubmed.ncbi.nlm.nih.gov/16973602/) to actively protect against the early stages of amyloid-beta (brain plaque found in Alzheimer’s patients) formation, which suggests that the body naturally recruits HSPs even in the absence of heat to mitigate protein misfolding.
+[^7]: A contraindication is *“a specific situation in which a drug, procedure, or surgery should not be used because it may be harmful to the person”* according to [Medline](https://medlineplus.gov/ency/article/002314.htm), or rather something that might have a negative synergistic effect e.g. if you have a specific heart condition and also hit the sauna regularly.
