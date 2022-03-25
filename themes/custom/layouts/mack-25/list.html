@@ -1,0 +1,129 @@
+{{ define "main" }}
+<div class="container">
+  <figure class="boat-image">
+    <img src="/images/boat.png"></img>
+  </figure>
+  <div class="left-side">
+    <h1>Dear Mack,</h1>
+    <div id="text-container">
+    </div>
+    <p>I love you.</p>
+    <p>— Nikhil 🧡</p>
+    <p style="font-style: italic;">Thanks to Jacky and Spencer for creating this awesome <a href="https://github.com/jackyzha0/telescopic-text">Telescopic Text Library</a>, 
+    to <a href="https://www.artofcarl.com/">Carl</a> for the breathtaking art, and of course to Mack for being you</p>
+  </div>
+</div>
+
+<script>
+    const paragraph1 = `
+      * Happy birthday
+        * Happy 
+        * 25th 
+          * quarter-century
+        * birthday
+      * bun!
+        * cinnamon bun!
+    `;
+    const paragraph2 = `
+      * We
+        * Due to a strange mixture of Covid, long-distance, and timing, we
+      * haven't been able to really celebrate your birthday in
+      * the past.
+        * your 3
+        * years of life
+          * rotations around the sun
+        * since we’ve been
+        * together.
+          * a unit.
+      * That's why I’m 
+      * so happy 
+        * extatic
+          * ecstatic
+      * that we get to spend it
+      * together this year.
+        * together this year. Remember when we
+        * hung out
+          * hung out at the
+          * stadium
+            * stadium (???)
+              * stadium (???) and got Greek food
+        * for your 22nd?
+      `;
+    const paragraph3 = `
+      * You’ve 
+      * grown 
+        * grown (we’ve also grown a lot as a couple)
+      * a lot since I’ve known 
+      * you.
+        * you. Throwback to our funny conflicts in the early 
+        * months.
+          * months. Since then, it feels like we've traversed the moon and back.
+      * You’ve become more a more confident, hardworking, and beautiful soul as time has 
+      * gone by.
+        * gone by. You’ve also become a sillier one, but maybe I'm to blame for that 😇.
+    `;
+    const paragraph4 = `
+      * Here’s to 
+      * you.
+        * you, and many more 
+        * years 
+          * decades
+            * centuries
+              * millenia (???)
+        * circling the 
+        * sun! 
+          * sun! 🌞
+      * There’s nobody else in the world I’d rather spend the rest of my days 
+      * with.
+        * with. You're my gal.
+    `;
+    const node1 = createTelescopicTextFromBulletedList(paragraph1);
+    const node2 = createTelescopicTextFromBulletedList(paragraph2);
+    const node3 = createTelescopicTextFromBulletedList(paragraph3);
+    const node4 = createTelescopicTextFromBulletedList(paragraph4);
+    const container = document.getElementById("text-container");
+    container.prepend(node4);
+    container.prepend(node3);
+    container.prepend(node2);
+    container.prepend(node1);
+</script>
+
+<style>
+  body {
+    /* font-family: ???; */
+    background-color: #ff950028;
+    --telescope-highlight: #d87c3f35;
+    --telescope-highlight-hover: #d87f3f61;
+    --telescope-text-color: #333333;
+  }
+
+  a {
+    color: #d87c3f !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    display: flex;
+    box-shadow: 5px 5px 40px 10px rgb(0 0 0 / 30%);
+  }
+
+  #text-container {
+    padding-top: 24px;
+  }
+
+  .boat-image {
+    position: relative;
+    margin: 15px 5px 30px 5px;
+  }
+
+  .left-side {
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+  }
+</style>
+{{ end }}
