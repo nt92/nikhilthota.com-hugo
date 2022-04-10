@@ -1141,11 +1141,11 @@ section.footnotes {
   }
 
   .footer_cta {
-    padding: 12px;
+    padding: 12px 12px 20px 12px;
     background-color: $color-blockquote-border;
     align-items: center;
     border-radius: $border-radius-smooth;
-    margin: 24px 0 24px 0;
+    margin: 24px 0 30px 0;
 
     @include red-color-dropshadow();
   }
