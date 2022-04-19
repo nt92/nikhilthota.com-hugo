@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cfe6e34c-9a35-4197-9951-8c9d8c7a16f6" name="DigitalOcean Droplet">
+        <fileTransfer accessType="SFTP" host="157.230.151.10" port="22" sshConfigId="d3b7c6ed-5b9a-47a1-bcf4-66797c96eb20" sshConfig="root@157.230.151.10:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e9911a6a-a162-43fc-84e1-db448013b94b" name="AWS">
+        <fileTransfer accessType="SFTP" host="ec2-3-101-54-46.us-west-1.compute.amazonaws.com" port="22" sshConfigId="adf3c506-e3d4-404e-b9d3-fbc1ad6a7dd7" sshConfig="ubuntu@ec2-3-101-54-46.us-west-1.compute.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
