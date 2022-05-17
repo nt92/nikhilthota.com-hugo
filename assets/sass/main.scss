@@ -177,7 +177,7 @@ mark {
   background: $color-highlight;
 }
 
-h1, h2, h3, h4, h5, h6, hr, ol, p, table, ul, .pullquote {
+h1, h2, h3, h4, h5, h6, hr, ol, p, table, .pullquote {
   margin-bottom: 24px;
 }
 
@@ -213,6 +213,7 @@ li {
   font-style: normal;
   font-weight: 280;
   line-height: 1.7em;
+  padding-bottom: 6px;
 }
 
 hr {
