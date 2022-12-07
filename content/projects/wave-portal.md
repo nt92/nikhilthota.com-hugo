@@ -1,7 +1,7 @@
 ---
 title: "Chain of Waves"
 date: 2021-12-20
-dateRange: "Dec '21 to Jan '22"
+dateRange: "December 2021"
 description: "An exploration of Web3 development — stitching together a smart contract to 'wave' at me, stored on the blockchain and connected to a nice React.js front-end."
 tags: ["Tinker", "Blockchain", "Crypto"]
 favorite: true

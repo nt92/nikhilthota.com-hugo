@@ -1,7 +1,7 @@
 ---
 title: "Building a Memex"
-date: 2021-08-03
-dateRange: "Aug '21 to Dec '21"
+date: 2022-11-06
+# dateRange: ""
 description: "Building a modern version of the original 'second brain' by synthezing multiple data sources together into a cohesive system to search through my cruft of information."
 tags: ["Tinker", "Knowledge Management", "Notes"]
 favorite: true

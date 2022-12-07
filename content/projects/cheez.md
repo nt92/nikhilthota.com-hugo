@@ -1,17 +1,17 @@
 ---
 title: "Cheez"
 date: 2022-08-20
-# dateRange: "Apr '22 - Aug '22"
-description: "A photo sharing app for when your friends don't send you last night's photos"
+dateRange: "July 2022 - August 2022"
+description: "A photo sharing app for when your friends don't send you the photos from last night — I built the social graph"
 tags: ["Technology", "Code", "Tinker"]
-draft: true
+draft: false
 favorite: true
 writeup: false
 emoji: 🧀
 related: []
-projectLink: ""
+projectLink: "https://apps.apple.com/us/app/cheez-get-pics-of-you/id6444137196"
 # githubLink: ""
-image: ""
+image: "/article_images/cheez/cheez.jpeg"
 ---
 
 ...
