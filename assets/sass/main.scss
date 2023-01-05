@@ -19,7 +19,7 @@ $color-button-background: #94949431;
 
 $navBar-height: 50px;
 
-/* Font Sizes */ 
+/* Font Sizes */
 $font-size-small-mobile: 14px;
 $font-size-small-web: 16px;
 // $font-size-medium-mobile: 13px;
@@ -158,10 +158,10 @@ body {
 // Preload images before hover
 body:after {
   display: none;
-  content: 
-    url(../images/tinyletter.png) 
-    url(../images/github.png) 
-    url(../images/twitter.png) 
+  content:
+    url(../images/tinyletter.png)
+    url(../images/github.png)
+    url(../images/twitter.png)
     url(../images/gyro.png);
 }
 
@@ -241,14 +241,14 @@ a {
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       text-decoration: none;
-      
+
       // using a lightweight version of this for custom underlining
       // https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/
-      background-image: 
+      background-image:
         linear-gradient(
-          $color-link-external-faded, 
+          $color-link-external-faded,
           $color-link-external-faded);
-      background-position: 0 96%; 
+      background-position: 0 96%;
       background-repeat: no-repeat;
       background-size: 100% .5px;
     }
@@ -266,9 +266,9 @@ a[href^="/"] {
   &:not(.image_link){
     &:link, &:visited {
       color: $color-link-internal;
-      background-image: 
+      background-image:
         linear-gradient(
-          $color-link-internal-faded, 
+          $color-link-internal-faded,
           $color-link-internal-faded);
       // border-bottom: .2px solid $color-link-internal-faded;
     }
@@ -313,7 +313,7 @@ a[href^="http"], a[href^="mail"] {
     display: flex;
   }
 }
-  
+
 
 .italic {
   font-style: italic;
@@ -394,7 +394,7 @@ a[href^="http"], a[href^="mail"] {
 
 .navbar_title {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .navbar_link {
@@ -405,7 +405,7 @@ a[href^="http"], a[href^="mail"] {
 .navbar_external {
   display: grid;
   grid-auto-flow: column;
-  
+
   a {
     margin-top: 8px;
     margin-right: 12px;
@@ -487,7 +487,7 @@ a[href^="http"], a[href^="mail"] {
   position: absolute;
   margin-bottom: 20px;
   padding-top: 8px;
-  
+
   a {
     margin-top: 10px;
     margin-right: 12px;
@@ -688,8 +688,10 @@ a[href^="http"], a[href^="mail"] {
       }
     }
 
-    img {
-      @include image-dropshadow();
+    &:not(.no_shadow) {
+      img {
+        @include image-dropshadow();
+      }
     }
 
     &.xkcd {
@@ -755,6 +757,10 @@ a[href^="http"], a[href^="mail"] {
 
   .elsewhere_post {
     align-items: flex-start;
+  }
+
+  .twitter-tweet {
+    max-width: 90% !important;
   }
 }
 
@@ -833,7 +839,7 @@ a[href^="http"], a[href^="mail"] {
     margin-bottom: 30px;
     padding-right: 20px;
   }
-  
+
   &.mini {
     margin-top: 8px;
     border-radius: 8px;
@@ -849,7 +855,7 @@ a[href^="http"], a[href^="mail"] {
   li {
     -webkit-margin-after: 8px;
   }
-  
+
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
   }
@@ -941,7 +947,7 @@ a[href^="http"], a[href^="mail"] {
 
   a {
     margin-right: 8px;
-    margin-left: 8px; 
+    margin-left: 8px;
 
     svg {
       width: 1.2em;
@@ -1003,7 +1009,7 @@ a[href^="http"], a[href^="mail"] {
 
   &:hover, &:focus {
     filter: grayscale(0);
-  } 
+  }
 
   svg {
     width: 1.6em;
@@ -1309,7 +1315,7 @@ section.footnotes {
 
 /* /projects route */
 
-.in_progress_project { 
+.in_progress_project {
   animation: squiggly-anim .4s linear infinite;
 }
 
@@ -1351,22 +1357,22 @@ section.footnotes {
 /* Snackbar */
 #snackbar {
   visibility: hidden;
-  min-width: 200px; 
+  min-width: 200px;
   margin-left: -100px;
   background-color: $color-font-primary;
-  color: $color-background; 
-  text-align: center; 
+  color: $color-background;
+  text-align: center;
   border-radius: 6px;
-  padding: 6px; 
+  padding: 6px;
   position: fixed;
-  z-index: 1; 
-  left: 50%; 
-  bottom: 30px; 
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
   font-size: $font-size-small-web;
 }
 
 #snackbar.show {
-  visibility: visible; 
+  visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
