@@ -1,6 +1,20 @@
 {{ define "main" }}
+<!-- Inspiration: https://chiaski.github.io/i-love-it-when-you/ -->
 <div class="">
-  <!-- Insert Photo Album -->
+  <!-- Photo Album: https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea -->
+  <div id="photo-album">
+    <img src="/article_images/macc-4y/1.PNG">
+    <img src="/article_images/macc-4y/2.JPG">
+    <img src="/article_images/macc-4y/3.jpeg">
+    <img src="/article_images/macc-4y/5.jpeg">
+    <img src="/article_images/macc-4y/6.jpeg">
+    <img src="/article_images/macc-4y/7.jpeg">
+    <img src="/article_images/macc-4y/8.jpeg">
+    <img src="/article_images/macc-4y/9.jpeg">
+    <img src="/article_images/macc-4y/11.jpeg">
+    <img src="/article_images/macc-4y/10.jpeg">
+    <img src="/article_images/macc-4y/12.jpeg">
+  </div>
   <div class="grad"></div>
   <main>
     <section id="g">
@@ -8,20 +22,36 @@
         <p>Dear Macc, I love</p>
       </div>
       <div id="when-you">
-        <p>you. </p>
+        <p>all these things you do</p>
       </div>
     </section>
   </main>
 </div>
 
 <script>
-  let c = 0;
+  let c = 1;
   const when = [
-    "the little noises you make (huhhh)",
+    "the little noises & sounds you make (huhhh)",
     "your obsession with Luca Paccioli and accounting",
     "how much you love Ancient Rome and history",
     "the mini crushes you get on anime protagonists",
-    "your teen shows (lol)"];
+    "your teen shows (lol)",
+    "how you tell me your dreams every morning",
+    "the love that you have for your family (especially your nephews)",
+    "your ... potty",
+    "the way you say 'TV' when looking at my phone",
+    "how you've made me more appreciative of art and history",
+    "that you've encouraged me to be more (begrudgingly) clean hehe",
+    "the level of emotional depth and connection we have",
+    "that I can be completely myself around you",
+    "how you've made me way better at gift-giving",
+    "your suggestion to grow my hair longer",
+    "the inspiration you've given me to eat more oatmeal",
+    "how hard you work and inspire me to do the same",
+    "the way you make me feel truly loved",
+    "that you support me following my dreams",
+    "that you would spend 4 (and many more) years with a goon like me",
+  ];
 
   function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
@@ -37,7 +67,8 @@
       $("<p>" + when[c] + "</p>").hide().prependTo("#when-you").fadeIn(2000);
       c++;
       if (c === when.length) {
-        $("<p>you. </p>").hide().prependTo("#when-you").fadeIn(2000);
+        $("#photo-album").css('visibility', 'visible').css('position', 'relative').fadeIn(2000);
+        $("<p>you. Happy anniversary ❤️</p>").hide().prependTo("#when-you").fadeIn(2000);
         $("body").css('background', '#000');
         $("#g p").css('color', '#fff');
         $(document).unbind("click");
@@ -66,14 +97,6 @@
         -moz-osx-font-smoothing: grayscale;
     }
 
-    p {
-        /*text-align: center;*/
-        /*font-size: 2em !important;*/
-        /*line-height: 90%;*/
-        /*letter-spacing: -1.5px;*/
-        /*font-size: 2.6em !important;*/
-    }
-
     main {
         text-align: center;
         font-size: 2.6em !important;
@@ -81,7 +104,6 @@
         letter-spacing: -1.5px;
     }
 
-    /* decorative gradient */
     .grad {
         position: fixed;
         left: 0;
@@ -106,14 +128,11 @@
         width: 48%;
     }
 
-
-
     #g #i-love-it {
-        /*  background: red;*/
+        /*background: red;*/
         height: 100%;
         text-align: right;
     }
-
 
     #g #i-love-it p,
     #g #when-you p {
@@ -121,7 +140,6 @@
         margin-bottom: .5em;
         line-height: 90%;
         pointer-events: none;
-
         transition: background 4s linear;
         -webkit-transition: background 4s linear;
         -moz-transition: background 4s linear;
@@ -140,7 +158,6 @@
     @media only screen and (max-width: 750px) {
         #g {
             flex-direction: column;
-
         }
 
         #g div {
@@ -166,6 +183,57 @@
         #g #i-love-it p,
         #g #when-you p {
             line-height: 90%;
+        }
+    }
+
+    #photo-album {
+        visibility: hidden;
+        position: absolute;
+        margin-bottom: 20px;
+        line-height:0;
+        -webkit-column-count:5; /* split it into 5 columns */
+        -webkit-column-gap:5px; /* give it a 5px gap between columns */
+        -moz-column-count:5;
+        -moz-column-gap:5px;
+        column-count:5;
+        column-gap:5px;
+    }
+
+    img {
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom:5px; /* to match column gap */
+    }
+
+    @media (max-width: 1200px) {
+        #photo-album {
+            -moz-column-count:    4;
+            -webkit-column-count: 4;
+            column-count:         4;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        #photo-album {
+            -moz-column-count:    3;
+            -webkit-column-count: 3;
+            column-count:         3;
+        }
+    }
+
+    @media (max-width: 800px) {
+        #photo-album {
+            -moz-column-count:    2;
+            -webkit-column-count: 2;
+            column-count:         2;
+        }
+    }
+
+    @media (max-width: 400px) {
+        #photo-album {
+            -moz-column-count:    1;
+            -webkit-column-count: 1;
+            column-count:         1;
         }
     }
 </style>
