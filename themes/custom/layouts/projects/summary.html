@@ -1,6 +1,10 @@
 <div class="post_summary_container">
   <div class="post_summary_image_container">
-    {{ if .Params.writeup }}
+    {{ if .Params.canonicalUrl }}
+    <a class="image_link" href="{{ .Params.canonicalUrl }}">
+      <img class="post_summary_image" src="{{ .Params.image }}" />
+    </a>
+    {{ else if .Params.writeup }}
       <a class="image_link" href="{{ .RelPermalink }}">
         <img class="post_summary_image" src="{{ .Params.image }}" />
       </a>
@@ -35,7 +39,9 @@
     </li>
     <li>
       <span>
-      {{ if .Params.writeup }}
+      {{ if .Params.canonicalUrl }}
+        <a class="post_title" href="{{ .Params.canonicalUrl }}">{{ .Title }}</a>
+      {{ else if .Params.writeup }}
         <a class="post_title" href="{{ .RelPermalink }}">{{ .Title }}</a>
       {{ else }}
         <span class="post_title">{{ .Title }}</span>

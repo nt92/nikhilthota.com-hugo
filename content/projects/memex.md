@@ -7,7 +7,8 @@ tags: ["Tinker", "Knowledge Management", "Notes"]
 favorite: true
 writeup: true
 emoji: 🧠
-image: "/article_images/memex/memex.png"
+canonicalUrl: "https://thot.substack.com/s/building-a-memex"
+image: "/article_images/memex.jpeg"
 projectLink: "https://thot.substack.com/s/building-a-memex"
 githubLink: "https://github.com/nt92/memex/"
 ---
